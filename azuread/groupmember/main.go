@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package groupmember
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.groupMember.GroupMember",
+		"@cdktn/provider-azuread.groupMember.GroupMember",
 		reflect.TypeOf((*GroupMember)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -69,20 +69,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GroupMember{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.groupMember.GroupMemberConfig",
+		"@cdktn/provider-azuread.groupMember.GroupMemberConfig",
 		reflect.TypeOf((*GroupMemberConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.groupMember.GroupMemberTimeouts",
+		"@cdktn/provider-azuread.groupMember.GroupMemberTimeouts",
 		reflect.TypeOf((*GroupMemberTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.groupMember.GroupMemberTimeoutsOutputReference",
+		"@cdktn/provider-azuread.groupMember.GroupMemberTimeoutsOutputReference",
 		reflect.TypeOf((*GroupMemberTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -118,7 +118,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GroupMemberTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

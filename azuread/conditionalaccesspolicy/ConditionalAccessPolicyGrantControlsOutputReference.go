@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package conditionalaccesspolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/conditionalaccesspolicy/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/conditionalaccesspolicy/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ConditionalAccessPolicyGrantControlsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AuthenticationStrengthPolicyId() *string
 	SetAuthenticationStrengthPolicyId(val *string)
 	AuthenticationStrengthPolicyIdInput() *string
@@ -52,15 +52,15 @@ type ConditionalAccessPolicyGrantControlsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -76,16 +76,16 @@ type ConditionalAccessPolicyGrantControlsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAuthenticationStrengthPolicyId()
 	ResetBuiltInControls()
 	ResetCustomAuthenticationFactors()
 	ResetTermsOfUse()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -95,7 +95,7 @@ type ConditionalAccessPolicyGrantControlsOutputReference interface {
 
 // The jsii proxy struct for ConditionalAccessPolicyGrantControlsOutputReference
 type jsiiProxy_ConditionalAccessPolicyGrantControlsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ConditionalAccessPolicyGrantControlsOutputReference) AuthenticationStrengthPolicyId() *string {
@@ -258,8 +258,8 @@ func (j *jsiiProxy_ConditionalAccessPolicyGrantControlsOutputReference) Terrafor
 	return returns
 }
 
-func (j *jsiiProxy_ConditionalAccessPolicyGrantControlsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ConditionalAccessPolicyGrantControlsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -269,7 +269,7 @@ func (j *jsiiProxy_ConditionalAccessPolicyGrantControlsOutputReference) Terrafor
 }
 
 
-func NewConditionalAccessPolicyGrantControlsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ConditionalAccessPolicyGrantControlsOutputReference {
+func NewConditionalAccessPolicyGrantControlsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ConditionalAccessPolicyGrantControlsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewConditionalAccessPolicyGrantControlsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -278,7 +278,7 @@ func NewConditionalAccessPolicyGrantControlsOutputReference(terraformResource cd
 	j := jsiiProxy_ConditionalAccessPolicyGrantControlsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyGrantControlsOutputReference",
+		"@cdktn/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyGrantControlsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -286,11 +286,11 @@ func NewConditionalAccessPolicyGrantControlsOutputReference(terraformResource cd
 	return &j
 }
 
-func NewConditionalAccessPolicyGrantControlsOutputReference_Override(c ConditionalAccessPolicyGrantControlsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewConditionalAccessPolicyGrantControlsOutputReference_Override(c ConditionalAccessPolicyGrantControlsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyGrantControlsOutputReference",
+		"@cdktn/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyGrantControlsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)
@@ -395,7 +395,7 @@ func (j *jsiiProxy_ConditionalAccessPolicyGrantControlsOutputReference)SetTerraf
 	)
 }
 
-func (j *jsiiProxy_ConditionalAccessPolicyGrantControlsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ConditionalAccessPolicyGrantControlsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -435,11 +435,11 @@ func (c *jsiiProxy_ConditionalAccessPolicyGrantControlsOutputReference) GetAnyMa
 	return returns
 }
 
-func (c *jsiiProxy_ConditionalAccessPolicyGrantControlsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ConditionalAccessPolicyGrantControlsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -563,8 +563,8 @@ func (c *jsiiProxy_ConditionalAccessPolicyGrantControlsOutputReference) GetStrin
 	return returns
 }
 
-func (c *jsiiProxy_ConditionalAccessPolicyGrantControlsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_ConditionalAccessPolicyGrantControlsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -576,11 +576,11 @@ func (c *jsiiProxy_ConditionalAccessPolicyGrantControlsOutputReference) Interpol
 	return returns
 }
 
-func (c *jsiiProxy_ConditionalAccessPolicyGrantControlsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ConditionalAccessPolicyGrantControlsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -624,7 +624,7 @@ func (c *jsiiProxy_ConditionalAccessPolicyGrantControlsOutputReference) ResetTer
 	)
 }
 
-func (c *jsiiProxy_ConditionalAccessPolicyGrantControlsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_ConditionalAccessPolicyGrantControlsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

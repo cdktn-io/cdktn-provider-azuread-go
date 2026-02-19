@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package administrativeunitrolemember
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.administrativeUnitRoleMember.AdministrativeUnitRoleMember",
+		"@cdktn/provider-azuread.administrativeUnitRoleMember.AdministrativeUnitRoleMember",
 		reflect.TypeOf((*AdministrativeUnitRoleMember)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -71,20 +71,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AdministrativeUnitRoleMember{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.administrativeUnitRoleMember.AdministrativeUnitRoleMemberConfig",
+		"@cdktn/provider-azuread.administrativeUnitRoleMember.AdministrativeUnitRoleMemberConfig",
 		reflect.TypeOf((*AdministrativeUnitRoleMemberConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.administrativeUnitRoleMember.AdministrativeUnitRoleMemberTimeouts",
+		"@cdktn/provider-azuread.administrativeUnitRoleMember.AdministrativeUnitRoleMemberTimeouts",
 		reflect.TypeOf((*AdministrativeUnitRoleMemberTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.administrativeUnitRoleMember.AdministrativeUnitRoleMemberTimeoutsOutputReference",
+		"@cdktn/provider-azuread.administrativeUnitRoleMember.AdministrativeUnitRoleMemberTimeoutsOutputReference",
 		reflect.TypeOf((*AdministrativeUnitRoleMemberTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -120,7 +120,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AdministrativeUnitRoleMemberTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

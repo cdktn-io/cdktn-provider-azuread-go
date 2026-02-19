@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package serviceprincipal
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.servicePrincipal.ServicePrincipal",
+		"@cdktn/provider-azuread.servicePrincipal.ServicePrincipal",
 		reflect.TypeOf((*ServicePrincipal)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountEnabled", GoGetter: "AccountEnabled"},
@@ -126,16 +126,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServicePrincipal{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.servicePrincipal.ServicePrincipalAppRoles",
+		"@cdktn/provider-azuread.servicePrincipal.ServicePrincipalAppRoles",
 		reflect.TypeOf((*ServicePrincipalAppRoles)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.servicePrincipal.ServicePrincipalAppRolesList",
+		"@cdktn/provider-azuread.servicePrincipal.ServicePrincipalAppRolesList",
 		reflect.TypeOf((*ServicePrincipalAppRolesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -151,12 +151,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServicePrincipalAppRolesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.servicePrincipal.ServicePrincipalAppRolesOutputReference",
+		"@cdktn/provider-azuread.servicePrincipal.ServicePrincipalAppRolesOutputReference",
 		reflect.TypeOf((*ServicePrincipalAppRolesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedMemberTypes", GoGetter: "AllowedMemberTypes"},
@@ -189,20 +189,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServicePrincipalAppRolesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.servicePrincipal.ServicePrincipalConfig",
+		"@cdktn/provider-azuread.servicePrincipal.ServicePrincipalConfig",
 		reflect.TypeOf((*ServicePrincipalConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.servicePrincipal.ServicePrincipalFeatureTags",
+		"@cdktn/provider-azuread.servicePrincipal.ServicePrincipalFeatureTags",
 		reflect.TypeOf((*ServicePrincipalFeatureTags)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.servicePrincipal.ServicePrincipalFeatureTagsList",
+		"@cdktn/provider-azuread.servicePrincipal.ServicePrincipalFeatureTagsList",
 		reflect.TypeOf((*ServicePrincipalFeatureTagsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -219,12 +219,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServicePrincipalFeatureTagsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.servicePrincipal.ServicePrincipalFeatureTagsOutputReference",
+		"@cdktn/provider-azuread.servicePrincipal.ServicePrincipalFeatureTagsOutputReference",
 		reflect.TypeOf((*ServicePrincipalFeatureTagsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -263,16 +263,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServicePrincipalFeatureTagsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.servicePrincipal.ServicePrincipalFeatures",
+		"@cdktn/provider-azuread.servicePrincipal.ServicePrincipalFeatures",
 		reflect.TypeOf((*ServicePrincipalFeatures)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.servicePrincipal.ServicePrincipalFeaturesList",
+		"@cdktn/provider-azuread.servicePrincipal.ServicePrincipalFeaturesList",
 		reflect.TypeOf((*ServicePrincipalFeaturesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -289,12 +289,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServicePrincipalFeaturesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.servicePrincipal.ServicePrincipalFeaturesOutputReference",
+		"@cdktn/provider-azuread.servicePrincipal.ServicePrincipalFeaturesOutputReference",
 		reflect.TypeOf((*ServicePrincipalFeaturesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -333,16 +333,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServicePrincipalFeaturesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.servicePrincipal.ServicePrincipalOauth2PermissionScopes",
+		"@cdktn/provider-azuread.servicePrincipal.ServicePrincipalOauth2PermissionScopes",
 		reflect.TypeOf((*ServicePrincipalOauth2PermissionScopes)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.servicePrincipal.ServicePrincipalOauth2PermissionScopesList",
+		"@cdktn/provider-azuread.servicePrincipal.ServicePrincipalOauth2PermissionScopesList",
 		reflect.TypeOf((*ServicePrincipalOauth2PermissionScopesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -358,12 +358,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServicePrincipalOauth2PermissionScopesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.servicePrincipal.ServicePrincipalOauth2PermissionScopesOutputReference",
+		"@cdktn/provider-azuread.servicePrincipal.ServicePrincipalOauth2PermissionScopesOutputReference",
 		reflect.TypeOf((*ServicePrincipalOauth2PermissionScopesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "adminConsentDescription", GoGetter: "AdminConsentDescription"},
@@ -398,16 +398,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServicePrincipalOauth2PermissionScopesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.servicePrincipal.ServicePrincipalSamlSingleSignOn",
+		"@cdktn/provider-azuread.servicePrincipal.ServicePrincipalSamlSingleSignOn",
 		reflect.TypeOf((*ServicePrincipalSamlSingleSignOn)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.servicePrincipal.ServicePrincipalSamlSingleSignOnOutputReference",
+		"@cdktn/provider-azuread.servicePrincipal.ServicePrincipalSamlSingleSignOnOutputReference",
 		reflect.TypeOf((*ServicePrincipalSamlSingleSignOnOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -437,16 +437,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServicePrincipalSamlSingleSignOnOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.servicePrincipal.ServicePrincipalTimeouts",
+		"@cdktn/provider-azuread.servicePrincipal.ServicePrincipalTimeouts",
 		reflect.TypeOf((*ServicePrincipalTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.servicePrincipal.ServicePrincipalTimeoutsOutputReference",
+		"@cdktn/provider-azuread.servicePrincipal.ServicePrincipalTimeoutsOutputReference",
 		reflect.TypeOf((*ServicePrincipalTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -485,7 +485,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServicePrincipalTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

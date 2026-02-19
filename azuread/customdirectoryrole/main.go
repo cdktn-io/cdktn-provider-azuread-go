@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package customdirectoryrole
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.customDirectoryRole.CustomDirectoryRole",
+		"@cdktn/provider-azuread.customDirectoryRole.CustomDirectoryRole",
 		reflect.TypeOf((*CustomDirectoryRole)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,20 +81,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CustomDirectoryRole{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.customDirectoryRole.CustomDirectoryRoleConfig",
+		"@cdktn/provider-azuread.customDirectoryRole.CustomDirectoryRoleConfig",
 		reflect.TypeOf((*CustomDirectoryRoleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.customDirectoryRole.CustomDirectoryRolePermissions",
+		"@cdktn/provider-azuread.customDirectoryRole.CustomDirectoryRolePermissions",
 		reflect.TypeOf((*CustomDirectoryRolePermissions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.customDirectoryRole.CustomDirectoryRolePermissionsList",
+		"@cdktn/provider-azuread.customDirectoryRole.CustomDirectoryRolePermissionsList",
 		reflect.TypeOf((*CustomDirectoryRolePermissionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -111,12 +111,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CustomDirectoryRolePermissionsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.customDirectoryRole.CustomDirectoryRolePermissionsOutputReference",
+		"@cdktn/provider-azuread.customDirectoryRole.CustomDirectoryRolePermissionsOutputReference",
 		reflect.TypeOf((*CustomDirectoryRolePermissionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedResourceActions", GoGetter: "AllowedResourceActions"},
@@ -145,16 +145,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CustomDirectoryRolePermissionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.customDirectoryRole.CustomDirectoryRoleTimeouts",
+		"@cdktn/provider-azuread.customDirectoryRole.CustomDirectoryRoleTimeouts",
 		reflect.TypeOf((*CustomDirectoryRoleTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.customDirectoryRole.CustomDirectoryRoleTimeoutsOutputReference",
+		"@cdktn/provider-azuread.customDirectoryRole.CustomDirectoryRoleTimeoutsOutputReference",
 		reflect.TypeOf((*CustomDirectoryRoleTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -193,7 +193,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CustomDirectoryRoleTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

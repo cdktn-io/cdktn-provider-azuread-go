@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package grouprolemanagementpolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicy",
+		"@cdktn/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicy",
 		reflect.TypeOf((*GroupRoleManagementPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "activationRules", GoGetter: "ActivationRules"},
@@ -87,20 +87,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GroupRoleManagementPolicy{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyActivationRules",
+		"@cdktn/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyActivationRules",
 		reflect.TypeOf((*GroupRoleManagementPolicyActivationRules)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyActivationRulesApprovalStage",
+		"@cdktn/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyActivationRulesApprovalStage",
 		reflect.TypeOf((*GroupRoleManagementPolicyActivationRulesApprovalStage)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyActivationRulesApprovalStageOutputReference",
+		"@cdktn/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyActivationRulesApprovalStageOutputReference",
 		reflect.TypeOf((*GroupRoleManagementPolicyActivationRulesApprovalStageOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -130,16 +130,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GroupRoleManagementPolicyActivationRulesApprovalStageOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyActivationRulesApprovalStagePrimaryApprover",
+		"@cdktn/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyActivationRulesApprovalStagePrimaryApprover",
 		reflect.TypeOf((*GroupRoleManagementPolicyActivationRulesApprovalStagePrimaryApprover)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyActivationRulesApprovalStagePrimaryApproverList",
+		"@cdktn/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyActivationRulesApprovalStagePrimaryApproverList",
 		reflect.TypeOf((*GroupRoleManagementPolicyActivationRulesApprovalStagePrimaryApproverList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -156,12 +156,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GroupRoleManagementPolicyActivationRulesApprovalStagePrimaryApproverList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyActivationRulesApprovalStagePrimaryApproverOutputReference",
+		"@cdktn/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyActivationRulesApprovalStagePrimaryApproverOutputReference",
 		reflect.TypeOf((*GroupRoleManagementPolicyActivationRulesApprovalStagePrimaryApproverOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -193,12 +193,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GroupRoleManagementPolicyActivationRulesApprovalStagePrimaryApproverOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyActivationRulesOutputReference",
+		"@cdktn/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyActivationRulesOutputReference",
 		reflect.TypeOf((*GroupRoleManagementPolicyActivationRulesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "approvalStage", GoGetter: "ApprovalStage"},
@@ -247,16 +247,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GroupRoleManagementPolicyActivationRulesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyActiveAssignmentRules",
+		"@cdktn/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyActiveAssignmentRules",
 		reflect.TypeOf((*GroupRoleManagementPolicyActiveAssignmentRules)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyActiveAssignmentRulesOutputReference",
+		"@cdktn/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyActiveAssignmentRulesOutputReference",
 		reflect.TypeOf((*GroupRoleManagementPolicyActiveAssignmentRulesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -298,20 +298,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GroupRoleManagementPolicyActiveAssignmentRulesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyConfig",
+		"@cdktn/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyConfig",
 		reflect.TypeOf((*GroupRoleManagementPolicyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyEligibleAssignmentRules",
+		"@cdktn/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyEligibleAssignmentRules",
 		reflect.TypeOf((*GroupRoleManagementPolicyEligibleAssignmentRules)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyEligibleAssignmentRulesOutputReference",
+		"@cdktn/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyEligibleAssignmentRulesOutputReference",
 		reflect.TypeOf((*GroupRoleManagementPolicyEligibleAssignmentRulesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -344,24 +344,24 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GroupRoleManagementPolicyEligibleAssignmentRulesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRules",
+		"@cdktn/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRules",
 		reflect.TypeOf((*GroupRoleManagementPolicyNotificationRules)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRulesActiveAssignments",
+		"@cdktn/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRulesActiveAssignments",
 		reflect.TypeOf((*GroupRoleManagementPolicyNotificationRulesActiveAssignments)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRulesActiveAssignmentsAdminNotifications",
+		"@cdktn/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRulesActiveAssignmentsAdminNotifications",
 		reflect.TypeOf((*GroupRoleManagementPolicyNotificationRulesActiveAssignmentsAdminNotifications)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRulesActiveAssignmentsAdminNotificationsOutputReference",
+		"@cdktn/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRulesActiveAssignmentsAdminNotificationsOutputReference",
 		reflect.TypeOf((*GroupRoleManagementPolicyNotificationRulesActiveAssignmentsAdminNotificationsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalRecipients", GoGetter: "AdditionalRecipients"},
@@ -395,16 +395,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GroupRoleManagementPolicyNotificationRulesActiveAssignmentsAdminNotificationsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRulesActiveAssignmentsApproverNotifications",
+		"@cdktn/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRulesActiveAssignmentsApproverNotifications",
 		reflect.TypeOf((*GroupRoleManagementPolicyNotificationRulesActiveAssignmentsApproverNotifications)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRulesActiveAssignmentsApproverNotificationsOutputReference",
+		"@cdktn/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRulesActiveAssignmentsApproverNotificationsOutputReference",
 		reflect.TypeOf((*GroupRoleManagementPolicyNotificationRulesActiveAssignmentsApproverNotificationsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalRecipients", GoGetter: "AdditionalRecipients"},
@@ -438,16 +438,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GroupRoleManagementPolicyNotificationRulesActiveAssignmentsApproverNotificationsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRulesActiveAssignmentsAssigneeNotifications",
+		"@cdktn/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRulesActiveAssignmentsAssigneeNotifications",
 		reflect.TypeOf((*GroupRoleManagementPolicyNotificationRulesActiveAssignmentsAssigneeNotifications)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRulesActiveAssignmentsAssigneeNotificationsOutputReference",
+		"@cdktn/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRulesActiveAssignmentsAssigneeNotificationsOutputReference",
 		reflect.TypeOf((*GroupRoleManagementPolicyNotificationRulesActiveAssignmentsAssigneeNotificationsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalRecipients", GoGetter: "AdditionalRecipients"},
@@ -481,12 +481,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GroupRoleManagementPolicyNotificationRulesActiveAssignmentsAssigneeNotificationsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRulesActiveAssignmentsOutputReference",
+		"@cdktn/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRulesActiveAssignmentsOutputReference",
 		reflect.TypeOf((*GroupRoleManagementPolicyNotificationRulesActiveAssignmentsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "adminNotifications", GoGetter: "AdminNotifications"},
@@ -525,20 +525,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GroupRoleManagementPolicyNotificationRulesActiveAssignmentsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRulesEligibleActivations",
+		"@cdktn/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRulesEligibleActivations",
 		reflect.TypeOf((*GroupRoleManagementPolicyNotificationRulesEligibleActivations)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRulesEligibleActivationsAdminNotifications",
+		"@cdktn/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRulesEligibleActivationsAdminNotifications",
 		reflect.TypeOf((*GroupRoleManagementPolicyNotificationRulesEligibleActivationsAdminNotifications)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRulesEligibleActivationsAdminNotificationsOutputReference",
+		"@cdktn/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRulesEligibleActivationsAdminNotificationsOutputReference",
 		reflect.TypeOf((*GroupRoleManagementPolicyNotificationRulesEligibleActivationsAdminNotificationsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalRecipients", GoGetter: "AdditionalRecipients"},
@@ -572,16 +572,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GroupRoleManagementPolicyNotificationRulesEligibleActivationsAdminNotificationsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRulesEligibleActivationsApproverNotifications",
+		"@cdktn/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRulesEligibleActivationsApproverNotifications",
 		reflect.TypeOf((*GroupRoleManagementPolicyNotificationRulesEligibleActivationsApproverNotifications)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRulesEligibleActivationsApproverNotificationsOutputReference",
+		"@cdktn/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRulesEligibleActivationsApproverNotificationsOutputReference",
 		reflect.TypeOf((*GroupRoleManagementPolicyNotificationRulesEligibleActivationsApproverNotificationsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalRecipients", GoGetter: "AdditionalRecipients"},
@@ -615,16 +615,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GroupRoleManagementPolicyNotificationRulesEligibleActivationsApproverNotificationsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRulesEligibleActivationsAssigneeNotifications",
+		"@cdktn/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRulesEligibleActivationsAssigneeNotifications",
 		reflect.TypeOf((*GroupRoleManagementPolicyNotificationRulesEligibleActivationsAssigneeNotifications)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRulesEligibleActivationsAssigneeNotificationsOutputReference",
+		"@cdktn/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRulesEligibleActivationsAssigneeNotificationsOutputReference",
 		reflect.TypeOf((*GroupRoleManagementPolicyNotificationRulesEligibleActivationsAssigneeNotificationsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalRecipients", GoGetter: "AdditionalRecipients"},
@@ -658,12 +658,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GroupRoleManagementPolicyNotificationRulesEligibleActivationsAssigneeNotificationsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRulesEligibleActivationsOutputReference",
+		"@cdktn/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRulesEligibleActivationsOutputReference",
 		reflect.TypeOf((*GroupRoleManagementPolicyNotificationRulesEligibleActivationsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "adminNotifications", GoGetter: "AdminNotifications"},
@@ -702,20 +702,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GroupRoleManagementPolicyNotificationRulesEligibleActivationsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRulesEligibleAssignments",
+		"@cdktn/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRulesEligibleAssignments",
 		reflect.TypeOf((*GroupRoleManagementPolicyNotificationRulesEligibleAssignments)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRulesEligibleAssignmentsAdminNotifications",
+		"@cdktn/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRulesEligibleAssignmentsAdminNotifications",
 		reflect.TypeOf((*GroupRoleManagementPolicyNotificationRulesEligibleAssignmentsAdminNotifications)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRulesEligibleAssignmentsAdminNotificationsOutputReference",
+		"@cdktn/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRulesEligibleAssignmentsAdminNotificationsOutputReference",
 		reflect.TypeOf((*GroupRoleManagementPolicyNotificationRulesEligibleAssignmentsAdminNotificationsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalRecipients", GoGetter: "AdditionalRecipients"},
@@ -749,16 +749,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GroupRoleManagementPolicyNotificationRulesEligibleAssignmentsAdminNotificationsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRulesEligibleAssignmentsApproverNotifications",
+		"@cdktn/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRulesEligibleAssignmentsApproverNotifications",
 		reflect.TypeOf((*GroupRoleManagementPolicyNotificationRulesEligibleAssignmentsApproverNotifications)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRulesEligibleAssignmentsApproverNotificationsOutputReference",
+		"@cdktn/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRulesEligibleAssignmentsApproverNotificationsOutputReference",
 		reflect.TypeOf((*GroupRoleManagementPolicyNotificationRulesEligibleAssignmentsApproverNotificationsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalRecipients", GoGetter: "AdditionalRecipients"},
@@ -792,16 +792,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GroupRoleManagementPolicyNotificationRulesEligibleAssignmentsApproverNotificationsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRulesEligibleAssignmentsAssigneeNotifications",
+		"@cdktn/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRulesEligibleAssignmentsAssigneeNotifications",
 		reflect.TypeOf((*GroupRoleManagementPolicyNotificationRulesEligibleAssignmentsAssigneeNotifications)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRulesEligibleAssignmentsAssigneeNotificationsOutputReference",
+		"@cdktn/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRulesEligibleAssignmentsAssigneeNotificationsOutputReference",
 		reflect.TypeOf((*GroupRoleManagementPolicyNotificationRulesEligibleAssignmentsAssigneeNotificationsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalRecipients", GoGetter: "AdditionalRecipients"},
@@ -835,12 +835,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GroupRoleManagementPolicyNotificationRulesEligibleAssignmentsAssigneeNotificationsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRulesEligibleAssignmentsOutputReference",
+		"@cdktn/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRulesEligibleAssignmentsOutputReference",
 		reflect.TypeOf((*GroupRoleManagementPolicyNotificationRulesEligibleAssignmentsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "adminNotifications", GoGetter: "AdminNotifications"},
@@ -879,12 +879,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GroupRoleManagementPolicyNotificationRulesEligibleAssignmentsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRulesOutputReference",
+		"@cdktn/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRulesOutputReference",
 		reflect.TypeOf((*GroupRoleManagementPolicyNotificationRulesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "activeAssignments", GoGetter: "ActiveAssignments"},
@@ -923,16 +923,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GroupRoleManagementPolicyNotificationRulesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyTimeouts",
+		"@cdktn/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyTimeouts",
 		reflect.TypeOf((*GroupRoleManagementPolicyTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyTimeoutsOutputReference",
+		"@cdktn/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyTimeoutsOutputReference",
 		reflect.TypeOf((*GroupRoleManagementPolicyTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -971,7 +971,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GroupRoleManagementPolicyTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

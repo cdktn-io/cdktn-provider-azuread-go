@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package groupwithoutmembers
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.groupWithoutMembers.GroupWithoutMembers",
+		"@cdktn/provider-azuread.groupWithoutMembers.GroupWithoutMembers",
 		reflect.TypeOf((*GroupWithoutMembers)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -137,20 +137,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GroupWithoutMembers{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.groupWithoutMembers.GroupWithoutMembersConfig",
+		"@cdktn/provider-azuread.groupWithoutMembers.GroupWithoutMembersConfig",
 		reflect.TypeOf((*GroupWithoutMembersConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.groupWithoutMembers.GroupWithoutMembersDynamicMembership",
+		"@cdktn/provider-azuread.groupWithoutMembers.GroupWithoutMembersDynamicMembership",
 		reflect.TypeOf((*GroupWithoutMembersDynamicMembership)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.groupWithoutMembers.GroupWithoutMembersDynamicMembershipOutputReference",
+		"@cdktn/provider-azuread.groupWithoutMembers.GroupWithoutMembersDynamicMembershipOutputReference",
 		reflect.TypeOf((*GroupWithoutMembersDynamicMembershipOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -181,16 +181,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GroupWithoutMembersDynamicMembershipOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.groupWithoutMembers.GroupWithoutMembersTimeouts",
+		"@cdktn/provider-azuread.groupWithoutMembers.GroupWithoutMembersTimeouts",
 		reflect.TypeOf((*GroupWithoutMembersTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.groupWithoutMembers.GroupWithoutMembersTimeoutsOutputReference",
+		"@cdktn/provider-azuread.groupWithoutMembers.GroupWithoutMembersTimeoutsOutputReference",
 		reflect.TypeOf((*GroupWithoutMembersTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -229,7 +229,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GroupWithoutMembersTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

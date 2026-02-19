@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package invitation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/invitation/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/invitation/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type InvitationMessageOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AdditionalRecipients() *[]*string
 	SetAdditionalRecipients(val *[]*string)
 	AdditionalRecipientsInput() *[]*string
@@ -46,15 +46,15 @@ type InvitationMessageOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type InvitationMessageOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAdditionalRecipients()
 	ResetBody()
 	ResetLanguage()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type InvitationMessageOutputReference interface {
 
 // The jsii proxy struct for InvitationMessageOutputReference
 type jsiiProxy_InvitationMessageOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_InvitationMessageOutputReference) AdditionalRecipients() *[]*string {
@@ -211,8 +211,8 @@ func (j *jsiiProxy_InvitationMessageOutputReference) TerraformAttribute() *strin
 	return returns
 }
 
-func (j *jsiiProxy_InvitationMessageOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_InvitationMessageOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_InvitationMessageOutputReference) TerraformResource() cdktf.I
 }
 
 
-func NewInvitationMessageOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) InvitationMessageOutputReference {
+func NewInvitationMessageOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) InvitationMessageOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewInvitationMessageOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -231,7 +231,7 @@ func NewInvitationMessageOutputReference(terraformResource cdktf.IInterpolatingP
 	j := jsiiProxy_InvitationMessageOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.invitation.InvitationMessageOutputReference",
+		"@cdktn/provider-azuread.invitation.InvitationMessageOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -239,11 +239,11 @@ func NewInvitationMessageOutputReference(terraformResource cdktf.IInterpolatingP
 	return &j
 }
 
-func NewInvitationMessageOutputReference_Override(i InvitationMessageOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewInvitationMessageOutputReference_Override(i InvitationMessageOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.invitation.InvitationMessageOutputReference",
+		"@cdktn/provider-azuread.invitation.InvitationMessageOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		i,
 	)
@@ -326,7 +326,7 @@ func (j *jsiiProxy_InvitationMessageOutputReference)SetTerraformAttribute(val *s
 	)
 }
 
-func (j *jsiiProxy_InvitationMessageOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_InvitationMessageOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (i *jsiiProxy_InvitationMessageOutputReference) GetAnyMapAttribute(terrafor
 	return returns
 }
 
-func (i *jsiiProxy_InvitationMessageOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_InvitationMessageOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -494,8 +494,8 @@ func (i *jsiiProxy_InvitationMessageOutputReference) GetStringMapAttribute(terra
 	return returns
 }
 
-func (i *jsiiProxy_InvitationMessageOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (i *jsiiProxy_InvitationMessageOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -507,11 +507,11 @@ func (i *jsiiProxy_InvitationMessageOutputReference) InterpolationAsList() cdktf
 	return returns
 }
 
-func (i *jsiiProxy_InvitationMessageOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_InvitationMessageOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -547,7 +547,7 @@ func (i *jsiiProxy_InvitationMessageOutputReference) ResetLanguage() {
 	)
 }
 
-func (i *jsiiProxy_InvitationMessageOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (i *jsiiProxy_InvitationMessageOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := i.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

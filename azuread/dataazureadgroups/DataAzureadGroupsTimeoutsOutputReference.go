@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazureadgroups
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/dataazureadgroups/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/dataazureadgroups/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAzureadGroupsTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,15 +40,15 @@ type DataAzureadGroupsTimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,13 +64,13 @@ type DataAzureadGroupsTimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetRead()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type DataAzureadGroupsTimeoutsOutputReference interface {
 
 // The jsii proxy struct for DataAzureadGroupsTimeoutsOutputReference
 type jsiiProxy_DataAzureadGroupsTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAzureadGroupsTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -163,8 +163,8 @@ func (j *jsiiProxy_DataAzureadGroupsTimeoutsOutputReference) TerraformAttribute(
 	return returns
 }
 
-func (j *jsiiProxy_DataAzureadGroupsTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAzureadGroupsTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -174,7 +174,7 @@ func (j *jsiiProxy_DataAzureadGroupsTimeoutsOutputReference) TerraformResource()
 }
 
 
-func NewDataAzureadGroupsTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DataAzureadGroupsTimeoutsOutputReference {
+func NewDataAzureadGroupsTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DataAzureadGroupsTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAzureadGroupsTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -183,7 +183,7 @@ func NewDataAzureadGroupsTimeoutsOutputReference(terraformResource cdktf.IInterp
 	j := jsiiProxy_DataAzureadGroupsTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.dataAzureadGroups.DataAzureadGroupsTimeoutsOutputReference",
+		"@cdktn/provider-azuread.dataAzureadGroups.DataAzureadGroupsTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -191,11 +191,11 @@ func NewDataAzureadGroupsTimeoutsOutputReference(terraformResource cdktf.IInterp
 	return &j
 }
 
-func NewDataAzureadGroupsTimeoutsOutputReference_Override(d DataAzureadGroupsTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDataAzureadGroupsTimeoutsOutputReference_Override(d DataAzureadGroupsTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.dataAzureadGroups.DataAzureadGroupsTimeoutsOutputReference",
+		"@cdktn/provider-azuread.dataAzureadGroups.DataAzureadGroupsTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)
@@ -256,7 +256,7 @@ func (j *jsiiProxy_DataAzureadGroupsTimeoutsOutputReference)SetTerraformAttribut
 	)
 }
 
-func (j *jsiiProxy_DataAzureadGroupsTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAzureadGroupsTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -296,11 +296,11 @@ func (d *jsiiProxy_DataAzureadGroupsTimeoutsOutputReference) GetAnyMapAttribute(
 	return returns
 }
 
-func (d *jsiiProxy_DataAzureadGroupsTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzureadGroupsTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -424,8 +424,8 @@ func (d *jsiiProxy_DataAzureadGroupsTimeoutsOutputReference) GetStringMapAttribu
 	return returns
 }
 
-func (d *jsiiProxy_DataAzureadGroupsTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAzureadGroupsTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -437,11 +437,11 @@ func (d *jsiiProxy_DataAzureadGroupsTimeoutsOutputReference) InterpolationAsList
 	return returns
 }
 
-func (d *jsiiProxy_DataAzureadGroupsTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzureadGroupsTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -461,7 +461,7 @@ func (d *jsiiProxy_DataAzureadGroupsTimeoutsOutputReference) ResetRead() {
 	)
 }
 
-func (d *jsiiProxy_DataAzureadGroupsTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAzureadGroupsTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

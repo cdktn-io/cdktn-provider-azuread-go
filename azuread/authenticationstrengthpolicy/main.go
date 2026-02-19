@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package authenticationstrengthpolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.authenticationStrengthPolicy.AuthenticationStrengthPolicy",
+		"@cdktn/provider-azuread.authenticationStrengthPolicy.AuthenticationStrengthPolicy",
 		reflect.TypeOf((*AuthenticationStrengthPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -72,20 +72,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AuthenticationStrengthPolicy{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.authenticationStrengthPolicy.AuthenticationStrengthPolicyConfig",
+		"@cdktn/provider-azuread.authenticationStrengthPolicy.AuthenticationStrengthPolicyConfig",
 		reflect.TypeOf((*AuthenticationStrengthPolicyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.authenticationStrengthPolicy.AuthenticationStrengthPolicyTimeouts",
+		"@cdktn/provider-azuread.authenticationStrengthPolicy.AuthenticationStrengthPolicyTimeouts",
 		reflect.TypeOf((*AuthenticationStrengthPolicyTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.authenticationStrengthPolicy.AuthenticationStrengthPolicyTimeoutsOutputReference",
+		"@cdktn/provider-azuread.authenticationStrengthPolicy.AuthenticationStrengthPolicyTimeoutsOutputReference",
 		reflect.TypeOf((*AuthenticationStrengthPolicyTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -124,7 +124,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AuthenticationStrengthPolicyTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

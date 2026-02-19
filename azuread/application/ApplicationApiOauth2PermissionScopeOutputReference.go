@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package application
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/application/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/application/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ApplicationApiOauth2PermissionScopeOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AdminConsentDescription() *string
 	SetAdminConsentDescription(val *string)
 	AdminConsentDescriptionInput() *string
@@ -49,9 +49,9 @@ type ApplicationApiOauth2PermissionScopeOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Type() *string
 	SetType(val *string)
 	TypeInput() *string
@@ -69,7 +69,7 @@ type ApplicationApiOauth2PermissionScopeOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -85,9 +85,9 @@ type ApplicationApiOauth2PermissionScopeOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAdminConsentDescription()
 	ResetAdminConsentDisplayName()
 	ResetEnabled()
@@ -97,7 +97,7 @@ type ApplicationApiOauth2PermissionScopeOutputReference interface {
 	ResetValue()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -107,7 +107,7 @@ type ApplicationApiOauth2PermissionScopeOutputReference interface {
 
 // The jsii proxy struct for ApplicationApiOauth2PermissionScopeOutputReference
 type jsiiProxy_ApplicationApiOauth2PermissionScopeOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ApplicationApiOauth2PermissionScopeOutputReference) AdminConsentDescription() *string {
@@ -250,8 +250,8 @@ func (j *jsiiProxy_ApplicationApiOauth2PermissionScopeOutputReference) Terraform
 	return returns
 }
 
-func (j *jsiiProxy_ApplicationApiOauth2PermissionScopeOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ApplicationApiOauth2PermissionScopeOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -341,7 +341,7 @@ func (j *jsiiProxy_ApplicationApiOauth2PermissionScopeOutputReference) ValueInpu
 }
 
 
-func NewApplicationApiOauth2PermissionScopeOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ApplicationApiOauth2PermissionScopeOutputReference {
+func NewApplicationApiOauth2PermissionScopeOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ApplicationApiOauth2PermissionScopeOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewApplicationApiOauth2PermissionScopeOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -350,7 +350,7 @@ func NewApplicationApiOauth2PermissionScopeOutputReference(terraformResource cdk
 	j := jsiiProxy_ApplicationApiOauth2PermissionScopeOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.application.ApplicationApiOauth2PermissionScopeOutputReference",
+		"@cdktn/provider-azuread.application.ApplicationApiOauth2PermissionScopeOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -358,11 +358,11 @@ func NewApplicationApiOauth2PermissionScopeOutputReference(terraformResource cdk
 	return &j
 }
 
-func NewApplicationApiOauth2PermissionScopeOutputReference_Override(a ApplicationApiOauth2PermissionScopeOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewApplicationApiOauth2PermissionScopeOutputReference_Override(a ApplicationApiOauth2PermissionScopeOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.application.ApplicationApiOauth2PermissionScopeOutputReference",
+		"@cdktn/provider-azuread.application.ApplicationApiOauth2PermissionScopeOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		a,
 	)
@@ -456,7 +456,7 @@ func (j *jsiiProxy_ApplicationApiOauth2PermissionScopeOutputReference)SetTerrafo
 	)
 }
 
-func (j *jsiiProxy_ApplicationApiOauth2PermissionScopeOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ApplicationApiOauth2PermissionScopeOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -540,11 +540,11 @@ func (a *jsiiProxy_ApplicationApiOauth2PermissionScopeOutputReference) GetAnyMap
 	return returns
 }
 
-func (a *jsiiProxy_ApplicationApiOauth2PermissionScopeOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApplicationApiOauth2PermissionScopeOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -668,8 +668,8 @@ func (a *jsiiProxy_ApplicationApiOauth2PermissionScopeOutputReference) GetString
 	return returns
 }
 
-func (a *jsiiProxy_ApplicationApiOauth2PermissionScopeOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_ApplicationApiOauth2PermissionScopeOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -681,11 +681,11 @@ func (a *jsiiProxy_ApplicationApiOauth2PermissionScopeOutputReference) Interpola
 	return returns
 }
 
-func (a *jsiiProxy_ApplicationApiOauth2PermissionScopeOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApplicationApiOauth2PermissionScopeOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -753,7 +753,7 @@ func (a *jsiiProxy_ApplicationApiOauth2PermissionScopeOutputReference) ResetValu
 	)
 }
 
-func (a *jsiiProxy_ApplicationApiOauth2PermissionScopeOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_ApplicationApiOauth2PermissionScopeOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

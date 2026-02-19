@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package application
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/application/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/application/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ApplicationOptionalClaimsIdTokenList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type ApplicationOptionalClaimsIdTokenList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type ApplicationOptionalClaimsIdTokenList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) ApplicationOptionalClaimsIdTokenOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type ApplicationOptionalClaimsIdTokenList interface {
 
 // The jsii proxy struct for ApplicationOptionalClaimsIdTokenList
 type jsiiProxy_ApplicationOptionalClaimsIdTokenList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_ApplicationOptionalClaimsIdTokenList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_ApplicationOptionalClaimsIdTokenList) TerraformAttribute() *s
 	return returns
 }
 
-func (j *jsiiProxy_ApplicationOptionalClaimsIdTokenList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ApplicationOptionalClaimsIdTokenList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_ApplicationOptionalClaimsIdTokenList) WrapsSet() *bool {
 }
 
 
-func NewApplicationOptionalClaimsIdTokenList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationOptionalClaimsIdTokenList {
+func NewApplicationOptionalClaimsIdTokenList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationOptionalClaimsIdTokenList {
 	_init_.Initialize()
 
 	if err := validateNewApplicationOptionalClaimsIdTokenListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -124,7 +124,7 @@ func NewApplicationOptionalClaimsIdTokenList(terraformResource cdktf.IInterpolat
 	j := jsiiProxy_ApplicationOptionalClaimsIdTokenList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.application.ApplicationOptionalClaimsIdTokenList",
+		"@cdktn/provider-azuread.application.ApplicationOptionalClaimsIdTokenList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -132,11 +132,11 @@ func NewApplicationOptionalClaimsIdTokenList(terraformResource cdktf.IInterpolat
 	return &j
 }
 
-func NewApplicationOptionalClaimsIdTokenList_Override(a ApplicationOptionalClaimsIdTokenList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewApplicationOptionalClaimsIdTokenList_Override(a ApplicationOptionalClaimsIdTokenList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.application.ApplicationOptionalClaimsIdTokenList",
+		"@cdktn/provider-azuread.application.ApplicationOptionalClaimsIdTokenList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		a,
 	)
@@ -164,7 +164,7 @@ func (j *jsiiProxy_ApplicationOptionalClaimsIdTokenList)SetTerraformAttribute(va
 	)
 }
 
-func (j *jsiiProxy_ApplicationOptionalClaimsIdTokenList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ApplicationOptionalClaimsIdTokenList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_ApplicationOptionalClaimsIdTokenList)SetWrapsSet(val *bool) {
 	)
 }
 
-func (a *jsiiProxy_ApplicationOptionalClaimsIdTokenList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (a *jsiiProxy_ApplicationOptionalClaimsIdTokenList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := a.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		a,
@@ -231,7 +231,7 @@ func (a *jsiiProxy_ApplicationOptionalClaimsIdTokenList) Get(index *float64) App
 	return returns
 }
 
-func (a *jsiiProxy_ApplicationOptionalClaimsIdTokenList) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_ApplicationOptionalClaimsIdTokenList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

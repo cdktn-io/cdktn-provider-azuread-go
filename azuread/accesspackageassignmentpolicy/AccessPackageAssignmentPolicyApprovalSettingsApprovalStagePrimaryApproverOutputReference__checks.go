@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build !no_runtime_type_checking
@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (a *jsiiProxy_AccessPackageAssignmentPolicyApprovalSettingsApprovalStagePrimaryApproverOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (a *jsiiProxy_AccessPackageAssignmentPolicyApprovalSettingsApprovalStagePri
 	return nil
 }
 
-func (a *jsiiProxy_AccessPackageAssignmentPolicyApprovalSettingsApprovalStagePrimaryApproverOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AccessPackageAssignmentPolicyApprovalSettingsApprovalStagePrimaryApproverOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -110,11 +110,11 @@ func (j *jsiiProxy_AccessPackageAssignmentPolicyApprovalSettingsApprovalStagePri
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -188,7 +188,7 @@ func (j *jsiiProxy_AccessPackageAssignmentPolicyApprovalSettingsApprovalStagePri
 
 func (j *jsiiProxy_AccessPackageAssignmentPolicyApprovalSettingsApprovalStagePrimaryApproverOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *AccessPackageAssignmentPolicyApprovalSettingsApprovalStagePrimaryApprover:
 		val := val.(*AccessPackageAssignmentPolicyApprovalSettingsApprovalStagePrimaryApprover)
@@ -203,7 +203,7 @@ func (j *jsiiProxy_AccessPackageAssignmentPolicyApprovalSettingsApprovalStagePri
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *AccessPackageAssignmentPolicyApprovalSettingsApprovalStagePrimaryApprover; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *AccessPackageAssignmentPolicyApprovalSettingsApprovalStagePrimaryApprover; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -234,7 +234,7 @@ func (j *jsiiProxy_AccessPackageAssignmentPolicyApprovalSettingsApprovalStagePri
 	return nil
 }
 
-func (j *jsiiProxy_AccessPackageAssignmentPolicyApprovalSettingsApprovalStagePrimaryApproverOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AccessPackageAssignmentPolicyApprovalSettingsApprovalStagePrimaryApproverOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -242,7 +242,7 @@ func (j *jsiiProxy_AccessPackageAssignmentPolicyApprovalSettingsApprovalStagePri
 	return nil
 }
 
-func validateNewAccessPackageAssignmentPolicyApprovalSettingsApprovalStagePrimaryApproverOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewAccessPackageAssignmentPolicyApprovalSettingsApprovalStagePrimaryApproverOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

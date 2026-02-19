@@ -1,25 +1,25 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package accesspackagecatalogroleassignment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/accesspackagecatalogroleassignment/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/accesspackagecatalogroleassignment/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azuread/3.7.0/docs/resources/access_package_catalog_role_assignment azuread_access_package_catalog_role_assignment}.
 type AccessPackageCatalogRoleAssignment interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	CatalogId() *string
 	SetCatalogId(val *string)
 	CatalogIdInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -35,9 +35,9 @@ type AccessPackageCatalogRoleAssignment interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -46,18 +46,18 @@ type AccessPackageCatalogRoleAssignment interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	PrincipalObjectId() *string
 	SetPrincipalObjectId(val *string)
 	PrincipalObjectIdInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -68,7 +68,7 @@ type AccessPackageCatalogRoleAssignment interface {
 	SetRoleId(val *string)
 	RoleIdInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -83,7 +83,7 @@ type AccessPackageCatalogRoleAssignment interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -101,9 +101,9 @@ type AccessPackageCatalogRoleAssignment interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -139,7 +139,7 @@ type AccessPackageCatalogRoleAssignment interface {
 
 // The jsii proxy struct for AccessPackageCatalogRoleAssignment
 type jsiiProxy_AccessPackageCatalogRoleAssignment struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_AccessPackageCatalogRoleAssignment) CatalogId() *string {
@@ -162,8 +162,8 @@ func (j *jsiiProxy_AccessPackageCatalogRoleAssignment) CatalogIdInput() *string 
 	return returns
 }
 
-func (j *jsiiProxy_AccessPackageCatalogRoleAssignment) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_AccessPackageCatalogRoleAssignment) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -212,8 +212,8 @@ func (j *jsiiProxy_AccessPackageCatalogRoleAssignment) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_AccessPackageCatalogRoleAssignment) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_AccessPackageCatalogRoleAssignment) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -262,8 +262,8 @@ func (j *jsiiProxy_AccessPackageCatalogRoleAssignment) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_AccessPackageCatalogRoleAssignment) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_AccessPackageCatalogRoleAssignment) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -302,8 +302,8 @@ func (j *jsiiProxy_AccessPackageCatalogRoleAssignment) PrincipalObjectIdInput() 
 	return returns
 }
 
-func (j *jsiiProxy_AccessPackageCatalogRoleAssignment) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_AccessPackageCatalogRoleAssignment) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -352,8 +352,8 @@ func (j *jsiiProxy_AccessPackageCatalogRoleAssignment) RoleIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_AccessPackageCatalogRoleAssignment) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_AccessPackageCatalogRoleAssignment) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -413,7 +413,7 @@ func NewAccessPackageCatalogRoleAssignment(scope constructs.Construct, id *strin
 	j := jsiiProxy_AccessPackageCatalogRoleAssignment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.accessPackageCatalogRoleAssignment.AccessPackageCatalogRoleAssignment",
+		"@cdktn/provider-azuread.accessPackageCatalogRoleAssignment.AccessPackageCatalogRoleAssignment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -426,7 +426,7 @@ func NewAccessPackageCatalogRoleAssignment_Override(a AccessPackageCatalogRoleAs
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.accessPackageCatalogRoleAssignment.AccessPackageCatalogRoleAssignment",
+		"@cdktn/provider-azuread.accessPackageCatalogRoleAssignment.AccessPackageCatalogRoleAssignment",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -473,7 +473,7 @@ func (j *jsiiProxy_AccessPackageCatalogRoleAssignment)SetDependsOn(val *[]*strin
 	)
 }
 
-func (j *jsiiProxy_AccessPackageCatalogRoleAssignment)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_AccessPackageCatalogRoleAssignment)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -492,7 +492,7 @@ func (j *jsiiProxy_AccessPackageCatalogRoleAssignment)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_AccessPackageCatalogRoleAssignment)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_AccessPackageCatalogRoleAssignment)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -514,7 +514,7 @@ func (j *jsiiProxy_AccessPackageCatalogRoleAssignment)SetPrincipalObjectId(val *
 	)
 }
 
-func (j *jsiiProxy_AccessPackageCatalogRoleAssignment)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_AccessPackageCatalogRoleAssignment)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -544,17 +544,17 @@ func (j *jsiiProxy_AccessPackageCatalogRoleAssignment)SetRoleId(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a AccessPackageCatalogRoleAssignment resource upon running "cdktf plan <stack-name>".
-func AccessPackageCatalogRoleAssignment_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a AccessPackageCatalogRoleAssignment resource upon running "cdktn plan <stack-name>".
+func AccessPackageCatalogRoleAssignment_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateAccessPackageCatalogRoleAssignment_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azuread.accessPackageCatalogRoleAssignment.AccessPackageCatalogRoleAssignment",
+		"@cdktn/provider-azuread.accessPackageCatalogRoleAssignment.AccessPackageCatalogRoleAssignment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -589,7 +589,7 @@ func AccessPackageCatalogRoleAssignment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azuread.accessPackageCatalogRoleAssignment.AccessPackageCatalogRoleAssignment",
+		"@cdktn/provider-azuread.accessPackageCatalogRoleAssignment.AccessPackageCatalogRoleAssignment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -608,7 +608,7 @@ func AccessPackageCatalogRoleAssignment_IsTerraformElement(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azuread.accessPackageCatalogRoleAssignment.AccessPackageCatalogRoleAssignment",
+		"@cdktn/provider-azuread.accessPackageCatalogRoleAssignment.AccessPackageCatalogRoleAssignment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -627,7 +627,7 @@ func AccessPackageCatalogRoleAssignment_IsTerraformResource(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azuread.accessPackageCatalogRoleAssignment.AccessPackageCatalogRoleAssignment",
+		"@cdktn/provider-azuread.accessPackageCatalogRoleAssignment.AccessPackageCatalogRoleAssignment",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -640,7 +640,7 @@ func AccessPackageCatalogRoleAssignment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azuread.accessPackageCatalogRoleAssignment.AccessPackageCatalogRoleAssignment",
+		"@cdktn/provider-azuread.accessPackageCatalogRoleAssignment.AccessPackageCatalogRoleAssignment",
 		"tfResourceType",
 		&returns,
 	)
@@ -685,11 +685,11 @@ func (a *jsiiProxy_AccessPackageCatalogRoleAssignment) GetAnyMapAttribute(terraf
 	return returns
 }
 
-func (a *jsiiProxy_AccessPackageCatalogRoleAssignment) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AccessPackageCatalogRoleAssignment) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -826,7 +826,7 @@ func (a *jsiiProxy_AccessPackageCatalogRoleAssignment) HasResourceMove() interfa
 	return returns
 }
 
-func (a *jsiiProxy_AccessPackageCatalogRoleAssignment) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (a *jsiiProxy_AccessPackageCatalogRoleAssignment) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := a.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -837,11 +837,11 @@ func (a *jsiiProxy_AccessPackageCatalogRoleAssignment) ImportFrom(id *string, pr
 	)
 }
 
-func (a *jsiiProxy_AccessPackageCatalogRoleAssignment) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AccessPackageCatalogRoleAssignment) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,

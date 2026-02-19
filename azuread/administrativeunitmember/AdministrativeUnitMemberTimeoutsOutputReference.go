@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package administrativeunitmember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/administrativeunitmember/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/administrativeunitmember/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AdministrativeUnitMemberTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,15 +46,15 @@ type AdministrativeUnitMemberTimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type AdministrativeUnitMemberTimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
 	ResetRead()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type AdministrativeUnitMemberTimeoutsOutputReference interface {
 
 // The jsii proxy struct for AdministrativeUnitMemberTimeoutsOutputReference
 type jsiiProxy_AdministrativeUnitMemberTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_AdministrativeUnitMemberTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -211,8 +211,8 @@ func (j *jsiiProxy_AdministrativeUnitMemberTimeoutsOutputReference) TerraformAtt
 	return returns
 }
 
-func (j *jsiiProxy_AdministrativeUnitMemberTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AdministrativeUnitMemberTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_AdministrativeUnitMemberTimeoutsOutputReference) TerraformRes
 }
 
 
-func NewAdministrativeUnitMemberTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) AdministrativeUnitMemberTimeoutsOutputReference {
+func NewAdministrativeUnitMemberTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) AdministrativeUnitMemberTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewAdministrativeUnitMemberTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -231,7 +231,7 @@ func NewAdministrativeUnitMemberTimeoutsOutputReference(terraformResource cdktf.
 	j := jsiiProxy_AdministrativeUnitMemberTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.administrativeUnitMember.AdministrativeUnitMemberTimeoutsOutputReference",
+		"@cdktn/provider-azuread.administrativeUnitMember.AdministrativeUnitMemberTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -239,11 +239,11 @@ func NewAdministrativeUnitMemberTimeoutsOutputReference(terraformResource cdktf.
 	return &j
 }
 
-func NewAdministrativeUnitMemberTimeoutsOutputReference_Override(a AdministrativeUnitMemberTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewAdministrativeUnitMemberTimeoutsOutputReference_Override(a AdministrativeUnitMemberTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.administrativeUnitMember.AdministrativeUnitMemberTimeoutsOutputReference",
+		"@cdktn/provider-azuread.administrativeUnitMember.AdministrativeUnitMemberTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)
@@ -326,7 +326,7 @@ func (j *jsiiProxy_AdministrativeUnitMemberTimeoutsOutputReference)SetTerraformA
 	)
 }
 
-func (j *jsiiProxy_AdministrativeUnitMemberTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AdministrativeUnitMemberTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (a *jsiiProxy_AdministrativeUnitMemberTimeoutsOutputReference) GetAnyMapAtt
 	return returns
 }
 
-func (a *jsiiProxy_AdministrativeUnitMemberTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AdministrativeUnitMemberTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -494,8 +494,8 @@ func (a *jsiiProxy_AdministrativeUnitMemberTimeoutsOutputReference) GetStringMap
 	return returns
 }
 
-func (a *jsiiProxy_AdministrativeUnitMemberTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_AdministrativeUnitMemberTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -507,11 +507,11 @@ func (a *jsiiProxy_AdministrativeUnitMemberTimeoutsOutputReference) Interpolatio
 	return returns
 }
 
-func (a *jsiiProxy_AdministrativeUnitMemberTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AdministrativeUnitMemberTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -547,7 +547,7 @@ func (a *jsiiProxy_AdministrativeUnitMemberTimeoutsOutputReference) ResetRead() 
 	)
 }
 
-func (a *jsiiProxy_AdministrativeUnitMemberTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AdministrativeUnitMemberTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

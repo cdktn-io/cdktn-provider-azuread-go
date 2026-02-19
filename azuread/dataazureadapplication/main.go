@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazureadapplication
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadApplication.DataAzureadApplication",
+		"@cdktn/provider-azuread.dataAzureadApplication.DataAzureadApplication",
 		reflect.TypeOf((*DataAzureadApplication)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -97,16 +97,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadApplication{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformDataSource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.dataAzureadApplication.DataAzureadApplicationApi",
+		"@cdktn/provider-azuread.dataAzureadApplication.DataAzureadApplicationApi",
 		reflect.TypeOf((*DataAzureadApplicationApi)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadApplication.DataAzureadApplicationApiList",
+		"@cdktn/provider-azuread.dataAzureadApplication.DataAzureadApplicationApiList",
 		reflect.TypeOf((*DataAzureadApplicationApiList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -122,16 +122,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadApplicationApiList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.dataAzureadApplication.DataAzureadApplicationApiOauth2PermissionScopes",
+		"@cdktn/provider-azuread.dataAzureadApplication.DataAzureadApplicationApiOauth2PermissionScopes",
 		reflect.TypeOf((*DataAzureadApplicationApiOauth2PermissionScopes)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadApplication.DataAzureadApplicationApiOauth2PermissionScopesList",
+		"@cdktn/provider-azuread.dataAzureadApplication.DataAzureadApplicationApiOauth2PermissionScopesList",
 		reflect.TypeOf((*DataAzureadApplicationApiOauth2PermissionScopesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -147,12 +147,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadApplicationApiOauth2PermissionScopesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadApplication.DataAzureadApplicationApiOauth2PermissionScopesOutputReference",
+		"@cdktn/provider-azuread.dataAzureadApplication.DataAzureadApplicationApiOauth2PermissionScopesOutputReference",
 		reflect.TypeOf((*DataAzureadApplicationApiOauth2PermissionScopesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "adminConsentDescription", GoGetter: "AdminConsentDescription"},
@@ -187,12 +187,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadApplicationApiOauth2PermissionScopesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadApplication.DataAzureadApplicationApiOutputReference",
+		"@cdktn/provider-azuread.dataAzureadApplication.DataAzureadApplicationApiOutputReference",
 		reflect.TypeOf((*DataAzureadApplicationApiOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -223,16 +223,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadApplicationApiOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.dataAzureadApplication.DataAzureadApplicationAppRoles",
+		"@cdktn/provider-azuread.dataAzureadApplication.DataAzureadApplicationAppRoles",
 		reflect.TypeOf((*DataAzureadApplicationAppRoles)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadApplication.DataAzureadApplicationAppRolesList",
+		"@cdktn/provider-azuread.dataAzureadApplication.DataAzureadApplicationAppRolesList",
 		reflect.TypeOf((*DataAzureadApplicationAppRolesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -248,12 +248,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadApplicationAppRolesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadApplication.DataAzureadApplicationAppRolesOutputReference",
+		"@cdktn/provider-azuread.dataAzureadApplication.DataAzureadApplicationAppRolesOutputReference",
 		reflect.TypeOf((*DataAzureadApplicationAppRolesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedMemberTypes", GoGetter: "AllowedMemberTypes"},
@@ -286,20 +286,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadApplicationAppRolesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.dataAzureadApplication.DataAzureadApplicationConfig",
+		"@cdktn/provider-azuread.dataAzureadApplication.DataAzureadApplicationConfig",
 		reflect.TypeOf((*DataAzureadApplicationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.dataAzureadApplication.DataAzureadApplicationFeatureTags",
+		"@cdktn/provider-azuread.dataAzureadApplication.DataAzureadApplicationFeatureTags",
 		reflect.TypeOf((*DataAzureadApplicationFeatureTags)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadApplication.DataAzureadApplicationFeatureTagsList",
+		"@cdktn/provider-azuread.dataAzureadApplication.DataAzureadApplicationFeatureTagsList",
 		reflect.TypeOf((*DataAzureadApplicationFeatureTagsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -315,12 +315,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadApplicationFeatureTagsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadApplication.DataAzureadApplicationFeatureTagsOutputReference",
+		"@cdktn/provider-azuread.dataAzureadApplication.DataAzureadApplicationFeatureTagsOutputReference",
 		reflect.TypeOf((*DataAzureadApplicationFeatureTagsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -351,20 +351,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadApplicationFeatureTagsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.dataAzureadApplication.DataAzureadApplicationOptionalClaims",
+		"@cdktn/provider-azuread.dataAzureadApplication.DataAzureadApplicationOptionalClaims",
 		reflect.TypeOf((*DataAzureadApplicationOptionalClaims)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.dataAzureadApplication.DataAzureadApplicationOptionalClaimsAccessToken",
+		"@cdktn/provider-azuread.dataAzureadApplication.DataAzureadApplicationOptionalClaimsAccessToken",
 		reflect.TypeOf((*DataAzureadApplicationOptionalClaimsAccessToken)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadApplication.DataAzureadApplicationOptionalClaimsAccessTokenList",
+		"@cdktn/provider-azuread.dataAzureadApplication.DataAzureadApplicationOptionalClaimsAccessTokenList",
 		reflect.TypeOf((*DataAzureadApplicationOptionalClaimsAccessTokenList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -380,12 +380,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadApplicationOptionalClaimsAccessTokenList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadApplication.DataAzureadApplicationOptionalClaimsAccessTokenOutputReference",
+		"@cdktn/provider-azuread.dataAzureadApplication.DataAzureadApplicationOptionalClaimsAccessTokenOutputReference",
 		reflect.TypeOf((*DataAzureadApplicationOptionalClaimsAccessTokenOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalProperties", GoGetter: "AdditionalProperties"},
@@ -416,16 +416,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadApplicationOptionalClaimsAccessTokenOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.dataAzureadApplication.DataAzureadApplicationOptionalClaimsIdToken",
+		"@cdktn/provider-azuread.dataAzureadApplication.DataAzureadApplicationOptionalClaimsIdToken",
 		reflect.TypeOf((*DataAzureadApplicationOptionalClaimsIdToken)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadApplication.DataAzureadApplicationOptionalClaimsIdTokenList",
+		"@cdktn/provider-azuread.dataAzureadApplication.DataAzureadApplicationOptionalClaimsIdTokenList",
 		reflect.TypeOf((*DataAzureadApplicationOptionalClaimsIdTokenList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -441,12 +441,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadApplicationOptionalClaimsIdTokenList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadApplication.DataAzureadApplicationOptionalClaimsIdTokenOutputReference",
+		"@cdktn/provider-azuread.dataAzureadApplication.DataAzureadApplicationOptionalClaimsIdTokenOutputReference",
 		reflect.TypeOf((*DataAzureadApplicationOptionalClaimsIdTokenOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalProperties", GoGetter: "AdditionalProperties"},
@@ -477,12 +477,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadApplicationOptionalClaimsIdTokenOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadApplication.DataAzureadApplicationOptionalClaimsList",
+		"@cdktn/provider-azuread.dataAzureadApplication.DataAzureadApplicationOptionalClaimsList",
 		reflect.TypeOf((*DataAzureadApplicationOptionalClaimsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -498,12 +498,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadApplicationOptionalClaimsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadApplication.DataAzureadApplicationOptionalClaimsOutputReference",
+		"@cdktn/provider-azuread.dataAzureadApplication.DataAzureadApplicationOptionalClaimsOutputReference",
 		reflect.TypeOf((*DataAzureadApplicationOptionalClaimsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessToken", GoGetter: "AccessToken"},
@@ -533,16 +533,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadApplicationOptionalClaimsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.dataAzureadApplication.DataAzureadApplicationOptionalClaimsSaml2Token",
+		"@cdktn/provider-azuread.dataAzureadApplication.DataAzureadApplicationOptionalClaimsSaml2Token",
 		reflect.TypeOf((*DataAzureadApplicationOptionalClaimsSaml2Token)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadApplication.DataAzureadApplicationOptionalClaimsSaml2TokenList",
+		"@cdktn/provider-azuread.dataAzureadApplication.DataAzureadApplicationOptionalClaimsSaml2TokenList",
 		reflect.TypeOf((*DataAzureadApplicationOptionalClaimsSaml2TokenList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -558,12 +558,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadApplicationOptionalClaimsSaml2TokenList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadApplication.DataAzureadApplicationOptionalClaimsSaml2TokenOutputReference",
+		"@cdktn/provider-azuread.dataAzureadApplication.DataAzureadApplicationOptionalClaimsSaml2TokenOutputReference",
 		reflect.TypeOf((*DataAzureadApplicationOptionalClaimsSaml2TokenOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalProperties", GoGetter: "AdditionalProperties"},
@@ -594,16 +594,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadApplicationOptionalClaimsSaml2TokenOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.dataAzureadApplication.DataAzureadApplicationPublicClient",
+		"@cdktn/provider-azuread.dataAzureadApplication.DataAzureadApplicationPublicClient",
 		reflect.TypeOf((*DataAzureadApplicationPublicClient)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadApplication.DataAzureadApplicationPublicClientList",
+		"@cdktn/provider-azuread.dataAzureadApplication.DataAzureadApplicationPublicClientList",
 		reflect.TypeOf((*DataAzureadApplicationPublicClientList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -619,12 +619,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadApplicationPublicClientList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadApplication.DataAzureadApplicationPublicClientOutputReference",
+		"@cdktn/provider-azuread.dataAzureadApplication.DataAzureadApplicationPublicClientOutputReference",
 		reflect.TypeOf((*DataAzureadApplicationPublicClientOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -652,16 +652,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadApplicationPublicClientOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.dataAzureadApplication.DataAzureadApplicationRequiredResourceAccess",
+		"@cdktn/provider-azuread.dataAzureadApplication.DataAzureadApplicationRequiredResourceAccess",
 		reflect.TypeOf((*DataAzureadApplicationRequiredResourceAccess)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadApplication.DataAzureadApplicationRequiredResourceAccessList",
+		"@cdktn/provider-azuread.dataAzureadApplication.DataAzureadApplicationRequiredResourceAccessList",
 		reflect.TypeOf((*DataAzureadApplicationRequiredResourceAccessList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -677,12 +677,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadApplicationRequiredResourceAccessList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadApplication.DataAzureadApplicationRequiredResourceAccessOutputReference",
+		"@cdktn/provider-azuread.dataAzureadApplication.DataAzureadApplicationRequiredResourceAccessOutputReference",
 		reflect.TypeOf((*DataAzureadApplicationRequiredResourceAccessOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -711,16 +711,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadApplicationRequiredResourceAccessOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.dataAzureadApplication.DataAzureadApplicationRequiredResourceAccessResourceAccess",
+		"@cdktn/provider-azuread.dataAzureadApplication.DataAzureadApplicationRequiredResourceAccessResourceAccess",
 		reflect.TypeOf((*DataAzureadApplicationRequiredResourceAccessResourceAccess)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadApplication.DataAzureadApplicationRequiredResourceAccessResourceAccessList",
+		"@cdktn/provider-azuread.dataAzureadApplication.DataAzureadApplicationRequiredResourceAccessResourceAccessList",
 		reflect.TypeOf((*DataAzureadApplicationRequiredResourceAccessResourceAccessList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -736,12 +736,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadApplicationRequiredResourceAccessResourceAccessList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadApplication.DataAzureadApplicationRequiredResourceAccessResourceAccessOutputReference",
+		"@cdktn/provider-azuread.dataAzureadApplication.DataAzureadApplicationRequiredResourceAccessResourceAccessOutputReference",
 		reflect.TypeOf((*DataAzureadApplicationRequiredResourceAccessResourceAccessOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -770,16 +770,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadApplicationRequiredResourceAccessResourceAccessOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.dataAzureadApplication.DataAzureadApplicationSinglePageApplication",
+		"@cdktn/provider-azuread.dataAzureadApplication.DataAzureadApplicationSinglePageApplication",
 		reflect.TypeOf((*DataAzureadApplicationSinglePageApplication)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadApplication.DataAzureadApplicationSinglePageApplicationList",
+		"@cdktn/provider-azuread.dataAzureadApplication.DataAzureadApplicationSinglePageApplicationList",
 		reflect.TypeOf((*DataAzureadApplicationSinglePageApplicationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -795,12 +795,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadApplicationSinglePageApplicationList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadApplication.DataAzureadApplicationSinglePageApplicationOutputReference",
+		"@cdktn/provider-azuread.dataAzureadApplication.DataAzureadApplicationSinglePageApplicationOutputReference",
 		reflect.TypeOf((*DataAzureadApplicationSinglePageApplicationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -828,16 +828,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadApplicationSinglePageApplicationOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.dataAzureadApplication.DataAzureadApplicationTimeouts",
+		"@cdktn/provider-azuread.dataAzureadApplication.DataAzureadApplicationTimeouts",
 		reflect.TypeOf((*DataAzureadApplicationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadApplication.DataAzureadApplicationTimeoutsOutputReference",
+		"@cdktn/provider-azuread.dataAzureadApplication.DataAzureadApplicationTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzureadApplicationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -867,20 +867,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadApplicationTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.dataAzureadApplication.DataAzureadApplicationWeb",
+		"@cdktn/provider-azuread.dataAzureadApplication.DataAzureadApplicationWeb",
 		reflect.TypeOf((*DataAzureadApplicationWeb)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.dataAzureadApplication.DataAzureadApplicationWebImplicitGrant",
+		"@cdktn/provider-azuread.dataAzureadApplication.DataAzureadApplicationWebImplicitGrant",
 		reflect.TypeOf((*DataAzureadApplicationWebImplicitGrant)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadApplication.DataAzureadApplicationWebImplicitGrantList",
+		"@cdktn/provider-azuread.dataAzureadApplication.DataAzureadApplicationWebImplicitGrantList",
 		reflect.TypeOf((*DataAzureadApplicationWebImplicitGrantList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -896,12 +896,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadApplicationWebImplicitGrantList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadApplication.DataAzureadApplicationWebImplicitGrantOutputReference",
+		"@cdktn/provider-azuread.dataAzureadApplication.DataAzureadApplicationWebImplicitGrantOutputReference",
 		reflect.TypeOf((*DataAzureadApplicationWebImplicitGrantOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessTokenIssuanceEnabled", GoGetter: "AccessTokenIssuanceEnabled"},
@@ -930,12 +930,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadApplicationWebImplicitGrantOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadApplication.DataAzureadApplicationWebList",
+		"@cdktn/provider-azuread.dataAzureadApplication.DataAzureadApplicationWebList",
 		reflect.TypeOf((*DataAzureadApplicationWebList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -951,12 +951,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadApplicationWebList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadApplication.DataAzureadApplicationWebOutputReference",
+		"@cdktn/provider-azuread.dataAzureadApplication.DataAzureadApplicationWebOutputReference",
 		reflect.TypeOf((*DataAzureadApplicationWebOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -987,7 +987,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadApplicationWebOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

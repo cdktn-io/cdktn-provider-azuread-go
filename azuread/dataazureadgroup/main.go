@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazureadgroup
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadGroup.DataAzureadGroup",
+		"@cdktn/provider-azuread.dataAzureadGroup.DataAzureadGroup",
 		reflect.TypeOf((*DataAzureadGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -99,20 +99,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadGroup{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformDataSource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.dataAzureadGroup.DataAzureadGroupConfig",
+		"@cdktn/provider-azuread.dataAzureadGroup.DataAzureadGroupConfig",
 		reflect.TypeOf((*DataAzureadGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.dataAzureadGroup.DataAzureadGroupDynamicMembership",
+		"@cdktn/provider-azuread.dataAzureadGroup.DataAzureadGroupDynamicMembership",
 		reflect.TypeOf((*DataAzureadGroupDynamicMembership)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadGroup.DataAzureadGroupDynamicMembershipList",
+		"@cdktn/provider-azuread.dataAzureadGroup.DataAzureadGroupDynamicMembershipList",
 		reflect.TypeOf((*DataAzureadGroupDynamicMembershipList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -128,12 +128,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadGroupDynamicMembershipList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadGroup.DataAzureadGroupDynamicMembershipOutputReference",
+		"@cdktn/provider-azuread.dataAzureadGroup.DataAzureadGroupDynamicMembershipOutputReference",
 		reflect.TypeOf((*DataAzureadGroupDynamicMembershipOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -162,16 +162,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadGroupDynamicMembershipOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.dataAzureadGroup.DataAzureadGroupTimeouts",
+		"@cdktn/provider-azuread.dataAzureadGroup.DataAzureadGroupTimeouts",
 		reflect.TypeOf((*DataAzureadGroupTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadGroup.DataAzureadGroupTimeoutsOutputReference",
+		"@cdktn/provider-azuread.dataAzureadGroup.DataAzureadGroupTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzureadGroupTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -201,7 +201,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadGroupTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

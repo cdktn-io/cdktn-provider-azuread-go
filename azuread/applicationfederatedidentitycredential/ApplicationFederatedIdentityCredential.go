@@ -1,20 +1,20 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package applicationfederatedidentitycredential
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/applicationfederatedidentitycredential/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/applicationfederatedidentitycredential/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azuread/3.7.0/docs/resources/application_federated_identity_credential azuread_application_federated_identity_credential}.
 type ApplicationFederatedIdentityCredential interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	ApplicationId() *string
 	SetApplicationId(val *string)
 	ApplicationIdInput() *string
@@ -22,7 +22,7 @@ type ApplicationFederatedIdentityCredential interface {
 	SetAudiences(val *[]*string)
 	AudiencesInput() *[]*string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -45,9 +45,9 @@ type ApplicationFederatedIdentityCredential interface {
 	SetDisplayName(val *string)
 	DisplayNameInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -59,15 +59,15 @@ type ApplicationFederatedIdentityCredential interface {
 	SetIssuer(val *string)
 	IssuerInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -78,7 +78,7 @@ type ApplicationFederatedIdentityCredential interface {
 	SetSubject(val *string)
 	SubjectInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -93,7 +93,7 @@ type ApplicationFederatedIdentityCredential interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -111,9 +111,9 @@ type ApplicationFederatedIdentityCredential interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -150,7 +150,7 @@ type ApplicationFederatedIdentityCredential interface {
 
 // The jsii proxy struct for ApplicationFederatedIdentityCredential
 type jsiiProxy_ApplicationFederatedIdentityCredential struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_ApplicationFederatedIdentityCredential) ApplicationId() *string {
@@ -193,8 +193,8 @@ func (j *jsiiProxy_ApplicationFederatedIdentityCredential) AudiencesInput() *[]*
 	return returns
 }
 
-func (j *jsiiProxy_ApplicationFederatedIdentityCredential) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_ApplicationFederatedIdentityCredential) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -293,8 +293,8 @@ func (j *jsiiProxy_ApplicationFederatedIdentityCredential) DisplayNameInput() *s
 	return returns
 }
 
-func (j *jsiiProxy_ApplicationFederatedIdentityCredential) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_ApplicationFederatedIdentityCredential) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -363,8 +363,8 @@ func (j *jsiiProxy_ApplicationFederatedIdentityCredential) IssuerInput() *string
 	return returns
 }
 
-func (j *jsiiProxy_ApplicationFederatedIdentityCredential) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_ApplicationFederatedIdentityCredential) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -383,8 +383,8 @@ func (j *jsiiProxy_ApplicationFederatedIdentityCredential) Node() constructs.Nod
 	return returns
 }
 
-func (j *jsiiProxy_ApplicationFederatedIdentityCredential) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_ApplicationFederatedIdentityCredential) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -433,8 +433,8 @@ func (j *jsiiProxy_ApplicationFederatedIdentityCredential) SubjectInput() *strin
 	return returns
 }
 
-func (j *jsiiProxy_ApplicationFederatedIdentityCredential) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_ApplicationFederatedIdentityCredential) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -494,7 +494,7 @@ func NewApplicationFederatedIdentityCredential(scope constructs.Construct, id *s
 	j := jsiiProxy_ApplicationFederatedIdentityCredential{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.applicationFederatedIdentityCredential.ApplicationFederatedIdentityCredential",
+		"@cdktn/provider-azuread.applicationFederatedIdentityCredential.ApplicationFederatedIdentityCredential",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -507,7 +507,7 @@ func NewApplicationFederatedIdentityCredential_Override(a ApplicationFederatedId
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.applicationFederatedIdentityCredential.ApplicationFederatedIdentityCredential",
+		"@cdktn/provider-azuread.applicationFederatedIdentityCredential.ApplicationFederatedIdentityCredential",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -587,7 +587,7 @@ func (j *jsiiProxy_ApplicationFederatedIdentityCredential)SetDisplayName(val *st
 	)
 }
 
-func (j *jsiiProxy_ApplicationFederatedIdentityCredential)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_ApplicationFederatedIdentityCredential)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -617,7 +617,7 @@ func (j *jsiiProxy_ApplicationFederatedIdentityCredential)SetIssuer(val *string)
 	)
 }
 
-func (j *jsiiProxy_ApplicationFederatedIdentityCredential)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_ApplicationFederatedIdentityCredential)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -628,7 +628,7 @@ func (j *jsiiProxy_ApplicationFederatedIdentityCredential)SetLifecycle(val *cdkt
 	)
 }
 
-func (j *jsiiProxy_ApplicationFederatedIdentityCredential)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_ApplicationFederatedIdentityCredential)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -658,17 +658,17 @@ func (j *jsiiProxy_ApplicationFederatedIdentityCredential)SetSubject(val *string
 	)
 }
 
-// Generates CDKTF code for importing a ApplicationFederatedIdentityCredential resource upon running "cdktf plan <stack-name>".
-func ApplicationFederatedIdentityCredential_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a ApplicationFederatedIdentityCredential resource upon running "cdktn plan <stack-name>".
+func ApplicationFederatedIdentityCredential_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateApplicationFederatedIdentityCredential_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azuread.applicationFederatedIdentityCredential.ApplicationFederatedIdentityCredential",
+		"@cdktn/provider-azuread.applicationFederatedIdentityCredential.ApplicationFederatedIdentityCredential",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -703,7 +703,7 @@ func ApplicationFederatedIdentityCredential_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azuread.applicationFederatedIdentityCredential.ApplicationFederatedIdentityCredential",
+		"@cdktn/provider-azuread.applicationFederatedIdentityCredential.ApplicationFederatedIdentityCredential",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -722,7 +722,7 @@ func ApplicationFederatedIdentityCredential_IsTerraformElement(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azuread.applicationFederatedIdentityCredential.ApplicationFederatedIdentityCredential",
+		"@cdktn/provider-azuread.applicationFederatedIdentityCredential.ApplicationFederatedIdentityCredential",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -741,7 +741,7 @@ func ApplicationFederatedIdentityCredential_IsTerraformResource(x interface{}) *
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azuread.applicationFederatedIdentityCredential.ApplicationFederatedIdentityCredential",
+		"@cdktn/provider-azuread.applicationFederatedIdentityCredential.ApplicationFederatedIdentityCredential",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -754,7 +754,7 @@ func ApplicationFederatedIdentityCredential_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azuread.applicationFederatedIdentityCredential.ApplicationFederatedIdentityCredential",
+		"@cdktn/provider-azuread.applicationFederatedIdentityCredential.ApplicationFederatedIdentityCredential",
 		"tfResourceType",
 		&returns,
 	)
@@ -799,11 +799,11 @@ func (a *jsiiProxy_ApplicationFederatedIdentityCredential) GetAnyMapAttribute(te
 	return returns
 }
 
-func (a *jsiiProxy_ApplicationFederatedIdentityCredential) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApplicationFederatedIdentityCredential) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -940,7 +940,7 @@ func (a *jsiiProxy_ApplicationFederatedIdentityCredential) HasResourceMove() int
 	return returns
 }
 
-func (a *jsiiProxy_ApplicationFederatedIdentityCredential) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (a *jsiiProxy_ApplicationFederatedIdentityCredential) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := a.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -951,11 +951,11 @@ func (a *jsiiProxy_ApplicationFederatedIdentityCredential) ImportFrom(id *string
 	)
 }
 
-func (a *jsiiProxy_ApplicationFederatedIdentityCredential) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApplicationFederatedIdentityCredential) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,

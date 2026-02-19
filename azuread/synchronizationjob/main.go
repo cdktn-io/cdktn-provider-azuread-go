@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package synchronizationjob
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.synchronizationJob.SynchronizationJob",
+		"@cdktn/provider-azuread.synchronizationJob.SynchronizationJob",
 		reflect.TypeOf((*SynchronizationJob)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -73,20 +73,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SynchronizationJob{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.synchronizationJob.SynchronizationJobConfig",
+		"@cdktn/provider-azuread.synchronizationJob.SynchronizationJobConfig",
 		reflect.TypeOf((*SynchronizationJobConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.synchronizationJob.SynchronizationJobSchedule",
+		"@cdktn/provider-azuread.synchronizationJob.SynchronizationJobSchedule",
 		reflect.TypeOf((*SynchronizationJobSchedule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.synchronizationJob.SynchronizationJobScheduleList",
+		"@cdktn/provider-azuread.synchronizationJob.SynchronizationJobScheduleList",
 		reflect.TypeOf((*SynchronizationJobScheduleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -102,12 +102,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SynchronizationJobScheduleList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.synchronizationJob.SynchronizationJobScheduleOutputReference",
+		"@cdktn/provider-azuread.synchronizationJob.SynchronizationJobScheduleOutputReference",
 		reflect.TypeOf((*SynchronizationJobScheduleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -137,16 +137,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SynchronizationJobScheduleOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.synchronizationJob.SynchronizationJobTimeouts",
+		"@cdktn/provider-azuread.synchronizationJob.SynchronizationJobTimeouts",
 		reflect.TypeOf((*SynchronizationJobTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.synchronizationJob.SynchronizationJobTimeoutsOutputReference",
+		"@cdktn/provider-azuread.synchronizationJob.SynchronizationJobTimeoutsOutputReference",
 		reflect.TypeOf((*SynchronizationJobTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -185,7 +185,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SynchronizationJobTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

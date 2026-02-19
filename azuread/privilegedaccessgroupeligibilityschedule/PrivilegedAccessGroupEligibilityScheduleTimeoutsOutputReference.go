@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package privilegedaccessgroupeligibilityschedule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/privilegedaccessgroupeligibilityschedule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/privilegedaccessgroupeligibilityschedule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type PrivilegedAccessGroupEligibilityScheduleTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,9 +46,9 @@ type PrivilegedAccessGroupEligibilityScheduleTimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Update() *string
 	SetUpdate(val *string)
 	UpdateInput() *string
@@ -57,7 +57,7 @@ type PrivilegedAccessGroupEligibilityScheduleTimeoutsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,16 +73,16 @@ type PrivilegedAccessGroupEligibilityScheduleTimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
 	ResetRead()
 	ResetUpdate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -92,7 +92,7 @@ type PrivilegedAccessGroupEligibilityScheduleTimeoutsOutputReference interface {
 
 // The jsii proxy struct for PrivilegedAccessGroupEligibilityScheduleTimeoutsOutputReference
 type jsiiProxy_PrivilegedAccessGroupEligibilityScheduleTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_PrivilegedAccessGroupEligibilityScheduleTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -215,8 +215,8 @@ func (j *jsiiProxy_PrivilegedAccessGroupEligibilityScheduleTimeoutsOutputReferen
 	return returns
 }
 
-func (j *jsiiProxy_PrivilegedAccessGroupEligibilityScheduleTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_PrivilegedAccessGroupEligibilityScheduleTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -246,7 +246,7 @@ func (j *jsiiProxy_PrivilegedAccessGroupEligibilityScheduleTimeoutsOutputReferen
 }
 
 
-func NewPrivilegedAccessGroupEligibilityScheduleTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) PrivilegedAccessGroupEligibilityScheduleTimeoutsOutputReference {
+func NewPrivilegedAccessGroupEligibilityScheduleTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) PrivilegedAccessGroupEligibilityScheduleTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewPrivilegedAccessGroupEligibilityScheduleTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -255,7 +255,7 @@ func NewPrivilegedAccessGroupEligibilityScheduleTimeoutsOutputReference(terrafor
 	j := jsiiProxy_PrivilegedAccessGroupEligibilityScheduleTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.privilegedAccessGroupEligibilitySchedule.PrivilegedAccessGroupEligibilityScheduleTimeoutsOutputReference",
+		"@cdktn/provider-azuread.privilegedAccessGroupEligibilitySchedule.PrivilegedAccessGroupEligibilityScheduleTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -263,11 +263,11 @@ func NewPrivilegedAccessGroupEligibilityScheduleTimeoutsOutputReference(terrafor
 	return &j
 }
 
-func NewPrivilegedAccessGroupEligibilityScheduleTimeoutsOutputReference_Override(p PrivilegedAccessGroupEligibilityScheduleTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewPrivilegedAccessGroupEligibilityScheduleTimeoutsOutputReference_Override(p PrivilegedAccessGroupEligibilityScheduleTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.privilegedAccessGroupEligibilitySchedule.PrivilegedAccessGroupEligibilityScheduleTimeoutsOutputReference",
+		"@cdktn/provider-azuread.privilegedAccessGroupEligibilitySchedule.PrivilegedAccessGroupEligibilityScheduleTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		p,
 	)
@@ -350,7 +350,7 @@ func (j *jsiiProxy_PrivilegedAccessGroupEligibilityScheduleTimeoutsOutputReferen
 	)
 }
 
-func (j *jsiiProxy_PrivilegedAccessGroupEligibilityScheduleTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_PrivilegedAccessGroupEligibilityScheduleTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -401,11 +401,11 @@ func (p *jsiiProxy_PrivilegedAccessGroupEligibilityScheduleTimeoutsOutputReferen
 	return returns
 }
 
-func (p *jsiiProxy_PrivilegedAccessGroupEligibilityScheduleTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PrivilegedAccessGroupEligibilityScheduleTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -529,8 +529,8 @@ func (p *jsiiProxy_PrivilegedAccessGroupEligibilityScheduleTimeoutsOutputReferen
 	return returns
 }
 
-func (p *jsiiProxy_PrivilegedAccessGroupEligibilityScheduleTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (p *jsiiProxy_PrivilegedAccessGroupEligibilityScheduleTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -542,11 +542,11 @@ func (p *jsiiProxy_PrivilegedAccessGroupEligibilityScheduleTimeoutsOutputReferen
 	return returns
 }
 
-func (p *jsiiProxy_PrivilegedAccessGroupEligibilityScheduleTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PrivilegedAccessGroupEligibilityScheduleTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -590,7 +590,7 @@ func (p *jsiiProxy_PrivilegedAccessGroupEligibilityScheduleTimeoutsOutputReferen
 	)
 }
 
-func (p *jsiiProxy_PrivilegedAccessGroupEligibilityScheduleTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (p *jsiiProxy_PrivilegedAccessGroupEligibilityScheduleTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := p.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

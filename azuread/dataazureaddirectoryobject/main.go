@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazureaddirectoryobject
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadDirectoryObject.DataAzureadDirectoryObject",
+		"@cdktn/provider-azuread.dataAzureadDirectoryObject.DataAzureadDirectoryObject",
 		reflect.TypeOf((*DataAzureadDirectoryObject)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -60,20 +60,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadDirectoryObject{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformDataSource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.dataAzureadDirectoryObject.DataAzureadDirectoryObjectConfig",
+		"@cdktn/provider-azuread.dataAzureadDirectoryObject.DataAzureadDirectoryObjectConfig",
 		reflect.TypeOf((*DataAzureadDirectoryObjectConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.dataAzureadDirectoryObject.DataAzureadDirectoryObjectTimeouts",
+		"@cdktn/provider-azuread.dataAzureadDirectoryObject.DataAzureadDirectoryObjectTimeouts",
 		reflect.TypeOf((*DataAzureadDirectoryObjectTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadDirectoryObject.DataAzureadDirectoryObjectTimeoutsOutputReference",
+		"@cdktn/provider-azuread.dataAzureadDirectoryObject.DataAzureadDirectoryObjectTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzureadDirectoryObjectTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -103,7 +103,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadDirectoryObjectTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

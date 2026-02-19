@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazureadserviceprincipals
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadServicePrincipals.DataAzureadServicePrincipals",
+		"@cdktn/provider-azuread.dataAzureadServicePrincipals.DataAzureadServicePrincipals",
 		reflect.TypeOf((*DataAzureadServicePrincipals)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -73,20 +73,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadServicePrincipals{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformDataSource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.dataAzureadServicePrincipals.DataAzureadServicePrincipalsConfig",
+		"@cdktn/provider-azuread.dataAzureadServicePrincipals.DataAzureadServicePrincipalsConfig",
 		reflect.TypeOf((*DataAzureadServicePrincipalsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.dataAzureadServicePrincipals.DataAzureadServicePrincipalsServicePrincipals",
+		"@cdktn/provider-azuread.dataAzureadServicePrincipals.DataAzureadServicePrincipalsServicePrincipals",
 		reflect.TypeOf((*DataAzureadServicePrincipalsServicePrincipals)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadServicePrincipals.DataAzureadServicePrincipalsServicePrincipalsList",
+		"@cdktn/provider-azuread.dataAzureadServicePrincipals.DataAzureadServicePrincipalsServicePrincipalsList",
 		reflect.TypeOf((*DataAzureadServicePrincipalsServicePrincipalsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -102,12 +102,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadServicePrincipalsServicePrincipalsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadServicePrincipals.DataAzureadServicePrincipalsServicePrincipalsOutputReference",
+		"@cdktn/provider-azuread.dataAzureadServicePrincipals.DataAzureadServicePrincipalsServicePrincipalsOutputReference",
 		reflect.TypeOf((*DataAzureadServicePrincipalsServicePrincipalsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountEnabled", GoGetter: "AccountEnabled"},
@@ -146,16 +146,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadServicePrincipalsServicePrincipalsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.dataAzureadServicePrincipals.DataAzureadServicePrincipalsTimeouts",
+		"@cdktn/provider-azuread.dataAzureadServicePrincipals.DataAzureadServicePrincipalsTimeouts",
 		reflect.TypeOf((*DataAzureadServicePrincipalsTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadServicePrincipals.DataAzureadServicePrincipalsTimeoutsOutputReference",
+		"@cdktn/provider-azuread.dataAzureadServicePrincipals.DataAzureadServicePrincipalsTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzureadServicePrincipalsTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -185,7 +185,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadServicePrincipalsTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

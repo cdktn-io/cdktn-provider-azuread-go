@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazureadnamedlocation
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadNamedLocation.DataAzureadNamedLocation",
+		"@cdktn/provider-azuread.dataAzureadNamedLocation.DataAzureadNamedLocation",
 		reflect.TypeOf((*DataAzureadNamedLocation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -62,20 +62,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadNamedLocation{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformDataSource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.dataAzureadNamedLocation.DataAzureadNamedLocationConfig",
+		"@cdktn/provider-azuread.dataAzureadNamedLocation.DataAzureadNamedLocationConfig",
 		reflect.TypeOf((*DataAzureadNamedLocationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.dataAzureadNamedLocation.DataAzureadNamedLocationCountry",
+		"@cdktn/provider-azuread.dataAzureadNamedLocation.DataAzureadNamedLocationCountry",
 		reflect.TypeOf((*DataAzureadNamedLocationCountry)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadNamedLocation.DataAzureadNamedLocationCountryList",
+		"@cdktn/provider-azuread.dataAzureadNamedLocation.DataAzureadNamedLocationCountryList",
 		reflect.TypeOf((*DataAzureadNamedLocationCountryList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -91,12 +91,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadNamedLocationCountryList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadNamedLocation.DataAzureadNamedLocationCountryOutputReference",
+		"@cdktn/provider-azuread.dataAzureadNamedLocation.DataAzureadNamedLocationCountryOutputReference",
 		reflect.TypeOf((*DataAzureadNamedLocationCountryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -126,16 +126,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadNamedLocationCountryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.dataAzureadNamedLocation.DataAzureadNamedLocationIp",
+		"@cdktn/provider-azuread.dataAzureadNamedLocation.DataAzureadNamedLocationIp",
 		reflect.TypeOf((*DataAzureadNamedLocationIp)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadNamedLocation.DataAzureadNamedLocationIpList",
+		"@cdktn/provider-azuread.dataAzureadNamedLocation.DataAzureadNamedLocationIpList",
 		reflect.TypeOf((*DataAzureadNamedLocationIpList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -151,12 +151,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadNamedLocationIpList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadNamedLocation.DataAzureadNamedLocationIpOutputReference",
+		"@cdktn/provider-azuread.dataAzureadNamedLocation.DataAzureadNamedLocationIpOutputReference",
 		reflect.TypeOf((*DataAzureadNamedLocationIpOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -185,16 +185,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadNamedLocationIpOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.dataAzureadNamedLocation.DataAzureadNamedLocationTimeouts",
+		"@cdktn/provider-azuread.dataAzureadNamedLocation.DataAzureadNamedLocationTimeouts",
 		reflect.TypeOf((*DataAzureadNamedLocationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadNamedLocation.DataAzureadNamedLocationTimeoutsOutputReference",
+		"@cdktn/provider-azuread.dataAzureadNamedLocation.DataAzureadNamedLocationTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzureadNamedLocationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -224,7 +224,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadNamedLocationTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

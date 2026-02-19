@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -47,7 +47,7 @@ func (g *jsiiProxy_GroupRoleManagementPolicyEligibleAssignmentRulesOutputReferen
 	return nil
 }
 
-func (g *jsiiProxy_GroupRoleManagementPolicyEligibleAssignmentRulesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GroupRoleManagementPolicyEligibleAssignmentRulesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GroupRoleManagementPolicyEligibleAssignmentRulesOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_GroupRoleManagementPolicyEligibleAssignmentRulesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GroupRoleManagementPolicyEligibleAssignmentRulesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGroupRoleManagementPolicyEligibleAssignmentRulesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGroupRoleManagementPolicyEligibleAssignmentRulesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -1,20 +1,20 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package serviceprincipal
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/serviceprincipal/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/serviceprincipal/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azuread/3.7.0/docs/resources/service_principal azuread_service_principal}.
 type ServicePrincipal interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AccountEnabled() interface{}
 	SetAccountEnabled(val interface{})
 	AccountEnabledInput() interface{}
@@ -25,10 +25,10 @@ type ServicePrincipal interface {
 	AppRoleAssignmentRequired() interface{}
 	SetAppRoleAssignmentRequired(val interface{})
 	AppRoleAssignmentRequiredInput() interface{}
-	AppRoleIds() cdktf.StringMap
+	AppRoleIds() cdktn.StringMap
 	AppRoles() ServicePrincipalAppRolesList
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ClientId() *string
 	SetClientId(val *string)
 	ClientIdInput() *string
@@ -55,9 +55,9 @@ type ServicePrincipal interface {
 	FeatureTags() ServicePrincipalFeatureTagsList
 	FeatureTagsInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -67,9 +67,9 @@ type ServicePrincipal interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LoginUrl() *string
 	SetLoginUrl(val *string)
 	LoginUrlInput() *string
@@ -82,7 +82,7 @@ type ServicePrincipal interface {
 	NotificationEmailAddresses() *[]*string
 	SetNotificationEmailAddresses(val *[]*string)
 	NotificationEmailAddressesInput() *[]*string
-	Oauth2PermissionScopeIds() cdktf.StringMap
+	Oauth2PermissionScopeIds() cdktn.StringMap
 	Oauth2PermissionScopes() ServicePrincipalOauth2PermissionScopesList
 	ObjectId() *string
 	Owners() *[]*string
@@ -92,9 +92,9 @@ type ServicePrincipal interface {
 	SetPreferredSingleSignOnMode(val *string)
 	PreferredSingleSignOnModeInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -111,7 +111,7 @@ type ServicePrincipal interface {
 	SetTags(val *[]*string)
 	TagsInput() *[]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -130,7 +130,7 @@ type ServicePrincipal interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -148,9 +148,9 @@ type ServicePrincipal interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -203,7 +203,7 @@ type ServicePrincipal interface {
 
 // The jsii proxy struct for ServicePrincipal
 type jsiiProxy_ServicePrincipal struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_ServicePrincipal) AccountEnabled() interface{} {
@@ -276,8 +276,8 @@ func (j *jsiiProxy_ServicePrincipal) AppRoleAssignmentRequiredInput() interface{
 	return returns
 }
 
-func (j *jsiiProxy_ServicePrincipal) AppRoleIds() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_ServicePrincipal) AppRoleIds() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"appRoleIds",
@@ -296,8 +296,8 @@ func (j *jsiiProxy_ServicePrincipal) AppRoles() ServicePrincipalAppRolesList {
 	return returns
 }
 
-func (j *jsiiProxy_ServicePrincipal) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_ServicePrincipal) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -436,8 +436,8 @@ func (j *jsiiProxy_ServicePrincipal) FeatureTagsInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_ServicePrincipal) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_ServicePrincipal) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -496,8 +496,8 @@ func (j *jsiiProxy_ServicePrincipal) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ServicePrincipal) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_ServicePrincipal) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -586,8 +586,8 @@ func (j *jsiiProxy_ServicePrincipal) NotificationEmailAddressesInput() *[]*strin
 	return returns
 }
 
-func (j *jsiiProxy_ServicePrincipal) Oauth2PermissionScopeIds() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_ServicePrincipal) Oauth2PermissionScopeIds() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"oauth2PermissionScopeIds",
@@ -656,8 +656,8 @@ func (j *jsiiProxy_ServicePrincipal) PreferredSingleSignOnModeInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ServicePrincipal) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_ServicePrincipal) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -766,8 +766,8 @@ func (j *jsiiProxy_ServicePrincipal) TagsInput() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_ServicePrincipal) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_ServicePrincipal) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -857,7 +857,7 @@ func NewServicePrincipal(scope constructs.Construct, id *string, config *Service
 	j := jsiiProxy_ServicePrincipal{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.servicePrincipal.ServicePrincipal",
+		"@cdktn/provider-azuread.servicePrincipal.ServicePrincipal",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -870,7 +870,7 @@ func NewServicePrincipal_Override(s ServicePrincipal, scope constructs.Construct
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.servicePrincipal.ServicePrincipal",
+		"@cdktn/provider-azuread.servicePrincipal.ServicePrincipal",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -961,7 +961,7 @@ func (j *jsiiProxy_ServicePrincipal)SetDescription(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ServicePrincipal)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_ServicePrincipal)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -980,7 +980,7 @@ func (j *jsiiProxy_ServicePrincipal)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ServicePrincipal)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_ServicePrincipal)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -1046,7 +1046,7 @@ func (j *jsiiProxy_ServicePrincipal)SetPreferredSingleSignOnMode(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ServicePrincipal)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_ServicePrincipal)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1087,17 +1087,17 @@ func (j *jsiiProxy_ServicePrincipal)SetUseExisting(val interface{}) {
 	)
 }
 
-// Generates CDKTF code for importing a ServicePrincipal resource upon running "cdktf plan <stack-name>".
-func ServicePrincipal_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a ServicePrincipal resource upon running "cdktn plan <stack-name>".
+func ServicePrincipal_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateServicePrincipal_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azuread.servicePrincipal.ServicePrincipal",
+		"@cdktn/provider-azuread.servicePrincipal.ServicePrincipal",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1132,7 +1132,7 @@ func ServicePrincipal_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azuread.servicePrincipal.ServicePrincipal",
+		"@cdktn/provider-azuread.servicePrincipal.ServicePrincipal",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1151,7 +1151,7 @@ func ServicePrincipal_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azuread.servicePrincipal.ServicePrincipal",
+		"@cdktn/provider-azuread.servicePrincipal.ServicePrincipal",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1170,7 +1170,7 @@ func ServicePrincipal_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azuread.servicePrincipal.ServicePrincipal",
+		"@cdktn/provider-azuread.servicePrincipal.ServicePrincipal",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1183,7 +1183,7 @@ func ServicePrincipal_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azuread.servicePrincipal.ServicePrincipal",
+		"@cdktn/provider-azuread.servicePrincipal.ServicePrincipal",
 		"tfResourceType",
 		&returns,
 	)
@@ -1228,11 +1228,11 @@ func (s *jsiiProxy_ServicePrincipal) GetAnyMapAttribute(terraformAttribute *stri
 	return returns
 }
 
-func (s *jsiiProxy_ServicePrincipal) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_ServicePrincipal) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -1369,7 +1369,7 @@ func (s *jsiiProxy_ServicePrincipal) HasResourceMove() interface{} {
 	return returns
 }
 
-func (s *jsiiProxy_ServicePrincipal) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (s *jsiiProxy_ServicePrincipal) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := s.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1380,11 +1380,11 @@ func (s *jsiiProxy_ServicePrincipal) ImportFrom(id *string, provider cdktf.Terra
 	)
 }
 
-func (s *jsiiProxy_ServicePrincipal) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_ServicePrincipal) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,

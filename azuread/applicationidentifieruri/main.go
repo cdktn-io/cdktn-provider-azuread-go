@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package applicationidentifieruri
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.applicationIdentifierUri.ApplicationIdentifierUri",
+		"@cdktn/provider-azuread.applicationIdentifierUri.ApplicationIdentifierUri",
 		reflect.TypeOf((*ApplicationIdentifierUri)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -69,20 +69,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApplicationIdentifierUri{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.applicationIdentifierUri.ApplicationIdentifierUriConfig",
+		"@cdktn/provider-azuread.applicationIdentifierUri.ApplicationIdentifierUriConfig",
 		reflect.TypeOf((*ApplicationIdentifierUriConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.applicationIdentifierUri.ApplicationIdentifierUriTimeouts",
+		"@cdktn/provider-azuread.applicationIdentifierUri.ApplicationIdentifierUriTimeouts",
 		reflect.TypeOf((*ApplicationIdentifierUriTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.applicationIdentifierUri.ApplicationIdentifierUriTimeoutsOutputReference",
+		"@cdktn/provider-azuread.applicationIdentifierUri.ApplicationIdentifierUriTimeoutsOutputReference",
 		reflect.TypeOf((*ApplicationIdentifierUriTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -118,7 +118,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApplicationIdentifierUriTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

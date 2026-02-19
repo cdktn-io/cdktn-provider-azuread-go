@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazureaddomains
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadDomains.DataAzureadDomains",
+		"@cdktn/provider-azuread.dataAzureadDomains.DataAzureadDomains",
 		reflect.TypeOf((*DataAzureadDomains)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -76,20 +76,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadDomains{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformDataSource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.dataAzureadDomains.DataAzureadDomainsConfig",
+		"@cdktn/provider-azuread.dataAzureadDomains.DataAzureadDomainsConfig",
 		reflect.TypeOf((*DataAzureadDomainsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.dataAzureadDomains.DataAzureadDomainsDomains",
+		"@cdktn/provider-azuread.dataAzureadDomains.DataAzureadDomainsDomains",
 		reflect.TypeOf((*DataAzureadDomainsDomains)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadDomains.DataAzureadDomainsDomainsList",
+		"@cdktn/provider-azuread.dataAzureadDomains.DataAzureadDomainsDomainsList",
 		reflect.TypeOf((*DataAzureadDomainsDomainsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -105,12 +105,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadDomainsDomainsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadDomains.DataAzureadDomainsDomainsOutputReference",
+		"@cdktn/provider-azuread.dataAzureadDomains.DataAzureadDomainsDomainsOutputReference",
 		reflect.TypeOf((*DataAzureadDomainsDomainsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "adminManaged", GoGetter: "AdminManaged"},
@@ -145,16 +145,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadDomainsDomainsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.dataAzureadDomains.DataAzureadDomainsTimeouts",
+		"@cdktn/provider-azuread.dataAzureadDomains.DataAzureadDomainsTimeouts",
 		reflect.TypeOf((*DataAzureadDomainsTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadDomains.DataAzureadDomainsTimeoutsOutputReference",
+		"@cdktn/provider-azuread.dataAzureadDomains.DataAzureadDomainsTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzureadDomainsTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -184,7 +184,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadDomainsTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

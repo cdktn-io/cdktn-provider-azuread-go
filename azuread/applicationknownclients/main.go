@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package applicationknownclients
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.applicationKnownClients.ApplicationKnownClients",
+		"@cdktn/provider-azuread.applicationKnownClients.ApplicationKnownClients",
 		reflect.TypeOf((*ApplicationKnownClients)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -69,20 +69,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApplicationKnownClients{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.applicationKnownClients.ApplicationKnownClientsConfig",
+		"@cdktn/provider-azuread.applicationKnownClients.ApplicationKnownClientsConfig",
 		reflect.TypeOf((*ApplicationKnownClientsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.applicationKnownClients.ApplicationKnownClientsTimeouts",
+		"@cdktn/provider-azuread.applicationKnownClients.ApplicationKnownClientsTimeouts",
 		reflect.TypeOf((*ApplicationKnownClientsTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.applicationKnownClients.ApplicationKnownClientsTimeoutsOutputReference",
+		"@cdktn/provider-azuread.applicationKnownClients.ApplicationKnownClientsTimeoutsOutputReference",
 		reflect.TypeOf((*ApplicationKnownClientsTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -121,7 +121,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApplicationKnownClientsTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

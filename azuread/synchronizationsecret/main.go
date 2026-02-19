@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package synchronizationsecret
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.synchronizationSecret.SynchronizationSecret",
+		"@cdktn/provider-azuread.synchronizationSecret.SynchronizationSecret",
 		reflect.TypeOf((*SynchronizationSecret)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -71,20 +71,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SynchronizationSecret{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.synchronizationSecret.SynchronizationSecretConfig",
+		"@cdktn/provider-azuread.synchronizationSecret.SynchronizationSecretConfig",
 		reflect.TypeOf((*SynchronizationSecretConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.synchronizationSecret.SynchronizationSecretCredential",
+		"@cdktn/provider-azuread.synchronizationSecret.SynchronizationSecretCredential",
 		reflect.TypeOf((*SynchronizationSecretCredential)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.synchronizationSecret.SynchronizationSecretCredentialList",
+		"@cdktn/provider-azuread.synchronizationSecret.SynchronizationSecretCredentialList",
 		reflect.TypeOf((*SynchronizationSecretCredentialList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -101,12 +101,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SynchronizationSecretCredentialList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.synchronizationSecret.SynchronizationSecretCredentialOutputReference",
+		"@cdktn/provider-azuread.synchronizationSecret.SynchronizationSecretCredentialOutputReference",
 		reflect.TypeOf((*SynchronizationSecretCredentialOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -137,16 +137,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SynchronizationSecretCredentialOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.synchronizationSecret.SynchronizationSecretTimeouts",
+		"@cdktn/provider-azuread.synchronizationSecret.SynchronizationSecretTimeouts",
 		reflect.TypeOf((*SynchronizationSecretTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.synchronizationSecret.SynchronizationSecretTimeoutsOutputReference",
+		"@cdktn/provider-azuread.synchronizationSecret.SynchronizationSecretTimeoutsOutputReference",
 		reflect.TypeOf((*SynchronizationSecretTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -185,7 +185,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_SynchronizationSecretTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

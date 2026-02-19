@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package applicationapprole
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.applicationAppRole.ApplicationAppRoleA",
+		"@cdktn/provider-azuread.applicationAppRole.ApplicationAppRoleA",
 		reflect.TypeOf((*ApplicationAppRoleA)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -78,20 +78,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApplicationAppRoleA{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.applicationAppRole.ApplicationAppRoleAConfig",
+		"@cdktn/provider-azuread.applicationAppRole.ApplicationAppRoleAConfig",
 		reflect.TypeOf((*ApplicationAppRoleAConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.applicationAppRole.ApplicationAppRoleTimeouts",
+		"@cdktn/provider-azuread.applicationAppRole.ApplicationAppRoleTimeouts",
 		reflect.TypeOf((*ApplicationAppRoleTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.applicationAppRole.ApplicationAppRoleTimeoutsOutputReference",
+		"@cdktn/provider-azuread.applicationAppRole.ApplicationAppRoleTimeoutsOutputReference",
 		reflect.TypeOf((*ApplicationAppRoleTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -130,7 +130,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApplicationAppRoleTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

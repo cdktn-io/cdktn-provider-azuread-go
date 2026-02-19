@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package namedlocation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/namedlocation/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/namedlocation/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type NamedLocationCountryOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,15 +46,15 @@ type NamedLocationCountryOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,14 +70,14 @@ type NamedLocationCountryOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCountryLookupMethod()
 	ResetIncludeUnknownCountriesAndRegions()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -87,7 +87,7 @@ type NamedLocationCountryOutputReference interface {
 
 // The jsii proxy struct for NamedLocationCountryOutputReference
 type jsiiProxy_NamedLocationCountryOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_NamedLocationCountryOutputReference) ComplexObjectIndex() interface{} {
@@ -210,8 +210,8 @@ func (j *jsiiProxy_NamedLocationCountryOutputReference) TerraformAttribute() *st
 	return returns
 }
 
-func (j *jsiiProxy_NamedLocationCountryOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_NamedLocationCountryOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -221,7 +221,7 @@ func (j *jsiiProxy_NamedLocationCountryOutputReference) TerraformResource() cdkt
 }
 
 
-func NewNamedLocationCountryOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) NamedLocationCountryOutputReference {
+func NewNamedLocationCountryOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) NamedLocationCountryOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewNamedLocationCountryOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -230,7 +230,7 @@ func NewNamedLocationCountryOutputReference(terraformResource cdktf.IInterpolati
 	j := jsiiProxy_NamedLocationCountryOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.namedLocation.NamedLocationCountryOutputReference",
+		"@cdktn/provider-azuread.namedLocation.NamedLocationCountryOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -238,11 +238,11 @@ func NewNamedLocationCountryOutputReference(terraformResource cdktf.IInterpolati
 	return &j
 }
 
-func NewNamedLocationCountryOutputReference_Override(n NamedLocationCountryOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewNamedLocationCountryOutputReference_Override(n NamedLocationCountryOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.namedLocation.NamedLocationCountryOutputReference",
+		"@cdktn/provider-azuread.namedLocation.NamedLocationCountryOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		n,
 	)
@@ -325,7 +325,7 @@ func (j *jsiiProxy_NamedLocationCountryOutputReference)SetTerraformAttribute(val
 	)
 }
 
-func (j *jsiiProxy_NamedLocationCountryOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_NamedLocationCountryOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -365,11 +365,11 @@ func (n *jsiiProxy_NamedLocationCountryOutputReference) GetAnyMapAttribute(terra
 	return returns
 }
 
-func (n *jsiiProxy_NamedLocationCountryOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NamedLocationCountryOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -493,8 +493,8 @@ func (n *jsiiProxy_NamedLocationCountryOutputReference) GetStringMapAttribute(te
 	return returns
 }
 
-func (n *jsiiProxy_NamedLocationCountryOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (n *jsiiProxy_NamedLocationCountryOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -506,11 +506,11 @@ func (n *jsiiProxy_NamedLocationCountryOutputReference) InterpolationAsList() cd
 	return returns
 }
 
-func (n *jsiiProxy_NamedLocationCountryOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NamedLocationCountryOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -538,7 +538,7 @@ func (n *jsiiProxy_NamedLocationCountryOutputReference) ResetIncludeUnknownCount
 	)
 }
 
-func (n *jsiiProxy_NamedLocationCountryOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (n *jsiiProxy_NamedLocationCountryOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := n.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

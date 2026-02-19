@@ -1,22 +1,22 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package invitation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/invitation/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/invitation/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azuread/3.7.0/docs/resources/invitation azuread_invitation}.
 type Invitation interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -32,9 +32,9 @@ type Invitation interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -43,17 +43,17 @@ type Invitation interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Message() InvitationMessageOutputReference
 	MessageInput() *InvitationMessage
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -65,7 +65,7 @@ type Invitation interface {
 	SetRedirectUrl(val *string)
 	RedirectUrlInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -90,7 +90,7 @@ type Invitation interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -108,9 +108,9 @@ type Invitation interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -150,11 +150,11 @@ type Invitation interface {
 
 // The jsii proxy struct for Invitation
 type jsiiProxy_Invitation struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_Invitation) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_Invitation) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -203,8 +203,8 @@ func (j *jsiiProxy_Invitation) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_Invitation) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_Invitation) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -253,8 +253,8 @@ func (j *jsiiProxy_Invitation) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_Invitation) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_Invitation) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -293,8 +293,8 @@ func (j *jsiiProxy_Invitation) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_Invitation) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_Invitation) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -353,8 +353,8 @@ func (j *jsiiProxy_Invitation) RedirectUrlInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_Invitation) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_Invitation) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -484,7 +484,7 @@ func NewInvitation(scope constructs.Construct, id *string, config *InvitationCon
 	j := jsiiProxy_Invitation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.invitation.Invitation",
+		"@cdktn/provider-azuread.invitation.Invitation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -497,7 +497,7 @@ func NewInvitation_Override(i Invitation, scope constructs.Construct, id *string
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.invitation.Invitation",
+		"@cdktn/provider-azuread.invitation.Invitation",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -533,7 +533,7 @@ func (j *jsiiProxy_Invitation)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_Invitation)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_Invitation)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -552,7 +552,7 @@ func (j *jsiiProxy_Invitation)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_Invitation)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_Invitation)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -563,7 +563,7 @@ func (j *jsiiProxy_Invitation)SetLifecycle(val *cdktf.TerraformResourceLifecycle
 	)
 }
 
-func (j *jsiiProxy_Invitation)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_Invitation)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -626,17 +626,17 @@ func (j *jsiiProxy_Invitation)SetUserType(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a Invitation resource upon running "cdktf plan <stack-name>".
-func Invitation_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a Invitation resource upon running "cdktn plan <stack-name>".
+func Invitation_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateInvitation_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azuread.invitation.Invitation",
+		"@cdktn/provider-azuread.invitation.Invitation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -671,7 +671,7 @@ func Invitation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azuread.invitation.Invitation",
+		"@cdktn/provider-azuread.invitation.Invitation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -690,7 +690,7 @@ func Invitation_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azuread.invitation.Invitation",
+		"@cdktn/provider-azuread.invitation.Invitation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -709,7 +709,7 @@ func Invitation_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azuread.invitation.Invitation",
+		"@cdktn/provider-azuread.invitation.Invitation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -722,7 +722,7 @@ func Invitation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azuread.invitation.Invitation",
+		"@cdktn/provider-azuread.invitation.Invitation",
 		"tfResourceType",
 		&returns,
 	)
@@ -767,11 +767,11 @@ func (i *jsiiProxy_Invitation) GetAnyMapAttribute(terraformAttribute *string) *m
 	return returns
 }
 
-func (i *jsiiProxy_Invitation) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_Invitation) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -908,7 +908,7 @@ func (i *jsiiProxy_Invitation) HasResourceMove() interface{} {
 	return returns
 }
 
-func (i *jsiiProxy_Invitation) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (i *jsiiProxy_Invitation) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := i.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -919,11 +919,11 @@ func (i *jsiiProxy_Invitation) ImportFrom(id *string, provider cdktf.TerraformPr
 	)
 }
 
-func (i *jsiiProxy_Invitation) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_Invitation) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,

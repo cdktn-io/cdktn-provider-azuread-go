@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package namedlocation
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.namedLocation.NamedLocation",
+		"@cdktn/provider-azuread.namedLocation.NamedLocation",
 		reflect.TypeOf((*NamedLocation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,20 +76,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NamedLocation{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.namedLocation.NamedLocationConfig",
+		"@cdktn/provider-azuread.namedLocation.NamedLocationConfig",
 		reflect.TypeOf((*NamedLocationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.namedLocation.NamedLocationCountry",
+		"@cdktn/provider-azuread.namedLocation.NamedLocationCountry",
 		reflect.TypeOf((*NamedLocationCountry)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.namedLocation.NamedLocationCountryOutputReference",
+		"@cdktn/provider-azuread.namedLocation.NamedLocationCountryOutputReference",
 		reflect.TypeOf((*NamedLocationCountryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -124,16 +124,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NamedLocationCountryOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.namedLocation.NamedLocationIp",
+		"@cdktn/provider-azuread.namedLocation.NamedLocationIp",
 		reflect.TypeOf((*NamedLocationIp)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.namedLocation.NamedLocationIpOutputReference",
+		"@cdktn/provider-azuread.namedLocation.NamedLocationIpOutputReference",
 		reflect.TypeOf((*NamedLocationIpOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -165,16 +165,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NamedLocationIpOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.namedLocation.NamedLocationTimeouts",
+		"@cdktn/provider-azuread.namedLocation.NamedLocationTimeouts",
 		reflect.TypeOf((*NamedLocationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.namedLocation.NamedLocationTimeoutsOutputReference",
+		"@cdktn/provider-azuread.namedLocation.NamedLocationTimeoutsOutputReference",
 		reflect.TypeOf((*NamedLocationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -213,7 +213,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NamedLocationTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

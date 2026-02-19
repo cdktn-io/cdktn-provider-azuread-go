@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package conditionalaccesspolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicy",
+		"@cdktn/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicy",
 		reflect.TypeOf((*ConditionalAccessPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,20 +81,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ConditionalAccessPolicy{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditions",
+		"@cdktn/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditions",
 		reflect.TypeOf((*ConditionalAccessPolicyConditions)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsApplications",
+		"@cdktn/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsApplications",
 		reflect.TypeOf((*ConditionalAccessPolicyConditionsApplications)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsApplicationsOutputReference",
+		"@cdktn/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsApplicationsOutputReference",
 		reflect.TypeOf((*ConditionalAccessPolicyConditionsApplicationsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -130,20 +130,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ConditionalAccessPolicyConditionsApplicationsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsClientApplications",
+		"@cdktn/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsClientApplications",
 		reflect.TypeOf((*ConditionalAccessPolicyConditionsClientApplications)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsClientApplicationsFilter",
+		"@cdktn/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsClientApplicationsFilter",
 		reflect.TypeOf((*ConditionalAccessPolicyConditionsClientApplicationsFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsClientApplicationsFilterOutputReference",
+		"@cdktn/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsClientApplicationsFilterOutputReference",
 		reflect.TypeOf((*ConditionalAccessPolicyConditionsClientApplicationsFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -174,12 +174,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ConditionalAccessPolicyConditionsClientApplicationsFilterOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsClientApplicationsOutputReference",
+		"@cdktn/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsClientApplicationsOutputReference",
 		reflect.TypeOf((*ConditionalAccessPolicyConditionsClientApplicationsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -216,20 +216,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ConditionalAccessPolicyConditionsClientApplicationsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsDevices",
+		"@cdktn/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsDevices",
 		reflect.TypeOf((*ConditionalAccessPolicyConditionsDevices)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsDevicesFilter",
+		"@cdktn/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsDevicesFilter",
 		reflect.TypeOf((*ConditionalAccessPolicyConditionsDevicesFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsDevicesFilterOutputReference",
+		"@cdktn/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsDevicesFilterOutputReference",
 		reflect.TypeOf((*ConditionalAccessPolicyConditionsDevicesFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -260,12 +260,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ConditionalAccessPolicyConditionsDevicesFilterOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsDevicesOutputReference",
+		"@cdktn/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsDevicesOutputReference",
 		reflect.TypeOf((*ConditionalAccessPolicyConditionsDevicesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -296,16 +296,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ConditionalAccessPolicyConditionsDevicesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsLocations",
+		"@cdktn/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsLocations",
 		reflect.TypeOf((*ConditionalAccessPolicyConditionsLocations)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsLocationsOutputReference",
+		"@cdktn/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsLocationsOutputReference",
 		reflect.TypeOf((*ConditionalAccessPolicyConditionsLocationsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -337,12 +337,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ConditionalAccessPolicyConditionsLocationsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsOutputReference",
+		"@cdktn/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsOutputReference",
 		reflect.TypeOf((*ConditionalAccessPolicyConditionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "applications", GoGetter: "Applications"},
@@ -408,16 +408,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ConditionalAccessPolicyConditionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsPlatforms",
+		"@cdktn/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsPlatforms",
 		reflect.TypeOf((*ConditionalAccessPolicyConditionsPlatforms)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsPlatformsOutputReference",
+		"@cdktn/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsPlatformsOutputReference",
 		reflect.TypeOf((*ConditionalAccessPolicyConditionsPlatformsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -449,24 +449,24 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ConditionalAccessPolicyConditionsPlatformsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsUsers",
+		"@cdktn/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsUsers",
 		reflect.TypeOf((*ConditionalAccessPolicyConditionsUsers)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsUsersExcludedGuestsOrExternalUsers",
+		"@cdktn/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsUsersExcludedGuestsOrExternalUsers",
 		reflect.TypeOf((*ConditionalAccessPolicyConditionsUsersExcludedGuestsOrExternalUsers)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsUsersExcludedGuestsOrExternalUsersExternalTenants",
+		"@cdktn/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsUsersExcludedGuestsOrExternalUsersExternalTenants",
 		reflect.TypeOf((*ConditionalAccessPolicyConditionsUsersExcludedGuestsOrExternalUsersExternalTenants)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsUsersExcludedGuestsOrExternalUsersExternalTenantsList",
+		"@cdktn/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsUsersExcludedGuestsOrExternalUsersExternalTenantsList",
 		reflect.TypeOf((*ConditionalAccessPolicyConditionsUsersExcludedGuestsOrExternalUsersExternalTenantsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -483,12 +483,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ConditionalAccessPolicyConditionsUsersExcludedGuestsOrExternalUsersExternalTenantsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsUsersExcludedGuestsOrExternalUsersExternalTenantsOutputReference",
+		"@cdktn/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsUsersExcludedGuestsOrExternalUsersExternalTenantsOutputReference",
 		reflect.TypeOf((*ConditionalAccessPolicyConditionsUsersExcludedGuestsOrExternalUsersExternalTenantsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -520,12 +520,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ConditionalAccessPolicyConditionsUsersExcludedGuestsOrExternalUsersExternalTenantsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsUsersExcludedGuestsOrExternalUsersList",
+		"@cdktn/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsUsersExcludedGuestsOrExternalUsersList",
 		reflect.TypeOf((*ConditionalAccessPolicyConditionsUsersExcludedGuestsOrExternalUsersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -542,12 +542,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ConditionalAccessPolicyConditionsUsersExcludedGuestsOrExternalUsersList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsUsersExcludedGuestsOrExternalUsersOutputReference",
+		"@cdktn/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsUsersExcludedGuestsOrExternalUsersOutputReference",
 		reflect.TypeOf((*ConditionalAccessPolicyConditionsUsersExcludedGuestsOrExternalUsersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -580,20 +580,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ConditionalAccessPolicyConditionsUsersExcludedGuestsOrExternalUsersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsUsersIncludedGuestsOrExternalUsers",
+		"@cdktn/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsUsersIncludedGuestsOrExternalUsers",
 		reflect.TypeOf((*ConditionalAccessPolicyConditionsUsersIncludedGuestsOrExternalUsers)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsUsersIncludedGuestsOrExternalUsersExternalTenants",
+		"@cdktn/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsUsersIncludedGuestsOrExternalUsersExternalTenants",
 		reflect.TypeOf((*ConditionalAccessPolicyConditionsUsersIncludedGuestsOrExternalUsersExternalTenants)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsUsersIncludedGuestsOrExternalUsersExternalTenantsList",
+		"@cdktn/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsUsersIncludedGuestsOrExternalUsersExternalTenantsList",
 		reflect.TypeOf((*ConditionalAccessPolicyConditionsUsersIncludedGuestsOrExternalUsersExternalTenantsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -610,12 +610,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ConditionalAccessPolicyConditionsUsersIncludedGuestsOrExternalUsersExternalTenantsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsUsersIncludedGuestsOrExternalUsersExternalTenantsOutputReference",
+		"@cdktn/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsUsersIncludedGuestsOrExternalUsersExternalTenantsOutputReference",
 		reflect.TypeOf((*ConditionalAccessPolicyConditionsUsersIncludedGuestsOrExternalUsersExternalTenantsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -647,12 +647,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ConditionalAccessPolicyConditionsUsersIncludedGuestsOrExternalUsersExternalTenantsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsUsersIncludedGuestsOrExternalUsersList",
+		"@cdktn/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsUsersIncludedGuestsOrExternalUsersList",
 		reflect.TypeOf((*ConditionalAccessPolicyConditionsUsersIncludedGuestsOrExternalUsersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -669,12 +669,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ConditionalAccessPolicyConditionsUsersIncludedGuestsOrExternalUsersList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsUsersIncludedGuestsOrExternalUsersOutputReference",
+		"@cdktn/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsUsersIncludedGuestsOrExternalUsersOutputReference",
 		reflect.TypeOf((*ConditionalAccessPolicyConditionsUsersIncludedGuestsOrExternalUsersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -707,12 +707,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ConditionalAccessPolicyConditionsUsersIncludedGuestsOrExternalUsersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsUsersOutputReference",
+		"@cdktn/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsUsersOutputReference",
 		reflect.TypeOf((*ConditionalAccessPolicyConditionsUsersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -765,20 +765,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ConditionalAccessPolicyConditionsUsersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConfig",
+		"@cdktn/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyConfig",
 		reflect.TypeOf((*ConditionalAccessPolicyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyGrantControls",
+		"@cdktn/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyGrantControls",
 		reflect.TypeOf((*ConditionalAccessPolicyGrantControls)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyGrantControlsOutputReference",
+		"@cdktn/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyGrantControlsOutputReference",
 		reflect.TypeOf((*ConditionalAccessPolicyGrantControlsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authenticationStrengthPolicyId", GoGetter: "AuthenticationStrengthPolicyId"},
@@ -819,16 +819,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ConditionalAccessPolicyGrantControlsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicySessionControls",
+		"@cdktn/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicySessionControls",
 		reflect.TypeOf((*ConditionalAccessPolicySessionControls)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicySessionControlsOutputReference",
+		"@cdktn/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicySessionControlsOutputReference",
 		reflect.TypeOf((*ConditionalAccessPolicySessionControlsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "applicationEnforcedRestrictionsEnabled", GoGetter: "ApplicationEnforcedRestrictionsEnabled"},
@@ -879,16 +879,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ConditionalAccessPolicySessionControlsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyTimeouts",
+		"@cdktn/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyTimeouts",
 		reflect.TypeOf((*ConditionalAccessPolicyTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyTimeoutsOutputReference",
+		"@cdktn/provider-azuread.conditionalAccessPolicy.ConditionalAccessPolicyTimeoutsOutputReference",
 		reflect.TypeOf((*ConditionalAccessPolicyTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -927,7 +927,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ConditionalAccessPolicyTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

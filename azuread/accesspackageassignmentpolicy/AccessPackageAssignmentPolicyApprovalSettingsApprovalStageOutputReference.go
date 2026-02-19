@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package accesspackageassignmentpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/accesspackageassignmentpolicy/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/accesspackageassignmentpolicy/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AccessPackageAssignmentPolicyApprovalSettingsApprovalStageOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AlternativeApprovalEnabled() interface{}
 	SetAlternativeApprovalEnabled(val interface{})
 	AlternativeApprovalEnabledInput() interface{}
@@ -53,15 +53,15 @@ type AccessPackageAssignmentPolicyApprovalSettingsApprovalStageOutputReference i
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -77,9 +77,9 @@ type AccessPackageAssignmentPolicyApprovalSettingsApprovalStageOutputReference i
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAlternativeApprover(value interface{})
 	PutPrimaryApprover(value interface{})
 	ResetAlternativeApprovalEnabled()
@@ -89,7 +89,7 @@ type AccessPackageAssignmentPolicyApprovalSettingsApprovalStageOutputReference i
 	ResetPrimaryApprover()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -99,7 +99,7 @@ type AccessPackageAssignmentPolicyApprovalSettingsApprovalStageOutputReference i
 
 // The jsii proxy struct for AccessPackageAssignmentPolicyApprovalSettingsApprovalStageOutputReference
 type jsiiProxy_AccessPackageAssignmentPolicyApprovalSettingsApprovalStageOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_AccessPackageAssignmentPolicyApprovalSettingsApprovalStageOutputReference) AlternativeApprovalEnabled() interface{} {
@@ -282,8 +282,8 @@ func (j *jsiiProxy_AccessPackageAssignmentPolicyApprovalSettingsApprovalStageOut
 	return returns
 }
 
-func (j *jsiiProxy_AccessPackageAssignmentPolicyApprovalSettingsApprovalStageOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AccessPackageAssignmentPolicyApprovalSettingsApprovalStageOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -293,7 +293,7 @@ func (j *jsiiProxy_AccessPackageAssignmentPolicyApprovalSettingsApprovalStageOut
 }
 
 
-func NewAccessPackageAssignmentPolicyApprovalSettingsApprovalStageOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) AccessPackageAssignmentPolicyApprovalSettingsApprovalStageOutputReference {
+func NewAccessPackageAssignmentPolicyApprovalSettingsApprovalStageOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) AccessPackageAssignmentPolicyApprovalSettingsApprovalStageOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewAccessPackageAssignmentPolicyApprovalSettingsApprovalStageOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -302,7 +302,7 @@ func NewAccessPackageAssignmentPolicyApprovalSettingsApprovalStageOutputReferenc
 	j := jsiiProxy_AccessPackageAssignmentPolicyApprovalSettingsApprovalStageOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.accessPackageAssignmentPolicy.AccessPackageAssignmentPolicyApprovalSettingsApprovalStageOutputReference",
+		"@cdktn/provider-azuread.accessPackageAssignmentPolicy.AccessPackageAssignmentPolicyApprovalSettingsApprovalStageOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -310,11 +310,11 @@ func NewAccessPackageAssignmentPolicyApprovalSettingsApprovalStageOutputReferenc
 	return &j
 }
 
-func NewAccessPackageAssignmentPolicyApprovalSettingsApprovalStageOutputReference_Override(a AccessPackageAssignmentPolicyApprovalSettingsApprovalStageOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewAccessPackageAssignmentPolicyApprovalSettingsApprovalStageOutputReference_Override(a AccessPackageAssignmentPolicyApprovalSettingsApprovalStageOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.accessPackageAssignmentPolicy.AccessPackageAssignmentPolicyApprovalSettingsApprovalStageOutputReference",
+		"@cdktn/provider-azuread.accessPackageAssignmentPolicy.AccessPackageAssignmentPolicyApprovalSettingsApprovalStageOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		a,
 	)
@@ -408,7 +408,7 @@ func (j *jsiiProxy_AccessPackageAssignmentPolicyApprovalSettingsApprovalStageOut
 	)
 }
 
-func (j *jsiiProxy_AccessPackageAssignmentPolicyApprovalSettingsApprovalStageOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AccessPackageAssignmentPolicyApprovalSettingsApprovalStageOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -448,11 +448,11 @@ func (a *jsiiProxy_AccessPackageAssignmentPolicyApprovalSettingsApprovalStageOut
 	return returns
 }
 
-func (a *jsiiProxy_AccessPackageAssignmentPolicyApprovalSettingsApprovalStageOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AccessPackageAssignmentPolicyApprovalSettingsApprovalStageOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -576,8 +576,8 @@ func (a *jsiiProxy_AccessPackageAssignmentPolicyApprovalSettingsApprovalStageOut
 	return returns
 }
 
-func (a *jsiiProxy_AccessPackageAssignmentPolicyApprovalSettingsApprovalStageOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_AccessPackageAssignmentPolicyApprovalSettingsApprovalStageOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -589,11 +589,11 @@ func (a *jsiiProxy_AccessPackageAssignmentPolicyApprovalSettingsApprovalStageOut
 	return returns
 }
 
-func (a *jsiiProxy_AccessPackageAssignmentPolicyApprovalSettingsApprovalStageOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AccessPackageAssignmentPolicyApprovalSettingsApprovalStageOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -667,7 +667,7 @@ func (a *jsiiProxy_AccessPackageAssignmentPolicyApprovalSettingsApprovalStageOut
 	)
 }
 
-func (a *jsiiProxy_AccessPackageAssignmentPolicyApprovalSettingsApprovalStageOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AccessPackageAssignmentPolicyApprovalSettingsApprovalStageOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

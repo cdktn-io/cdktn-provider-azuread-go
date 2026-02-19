@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package application
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/application/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/application/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ApplicationOptionalClaimsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AccessToken() ApplicationOptionalClaimsAccessTokenList
 	AccessTokenInput() interface{}
 	// the index of the complex object in a list.
@@ -43,15 +43,15 @@ type ApplicationOptionalClaimsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,9 +67,9 @@ type ApplicationOptionalClaimsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAccessToken(value interface{})
 	PutIdToken(value interface{})
 	PutSaml2Token(value interface{})
@@ -78,7 +78,7 @@ type ApplicationOptionalClaimsOutputReference interface {
 	ResetSaml2Token()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type ApplicationOptionalClaimsOutputReference interface {
 
 // The jsii proxy struct for ApplicationOptionalClaimsOutputReference
 type jsiiProxy_ApplicationOptionalClaimsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ApplicationOptionalClaimsOutputReference) AccessToken() ApplicationOptionalClaimsAccessTokenList {
@@ -211,8 +211,8 @@ func (j *jsiiProxy_ApplicationOptionalClaimsOutputReference) TerraformAttribute(
 	return returns
 }
 
-func (j *jsiiProxy_ApplicationOptionalClaimsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ApplicationOptionalClaimsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_ApplicationOptionalClaimsOutputReference) TerraformResource()
 }
 
 
-func NewApplicationOptionalClaimsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ApplicationOptionalClaimsOutputReference {
+func NewApplicationOptionalClaimsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ApplicationOptionalClaimsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewApplicationOptionalClaimsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -231,7 +231,7 @@ func NewApplicationOptionalClaimsOutputReference(terraformResource cdktf.IInterp
 	j := jsiiProxy_ApplicationOptionalClaimsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.application.ApplicationOptionalClaimsOutputReference",
+		"@cdktn/provider-azuread.application.ApplicationOptionalClaimsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -239,11 +239,11 @@ func NewApplicationOptionalClaimsOutputReference(terraformResource cdktf.IInterp
 	return &j
 }
 
-func NewApplicationOptionalClaimsOutputReference_Override(a ApplicationOptionalClaimsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewApplicationOptionalClaimsOutputReference_Override(a ApplicationOptionalClaimsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.application.ApplicationOptionalClaimsOutputReference",
+		"@cdktn/provider-azuread.application.ApplicationOptionalClaimsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)
@@ -293,7 +293,7 @@ func (j *jsiiProxy_ApplicationOptionalClaimsOutputReference)SetTerraformAttribut
 	)
 }
 
-func (j *jsiiProxy_ApplicationOptionalClaimsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ApplicationOptionalClaimsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -333,11 +333,11 @@ func (a *jsiiProxy_ApplicationOptionalClaimsOutputReference) GetAnyMapAttribute(
 	return returns
 }
 
-func (a *jsiiProxy_ApplicationOptionalClaimsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApplicationOptionalClaimsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -461,8 +461,8 @@ func (a *jsiiProxy_ApplicationOptionalClaimsOutputReference) GetStringMapAttribu
 	return returns
 }
 
-func (a *jsiiProxy_ApplicationOptionalClaimsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_ApplicationOptionalClaimsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -474,11 +474,11 @@ func (a *jsiiProxy_ApplicationOptionalClaimsOutputReference) InterpolationAsList
 	return returns
 }
 
-func (a *jsiiProxy_ApplicationOptionalClaimsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApplicationOptionalClaimsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -547,7 +547,7 @@ func (a *jsiiProxy_ApplicationOptionalClaimsOutputReference) ResetSaml2Token() {
 	)
 }
 
-func (a *jsiiProxy_ApplicationOptionalClaimsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_ApplicationOptionalClaimsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

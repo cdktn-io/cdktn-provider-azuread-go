@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package accesspackageassignmentpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/accesspackageassignmentpolicy/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/accesspackageassignmentpolicy/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AccessPackageAssignmentPolicyAssignmentReviewSettingsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AccessRecommendationEnabled() interface{}
 	SetAccessRecommendationEnabled(val interface{})
 	AccessRecommendationEnabledInput() interface{}
@@ -63,15 +63,15 @@ type AccessPackageAssignmentPolicyAssignmentReviewSettingsOutputReference interf
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -87,9 +87,9 @@ type AccessPackageAssignmentPolicyAssignmentReviewSettingsOutputReference interf
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutReviewer(value interface{})
 	ResetAccessRecommendationEnabled()
 	ResetAccessReviewTimeoutBehavior()
@@ -102,7 +102,7 @@ type AccessPackageAssignmentPolicyAssignmentReviewSettingsOutputReference interf
 	ResetStartingOn()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -112,7 +112,7 @@ type AccessPackageAssignmentPolicyAssignmentReviewSettingsOutputReference interf
 
 // The jsii proxy struct for AccessPackageAssignmentPolicyAssignmentReviewSettingsOutputReference
 type jsiiProxy_AccessPackageAssignmentPolicyAssignmentReviewSettingsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_AccessPackageAssignmentPolicyAssignmentReviewSettingsOutputReference) AccessRecommendationEnabled() interface{} {
@@ -355,8 +355,8 @@ func (j *jsiiProxy_AccessPackageAssignmentPolicyAssignmentReviewSettingsOutputRe
 	return returns
 }
 
-func (j *jsiiProxy_AccessPackageAssignmentPolicyAssignmentReviewSettingsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AccessPackageAssignmentPolicyAssignmentReviewSettingsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -366,7 +366,7 @@ func (j *jsiiProxy_AccessPackageAssignmentPolicyAssignmentReviewSettingsOutputRe
 }
 
 
-func NewAccessPackageAssignmentPolicyAssignmentReviewSettingsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) AccessPackageAssignmentPolicyAssignmentReviewSettingsOutputReference {
+func NewAccessPackageAssignmentPolicyAssignmentReviewSettingsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) AccessPackageAssignmentPolicyAssignmentReviewSettingsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewAccessPackageAssignmentPolicyAssignmentReviewSettingsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -375,7 +375,7 @@ func NewAccessPackageAssignmentPolicyAssignmentReviewSettingsOutputReference(ter
 	j := jsiiProxy_AccessPackageAssignmentPolicyAssignmentReviewSettingsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.accessPackageAssignmentPolicy.AccessPackageAssignmentPolicyAssignmentReviewSettingsOutputReference",
+		"@cdktn/provider-azuread.accessPackageAssignmentPolicy.AccessPackageAssignmentPolicyAssignmentReviewSettingsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -383,11 +383,11 @@ func NewAccessPackageAssignmentPolicyAssignmentReviewSettingsOutputReference(ter
 	return &j
 }
 
-func NewAccessPackageAssignmentPolicyAssignmentReviewSettingsOutputReference_Override(a AccessPackageAssignmentPolicyAssignmentReviewSettingsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewAccessPackageAssignmentPolicyAssignmentReviewSettingsOutputReference_Override(a AccessPackageAssignmentPolicyAssignmentReviewSettingsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.accessPackageAssignmentPolicy.AccessPackageAssignmentPolicyAssignmentReviewSettingsOutputReference",
+		"@cdktn/provider-azuread.accessPackageAssignmentPolicy.AccessPackageAssignmentPolicyAssignmentReviewSettingsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)
@@ -525,7 +525,7 @@ func (j *jsiiProxy_AccessPackageAssignmentPolicyAssignmentReviewSettingsOutputRe
 	)
 }
 
-func (j *jsiiProxy_AccessPackageAssignmentPolicyAssignmentReviewSettingsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AccessPackageAssignmentPolicyAssignmentReviewSettingsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -565,11 +565,11 @@ func (a *jsiiProxy_AccessPackageAssignmentPolicyAssignmentReviewSettingsOutputRe
 	return returns
 }
 
-func (a *jsiiProxy_AccessPackageAssignmentPolicyAssignmentReviewSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AccessPackageAssignmentPolicyAssignmentReviewSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -693,8 +693,8 @@ func (a *jsiiProxy_AccessPackageAssignmentPolicyAssignmentReviewSettingsOutputRe
 	return returns
 }
 
-func (a *jsiiProxy_AccessPackageAssignmentPolicyAssignmentReviewSettingsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_AccessPackageAssignmentPolicyAssignmentReviewSettingsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -706,11 +706,11 @@ func (a *jsiiProxy_AccessPackageAssignmentPolicyAssignmentReviewSettingsOutputRe
 	return returns
 }
 
-func (a *jsiiProxy_AccessPackageAssignmentPolicyAssignmentReviewSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AccessPackageAssignmentPolicyAssignmentReviewSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -805,7 +805,7 @@ func (a *jsiiProxy_AccessPackageAssignmentPolicyAssignmentReviewSettingsOutputRe
 	)
 }
 
-func (a *jsiiProxy_AccessPackageAssignmentPolicyAssignmentReviewSettingsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AccessPackageAssignmentPolicyAssignmentReviewSettingsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

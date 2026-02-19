@@ -1,23 +1,51 @@
-# CDKTF Go bindings for hashicorp/azuread provider version 3.7.0
+# CDKTN Go bindings for hashicorp/azuread provider version 3.7.0
 
-HashiCorp made the decision to stop publishing new versions of prebuilt [Terraform azuread provider](https://registry.terraform.io/providers/hashicorp/azuread/3.7.0) bindings for [CDK for Terraform](https://cdk.tf) on December 10, 2025. As such, this repository has been archived and is no longer supported in any way by HashiCorp. Previously-published versions of this prebuilt provider will still continue to be available on their respective package managers (e.g. npm, PyPi, Maven, NuGet), but these will not be compatible with new releases of `cdktf` past `0.21.0` and are no longer eligible for commercial support.
+This repo builds and publishes the [Terraform azuread provider](https://registry.terraform.io/providers/hashicorp/azuread/3.7.0/docs) bindings for [CDK Terrain](https://cdktn.io).
 
-As a reminder, you can continue to use the `hashicorp/azuread` provider in your CDK for Terraform (CDKTF) projects, even with newer versions of CDKTF, but you will need to generate the bindings locally. The easiest way to do so is to use the [`provider add` command](https://developer.hashicorp.com/terraform/cdktf/cli-reference/commands#provider-add), optionally with the `--force-local` flag enabled:
+## Go Package
 
-`cdktf provider add hashicorp/azuread --force-local`
+The go package is generated into the [`github.com/cdktn-io/cdktn-provider-azuread-go`](https://github.com/cdktn-io/cdktn-provider-azuread-go) package.
 
-For more information and additional examples, check out our documentation on [generating provider bindings manually](https://cdk.tf/imports).
-
-## Deprecated Package
-
-The go package is generated into the [`github.com/cdktf/cdktf-provider-azuread-go`](https://github.com/cdktf/cdktf-provider-azuread-go) package.
-
-`go get github.com/cdktf/cdktf-provider-azuread-go/azuread/<version>`
+`go get github.com/cdktn-io/cdktn-provider-azuread-go/azuread/<version>`
 
 Where `<version>` is the version of the prebuilt provider you would like to use e.g. `v11`. The full module name can be found
-within the [go.mod](https://github.com/cdktf/cdktf-provider-azuread-go/blob/main/azuread/go.mod#L1) file.
+within the [go.mod](https://github.com/cdktn-io/cdktn-provider-azuread-go/blob/main/azuread/go.mod#L1) file.
 
 ## Docs
 
-Find auto-generated docs for this provider [here](https://github.com/cdktf/cdktf-provider-azuread/blob/main/docs/API.go.md).
+Find auto-generated docs for this provider [here](https://github.com/cdktn-io/cdktn-provider-azuread/blob/main/docs/API.go.md).
 
+
+## Versioning
+
+This project is explicitly not tracking the Terraform azuread provider version 1:1. In fact, it always tracks `latest` of `~> 3.0` with every release. If there are scenarios where you explicitly have to pin your provider version, you can do so by [generating the provider constructs manually](https://cdktn.io/docs/concepts/providers#import-providers).
+
+These are the upstream dependencies:
+
+* [CDK Terrain](https://cdktn.io) - Last official release
+* [Terraform azuread provider](https://registry.terraform.io/providers/hashicorp/azuread/3.7.0)
+* [Terraform Engine](https://terraform.io)
+
+If there are breaking changes (backward incompatible) in any of the above, the major version of this project will be bumped.
+
+## Features / Issues / Bugs
+
+Please report bugs and issues to the [CDK Terrain](https://cdktn.io) project:
+
+* [Create bug report](https://github.com/open-constructs/cdk-terrain/issues)
+* [Create feature request](https://github.com/open-constructs/cdk-terrain/issues)
+
+## Contributing
+
+### Projen
+
+This is mostly based on [Projen](https://projen.io), which takes care of generating the entire repository.
+
+### cdktn-provider-project based on Projen
+
+There's a custom [project builder](https://github.com/cdktn-io/cdktn-provider-project) which encapsulate the common settings for all `cdktn` prebuilt providers.
+
+
+### Repository Management
+
+The repository is managed by [CDKTN Repository Manager](https://github.com/cdktn-io/cdktn-repository-manager/).

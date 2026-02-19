@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazureadnamedlocation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/dataazureadnamedlocation/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/dataazureadnamedlocation/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAzureadNamedLocationIpList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -24,8 +24,8 @@ type DataAzureadNamedLocationIpList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -33,13 +33,13 @@ type DataAzureadNamedLocationIpList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) DataAzureadNamedLocationIpOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -49,7 +49,7 @@ type DataAzureadNamedLocationIpList interface {
 
 // The jsii proxy struct for DataAzureadNamedLocationIpList
 type jsiiProxy_DataAzureadNamedLocationIpList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_DataAzureadNamedLocationIpList) CreationStack() *[]*string {
@@ -82,8 +82,8 @@ func (j *jsiiProxy_DataAzureadNamedLocationIpList) TerraformAttribute() *string 
 	return returns
 }
 
-func (j *jsiiProxy_DataAzureadNamedLocationIpList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAzureadNamedLocationIpList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -103,7 +103,7 @@ func (j *jsiiProxy_DataAzureadNamedLocationIpList) WrapsSet() *bool {
 }
 
 
-func NewDataAzureadNamedLocationIpList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAzureadNamedLocationIpList {
+func NewDataAzureadNamedLocationIpList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAzureadNamedLocationIpList {
 	_init_.Initialize()
 
 	if err := validateNewDataAzureadNamedLocationIpListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -112,7 +112,7 @@ func NewDataAzureadNamedLocationIpList(terraformResource cdktf.IInterpolatingPar
 	j := jsiiProxy_DataAzureadNamedLocationIpList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.dataAzureadNamedLocation.DataAzureadNamedLocationIpList",
+		"@cdktn/provider-azuread.dataAzureadNamedLocation.DataAzureadNamedLocationIpList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -120,11 +120,11 @@ func NewDataAzureadNamedLocationIpList(terraformResource cdktf.IInterpolatingPar
 	return &j
 }
 
-func NewDataAzureadNamedLocationIpList_Override(d DataAzureadNamedLocationIpList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewDataAzureadNamedLocationIpList_Override(d DataAzureadNamedLocationIpList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.dataAzureadNamedLocation.DataAzureadNamedLocationIpList",
+		"@cdktn/provider-azuread.dataAzureadNamedLocation.DataAzureadNamedLocationIpList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)
@@ -141,7 +141,7 @@ func (j *jsiiProxy_DataAzureadNamedLocationIpList)SetTerraformAttribute(val *str
 	)
 }
 
-func (j *jsiiProxy_DataAzureadNamedLocationIpList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAzureadNamedLocationIpList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -163,11 +163,11 @@ func (j *jsiiProxy_DataAzureadNamedLocationIpList)SetWrapsSet(val *bool) {
 	)
 }
 
-func (d *jsiiProxy_DataAzureadNamedLocationIpList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (d *jsiiProxy_DataAzureadNamedLocationIpList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := d.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		d,
@@ -208,7 +208,7 @@ func (d *jsiiProxy_DataAzureadNamedLocationIpList) Get(index *float64) DataAzure
 	return returns
 }
 
-func (d *jsiiProxy_DataAzureadNamedLocationIpList) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAzureadNamedLocationIpList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package serviceprincipalpassword
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.servicePrincipalPassword.ServicePrincipalPassword",
+		"@cdktn/provider-azuread.servicePrincipalPassword.ServicePrincipalPassword",
 		reflect.TypeOf((*ServicePrincipalPassword)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -84,20 +84,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServicePrincipalPassword{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.servicePrincipalPassword.ServicePrincipalPasswordConfig",
+		"@cdktn/provider-azuread.servicePrincipalPassword.ServicePrincipalPasswordConfig",
 		reflect.TypeOf((*ServicePrincipalPasswordConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.servicePrincipalPassword.ServicePrincipalPasswordTimeouts",
+		"@cdktn/provider-azuread.servicePrincipalPassword.ServicePrincipalPasswordTimeouts",
 		reflect.TypeOf((*ServicePrincipalPasswordTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.servicePrincipalPassword.ServicePrincipalPasswordTimeoutsOutputReference",
+		"@cdktn/provider-azuread.servicePrincipalPassword.ServicePrincipalPasswordTimeoutsOutputReference",
 		reflect.TypeOf((*ServicePrincipalPasswordTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -133,7 +133,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServicePrincipalPasswordTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

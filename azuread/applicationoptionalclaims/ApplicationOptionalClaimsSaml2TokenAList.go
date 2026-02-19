@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package applicationoptionalclaims
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/applicationoptionalclaims/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/applicationoptionalclaims/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ApplicationOptionalClaimsSaml2TokenAList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type ApplicationOptionalClaimsSaml2TokenAList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type ApplicationOptionalClaimsSaml2TokenAList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) ApplicationOptionalClaimsSaml2TokenAOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type ApplicationOptionalClaimsSaml2TokenAList interface {
 
 // The jsii proxy struct for ApplicationOptionalClaimsSaml2TokenAList
 type jsiiProxy_ApplicationOptionalClaimsSaml2TokenAList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_ApplicationOptionalClaimsSaml2TokenAList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_ApplicationOptionalClaimsSaml2TokenAList) TerraformAttribute(
 	return returns
 }
 
-func (j *jsiiProxy_ApplicationOptionalClaimsSaml2TokenAList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ApplicationOptionalClaimsSaml2TokenAList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_ApplicationOptionalClaimsSaml2TokenAList) WrapsSet() *bool {
 }
 
 
-func NewApplicationOptionalClaimsSaml2TokenAList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationOptionalClaimsSaml2TokenAList {
+func NewApplicationOptionalClaimsSaml2TokenAList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApplicationOptionalClaimsSaml2TokenAList {
 	_init_.Initialize()
 
 	if err := validateNewApplicationOptionalClaimsSaml2TokenAListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -124,7 +124,7 @@ func NewApplicationOptionalClaimsSaml2TokenAList(terraformResource cdktf.IInterp
 	j := jsiiProxy_ApplicationOptionalClaimsSaml2TokenAList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.applicationOptionalClaims.ApplicationOptionalClaimsSaml2TokenAList",
+		"@cdktn/provider-azuread.applicationOptionalClaims.ApplicationOptionalClaimsSaml2TokenAList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -132,11 +132,11 @@ func NewApplicationOptionalClaimsSaml2TokenAList(terraformResource cdktf.IInterp
 	return &j
 }
 
-func NewApplicationOptionalClaimsSaml2TokenAList_Override(a ApplicationOptionalClaimsSaml2TokenAList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewApplicationOptionalClaimsSaml2TokenAList_Override(a ApplicationOptionalClaimsSaml2TokenAList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.applicationOptionalClaims.ApplicationOptionalClaimsSaml2TokenAList",
+		"@cdktn/provider-azuread.applicationOptionalClaims.ApplicationOptionalClaimsSaml2TokenAList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		a,
 	)
@@ -164,7 +164,7 @@ func (j *jsiiProxy_ApplicationOptionalClaimsSaml2TokenAList)SetTerraformAttribut
 	)
 }
 
-func (j *jsiiProxy_ApplicationOptionalClaimsSaml2TokenAList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ApplicationOptionalClaimsSaml2TokenAList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_ApplicationOptionalClaimsSaml2TokenAList)SetWrapsSet(val *boo
 	)
 }
 
-func (a *jsiiProxy_ApplicationOptionalClaimsSaml2TokenAList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (a *jsiiProxy_ApplicationOptionalClaimsSaml2TokenAList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := a.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		a,
@@ -231,7 +231,7 @@ func (a *jsiiProxy_ApplicationOptionalClaimsSaml2TokenAList) Get(index *float64)
 	return returns
 }
 
-func (a *jsiiProxy_ApplicationOptionalClaimsSaml2TokenAList) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_ApplicationOptionalClaimsSaml2TokenAList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -1,22 +1,22 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazureadadministrativeunit
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/dataazureadadministrativeunit/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/dataazureadadministrativeunit/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azuread/3.7.0/docs/data-sources/administrative_unit azuread_administrative_unit}.
 type DataAzureadAdministrativeUnit interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -32,9 +32,9 @@ type DataAzureadAdministrativeUnit interface {
 	SetDisplayName(val *string)
 	DisplayNameInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -43,9 +43,9 @@ type DataAzureadAdministrativeUnit interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Members() *[]*string
 	// The tree node.
 	Node() constructs.Node
@@ -53,13 +53,13 @@ type DataAzureadAdministrativeUnit interface {
 	SetObjectId(val *string)
 	ObjectIdInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -72,7 +72,7 @@ type DataAzureadAdministrativeUnit interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -88,7 +88,7 @@ type DataAzureadAdministrativeUnit interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -116,11 +116,11 @@ type DataAzureadAdministrativeUnit interface {
 
 // The jsii proxy struct for DataAzureadAdministrativeUnit
 type jsiiProxy_DataAzureadAdministrativeUnit struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
-func (j *jsiiProxy_DataAzureadAdministrativeUnit) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAzureadAdministrativeUnit) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -189,8 +189,8 @@ func (j *jsiiProxy_DataAzureadAdministrativeUnit) DisplayNameInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzureadAdministrativeUnit) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAzureadAdministrativeUnit) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -239,8 +239,8 @@ func (j *jsiiProxy_DataAzureadAdministrativeUnit) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzureadAdministrativeUnit) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAzureadAdministrativeUnit) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -289,8 +289,8 @@ func (j *jsiiProxy_DataAzureadAdministrativeUnit) ObjectIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzureadAdministrativeUnit) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAzureadAdministrativeUnit) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -309,8 +309,8 @@ func (j *jsiiProxy_DataAzureadAdministrativeUnit) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzureadAdministrativeUnit) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAzureadAdministrativeUnit) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -380,7 +380,7 @@ func NewDataAzureadAdministrativeUnit(scope constructs.Construct, id *string, co
 	j := jsiiProxy_DataAzureadAdministrativeUnit{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.dataAzureadAdministrativeUnit.DataAzureadAdministrativeUnit",
+		"@cdktn/provider-azuread.dataAzureadAdministrativeUnit.DataAzureadAdministrativeUnit",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -393,7 +393,7 @@ func NewDataAzureadAdministrativeUnit_Override(d DataAzureadAdministrativeUnit, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.dataAzureadAdministrativeUnit.DataAzureadAdministrativeUnit",
+		"@cdktn/provider-azuread.dataAzureadAdministrativeUnit.DataAzureadAdministrativeUnit",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -429,7 +429,7 @@ func (j *jsiiProxy_DataAzureadAdministrativeUnit)SetDisplayName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzureadAdministrativeUnit)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAzureadAdministrativeUnit)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -448,7 +448,7 @@ func (j *jsiiProxy_DataAzureadAdministrativeUnit)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzureadAdministrativeUnit)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAzureadAdministrativeUnit)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -470,7 +470,7 @@ func (j *jsiiProxy_DataAzureadAdministrativeUnit)SetObjectId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzureadAdministrativeUnit)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAzureadAdministrativeUnit)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -478,17 +478,17 @@ func (j *jsiiProxy_DataAzureadAdministrativeUnit)SetProvider(val cdktf.Terraform
 	)
 }
 
-// Generates CDKTF code for importing a DataAzureadAdministrativeUnit resource upon running "cdktf plan <stack-name>".
-func DataAzureadAdministrativeUnit_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAzureadAdministrativeUnit resource upon running "cdktn plan <stack-name>".
+func DataAzureadAdministrativeUnit_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAzureadAdministrativeUnit_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azuread.dataAzureadAdministrativeUnit.DataAzureadAdministrativeUnit",
+		"@cdktn/provider-azuread.dataAzureadAdministrativeUnit.DataAzureadAdministrativeUnit",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -523,7 +523,7 @@ func DataAzureadAdministrativeUnit_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azuread.dataAzureadAdministrativeUnit.DataAzureadAdministrativeUnit",
+		"@cdktn/provider-azuread.dataAzureadAdministrativeUnit.DataAzureadAdministrativeUnit",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -542,7 +542,7 @@ func DataAzureadAdministrativeUnit_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azuread.dataAzureadAdministrativeUnit.DataAzureadAdministrativeUnit",
+		"@cdktn/provider-azuread.dataAzureadAdministrativeUnit.DataAzureadAdministrativeUnit",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -561,7 +561,7 @@ func DataAzureadAdministrativeUnit_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azuread.dataAzureadAdministrativeUnit.DataAzureadAdministrativeUnit",
+		"@cdktn/provider-azuread.dataAzureadAdministrativeUnit.DataAzureadAdministrativeUnit",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -574,7 +574,7 @@ func DataAzureadAdministrativeUnit_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azuread.dataAzureadAdministrativeUnit.DataAzureadAdministrativeUnit",
+		"@cdktn/provider-azuread.dataAzureadAdministrativeUnit.DataAzureadAdministrativeUnit",
 		"tfResourceType",
 		&returns,
 	)
@@ -608,11 +608,11 @@ func (d *jsiiProxy_DataAzureadAdministrativeUnit) GetAnyMapAttribute(terraformAt
 	return returns
 }
 
-func (d *jsiiProxy_DataAzureadAdministrativeUnit) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzureadAdministrativeUnit) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -736,11 +736,11 @@ func (d *jsiiProxy_DataAzureadAdministrativeUnit) GetStringMapAttribute(terrafor
 	return returns
 }
 
-func (d *jsiiProxy_DataAzureadAdministrativeUnit) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzureadAdministrativeUnit) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

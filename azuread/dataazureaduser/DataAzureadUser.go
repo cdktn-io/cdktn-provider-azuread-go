@@ -1,25 +1,25 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazureaduser
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/dataazureaduser/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/dataazureaduser/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azuread/3.7.0/docs/data-sources/user azuread_user}.
 type DataAzureadUser interface {
-	cdktf.TerraformDataSource
-	AccountEnabled() cdktf.IResolvable
+	cdktn.TerraformDataSource
+	AccountEnabled() cdktn.IResolvable
 	AgeGroup() *string
 	BusinessPhones() *[]*string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	City() *string
 	CompanyName() *string
 	ConsentProvidedForMinor() *string
@@ -47,9 +47,9 @@ type DataAzureadUser interface {
 	ExternalUserState() *string
 	FaxNumber() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -61,9 +61,9 @@ type DataAzureadUser interface {
 	ImAddresses() *[]*string
 	JobTitle() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Mail() *string
 	SetMail(val *string)
 	MailInput() *string
@@ -83,24 +83,24 @@ type DataAzureadUser interface {
 	OnpremisesImmutableId() *string
 	OnpremisesSamAccountName() *string
 	OnpremisesSecurityIdentifier() *string
-	OnpremisesSyncEnabled() cdktf.IResolvable
+	OnpremisesSyncEnabled() cdktn.IResolvable
 	OnpremisesUserPrincipalName() *string
 	OtherMails() *[]*string
 	PostalCode() *string
 	PreferredLanguage() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	ProxyAddresses() *[]*string
 	// Experimental.
 	RawOverrides() interface{}
-	ShowInAddressList() cdktf.IResolvable
+	ShowInAddressList() cdktn.IResolvable
 	State() *string
 	StreetAddress() *string
 	Surname() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -117,7 +117,7 @@ type DataAzureadUser interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -133,7 +133,7 @@ type DataAzureadUser interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -164,11 +164,11 @@ type DataAzureadUser interface {
 
 // The jsii proxy struct for DataAzureadUser
 type jsiiProxy_DataAzureadUser struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
-func (j *jsiiProxy_DataAzureadUser) AccountEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzureadUser) AccountEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"accountEnabled",
@@ -197,8 +197,8 @@ func (j *jsiiProxy_DataAzureadUser) BusinessPhones() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzureadUser) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAzureadUser) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -387,8 +387,8 @@ func (j *jsiiProxy_DataAzureadUser) FaxNumber() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzureadUser) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAzureadUser) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -467,8 +467,8 @@ func (j *jsiiProxy_DataAzureadUser) JobTitle() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzureadUser) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAzureadUser) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -627,8 +627,8 @@ func (j *jsiiProxy_DataAzureadUser) OnpremisesSecurityIdentifier() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzureadUser) OnpremisesSyncEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzureadUser) OnpremisesSyncEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"onpremisesSyncEnabled",
@@ -677,8 +677,8 @@ func (j *jsiiProxy_DataAzureadUser) PreferredLanguage() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzureadUser) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAzureadUser) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -707,8 +707,8 @@ func (j *jsiiProxy_DataAzureadUser) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzureadUser) ShowInAddressList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzureadUser) ShowInAddressList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"showInAddressList",
@@ -747,8 +747,8 @@ func (j *jsiiProxy_DataAzureadUser) Surname() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzureadUser) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAzureadUser) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -848,7 +848,7 @@ func NewDataAzureadUser(scope constructs.Construct, id *string, config *DataAzur
 	j := jsiiProxy_DataAzureadUser{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.dataAzureadUser.DataAzureadUser",
+		"@cdktn/provider-azuread.dataAzureadUser.DataAzureadUser",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -861,7 +861,7 @@ func NewDataAzureadUser_Override(d DataAzureadUser, scope constructs.Construct, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.dataAzureadUser.DataAzureadUser",
+		"@cdktn/provider-azuread.dataAzureadUser.DataAzureadUser",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -897,7 +897,7 @@ func (j *jsiiProxy_DataAzureadUser)SetEmployeeId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzureadUser)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAzureadUser)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -916,7 +916,7 @@ func (j *jsiiProxy_DataAzureadUser)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzureadUser)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAzureadUser)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -960,7 +960,7 @@ func (j *jsiiProxy_DataAzureadUser)SetObjectId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzureadUser)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAzureadUser)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -979,17 +979,17 @@ func (j *jsiiProxy_DataAzureadUser)SetUserPrincipalName(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a DataAzureadUser resource upon running "cdktf plan <stack-name>".
-func DataAzureadUser_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAzureadUser resource upon running "cdktn plan <stack-name>".
+func DataAzureadUser_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAzureadUser_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azuread.dataAzureadUser.DataAzureadUser",
+		"@cdktn/provider-azuread.dataAzureadUser.DataAzureadUser",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1024,7 +1024,7 @@ func DataAzureadUser_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azuread.dataAzureadUser.DataAzureadUser",
+		"@cdktn/provider-azuread.dataAzureadUser.DataAzureadUser",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1043,7 +1043,7 @@ func DataAzureadUser_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azuread.dataAzureadUser.DataAzureadUser",
+		"@cdktn/provider-azuread.dataAzureadUser.DataAzureadUser",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -1062,7 +1062,7 @@ func DataAzureadUser_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azuread.dataAzureadUser.DataAzureadUser",
+		"@cdktn/provider-azuread.dataAzureadUser.DataAzureadUser",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1075,7 +1075,7 @@ func DataAzureadUser_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azuread.dataAzureadUser.DataAzureadUser",
+		"@cdktn/provider-azuread.dataAzureadUser.DataAzureadUser",
 		"tfResourceType",
 		&returns,
 	)
@@ -1109,11 +1109,11 @@ func (d *jsiiProxy_DataAzureadUser) GetAnyMapAttribute(terraformAttribute *strin
 	return returns
 }
 
-func (d *jsiiProxy_DataAzureadUser) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzureadUser) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -1237,11 +1237,11 @@ func (d *jsiiProxy_DataAzureadUser) GetStringMapAttribute(terraformAttribute *st
 	return returns
 }
 
-func (d *jsiiProxy_DataAzureadUser) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzureadUser) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

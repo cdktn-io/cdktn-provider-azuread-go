@@ -1,19 +1,19 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazureaddomains
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/dataazureaddomains/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/dataazureaddomains/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAzureadDomainsDomainsOutputReference interface {
-	cdktf.ComplexObject
-	AdminManaged() cdktf.IResolvable
+	cdktn.ComplexObject
+	AdminManaged() cdktn.IResolvable
 	AuthenticationType() *string
 	// the index of the complex object in a list.
 	// Experimental.
@@ -30,30 +30,30 @@ type DataAzureadDomainsDomainsOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
-	Default() cdktf.IResolvable
+	Default() cdktn.IResolvable
 	DomainName() *string
 	// Experimental.
 	Fqn() *string
-	Initial() cdktf.IResolvable
+	Initial() cdktn.IResolvable
 	InternalValue() *DataAzureadDomainsDomains
 	SetInternalValue(val *DataAzureadDomainsDomains)
-	Root() cdktf.IResolvable
+	Root() cdktn.IResolvable
 	SupportedServices() *[]*string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
-	Verified() cdktf.IResolvable
+	SetTerraformResource(val cdktn.IInterpolatingParent)
+	Verified() cdktn.IResolvable
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -69,12 +69,12 @@ type DataAzureadDomainsDomainsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,11 +84,11 @@ type DataAzureadDomainsDomainsOutputReference interface {
 
 // The jsii proxy struct for DataAzureadDomainsDomainsOutputReference
 type jsiiProxy_DataAzureadDomainsDomainsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
-func (j *jsiiProxy_DataAzureadDomainsDomainsOutputReference) AdminManaged() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzureadDomainsDomainsOutputReference) AdminManaged() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"adminManaged",
@@ -137,8 +137,8 @@ func (j *jsiiProxy_DataAzureadDomainsDomainsOutputReference) CreationStack() *[]
 	return returns
 }
 
-func (j *jsiiProxy_DataAzureadDomainsDomainsOutputReference) Default() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzureadDomainsDomainsOutputReference) Default() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"default",
@@ -167,8 +167,8 @@ func (j *jsiiProxy_DataAzureadDomainsDomainsOutputReference) Fqn() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzureadDomainsDomainsOutputReference) Initial() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzureadDomainsDomainsOutputReference) Initial() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"initial",
@@ -187,8 +187,8 @@ func (j *jsiiProxy_DataAzureadDomainsDomainsOutputReference) InternalValue() *Da
 	return returns
 }
 
-func (j *jsiiProxy_DataAzureadDomainsDomainsOutputReference) Root() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzureadDomainsDomainsOutputReference) Root() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"root",
@@ -217,8 +217,8 @@ func (j *jsiiProxy_DataAzureadDomainsDomainsOutputReference) TerraformAttribute(
 	return returns
 }
 
-func (j *jsiiProxy_DataAzureadDomainsDomainsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAzureadDomainsDomainsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -227,8 +227,8 @@ func (j *jsiiProxy_DataAzureadDomainsDomainsOutputReference) TerraformResource()
 	return returns
 }
 
-func (j *jsiiProxy_DataAzureadDomainsDomainsOutputReference) Verified() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzureadDomainsDomainsOutputReference) Verified() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"verified",
@@ -238,7 +238,7 @@ func (j *jsiiProxy_DataAzureadDomainsDomainsOutputReference) Verified() cdktf.IR
 }
 
 
-func NewDataAzureadDomainsDomainsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzureadDomainsDomainsOutputReference {
+func NewDataAzureadDomainsDomainsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzureadDomainsDomainsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAzureadDomainsDomainsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -247,7 +247,7 @@ func NewDataAzureadDomainsDomainsOutputReference(terraformResource cdktf.IInterp
 	j := jsiiProxy_DataAzureadDomainsDomainsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.dataAzureadDomains.DataAzureadDomainsDomainsOutputReference",
+		"@cdktn/provider-azuread.dataAzureadDomains.DataAzureadDomainsDomainsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -255,11 +255,11 @@ func NewDataAzureadDomainsDomainsOutputReference(terraformResource cdktf.IInterp
 	return &j
 }
 
-func NewDataAzureadDomainsDomainsOutputReference_Override(d DataAzureadDomainsDomainsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAzureadDomainsDomainsOutputReference_Override(d DataAzureadDomainsDomainsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.dataAzureadDomains.DataAzureadDomainsDomainsOutputReference",
+		"@cdktn/provider-azuread.dataAzureadDomains.DataAzureadDomainsDomainsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)
@@ -309,7 +309,7 @@ func (j *jsiiProxy_DataAzureadDomainsDomainsOutputReference)SetTerraformAttribut
 	)
 }
 
-func (j *jsiiProxy_DataAzureadDomainsDomainsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAzureadDomainsDomainsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -349,11 +349,11 @@ func (d *jsiiProxy_DataAzureadDomainsDomainsOutputReference) GetAnyMapAttribute(
 	return returns
 }
 
-func (d *jsiiProxy_DataAzureadDomainsDomainsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzureadDomainsDomainsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -477,8 +477,8 @@ func (d *jsiiProxy_DataAzureadDomainsDomainsOutputReference) GetStringMapAttribu
 	return returns
 }
 
-func (d *jsiiProxy_DataAzureadDomainsDomainsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAzureadDomainsDomainsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -490,11 +490,11 @@ func (d *jsiiProxy_DataAzureadDomainsDomainsOutputReference) InterpolationAsList
 	return returns
 }
 
-func (d *jsiiProxy_DataAzureadDomainsDomainsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzureadDomainsDomainsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -506,7 +506,7 @@ func (d *jsiiProxy_DataAzureadDomainsDomainsOutputReference) InterpolationForAtt
 	return returns
 }
 
-func (d *jsiiProxy_DataAzureadDomainsDomainsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAzureadDomainsDomainsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

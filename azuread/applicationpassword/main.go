@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package applicationpassword
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.applicationPassword.ApplicationPasswordA",
+		"@cdktn/provider-azuread.applicationPassword.ApplicationPasswordA",
 		reflect.TypeOf((*ApplicationPasswordA)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -84,20 +84,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApplicationPasswordA{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.applicationPassword.ApplicationPasswordAConfig",
+		"@cdktn/provider-azuread.applicationPassword.ApplicationPasswordAConfig",
 		reflect.TypeOf((*ApplicationPasswordAConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.applicationPassword.ApplicationPasswordTimeouts",
+		"@cdktn/provider-azuread.applicationPassword.ApplicationPasswordTimeouts",
 		reflect.TypeOf((*ApplicationPasswordTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.applicationPassword.ApplicationPasswordTimeoutsOutputReference",
+		"@cdktn/provider-azuread.applicationPassword.ApplicationPasswordTimeoutsOutputReference",
 		reflect.TypeOf((*ApplicationPasswordTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -136,7 +136,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApplicationPasswordTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

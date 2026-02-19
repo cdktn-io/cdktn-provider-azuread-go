@@ -1,25 +1,25 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package applicationpassword
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/applicationpassword/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/applicationpassword/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azuread/3.7.0/docs/resources/application_password azuread_application_password}.
 type ApplicationPasswordA interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	ApplicationId() *string
 	SetApplicationId(val *string)
 	ApplicationIdInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -44,9 +44,9 @@ type ApplicationPasswordA interface {
 	SetEndDateRelative(val *string)
 	EndDateRelativeInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -56,15 +56,15 @@ type ApplicationPasswordA interface {
 	IdInput() *string
 	KeyId() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -78,7 +78,7 @@ type ApplicationPasswordA interface {
 	SetStartDate(val *string)
 	StartDateInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -94,7 +94,7 @@ type ApplicationPasswordA interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -112,9 +112,9 @@ type ApplicationPasswordA interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -155,7 +155,7 @@ type ApplicationPasswordA interface {
 
 // The jsii proxy struct for ApplicationPasswordA
 type jsiiProxy_ApplicationPasswordA struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_ApplicationPasswordA) ApplicationId() *string {
@@ -178,8 +178,8 @@ func (j *jsiiProxy_ApplicationPasswordA) ApplicationIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ApplicationPasswordA) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_ApplicationPasswordA) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -288,8 +288,8 @@ func (j *jsiiProxy_ApplicationPasswordA) EndDateRelativeInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ApplicationPasswordA) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_ApplicationPasswordA) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -348,8 +348,8 @@ func (j *jsiiProxy_ApplicationPasswordA) KeyId() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ApplicationPasswordA) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_ApplicationPasswordA) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -368,8 +368,8 @@ func (j *jsiiProxy_ApplicationPasswordA) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_ApplicationPasswordA) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_ApplicationPasswordA) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -438,8 +438,8 @@ func (j *jsiiProxy_ApplicationPasswordA) StartDateInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ApplicationPasswordA) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_ApplicationPasswordA) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -509,7 +509,7 @@ func NewApplicationPasswordA(scope constructs.Construct, id *string, config *App
 	j := jsiiProxy_ApplicationPasswordA{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.applicationPassword.ApplicationPasswordA",
+		"@cdktn/provider-azuread.applicationPassword.ApplicationPasswordA",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -522,7 +522,7 @@ func NewApplicationPasswordA_Override(a ApplicationPasswordA, scope constructs.C
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.applicationPassword.ApplicationPasswordA",
+		"@cdktn/provider-azuread.applicationPassword.ApplicationPasswordA",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -602,7 +602,7 @@ func (j *jsiiProxy_ApplicationPasswordA)SetEndDateRelative(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ApplicationPasswordA)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_ApplicationPasswordA)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -621,7 +621,7 @@ func (j *jsiiProxy_ApplicationPasswordA)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ApplicationPasswordA)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_ApplicationPasswordA)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -632,7 +632,7 @@ func (j *jsiiProxy_ApplicationPasswordA)SetLifecycle(val *cdktf.TerraformResourc
 	)
 }
 
-func (j *jsiiProxy_ApplicationPasswordA)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_ApplicationPasswordA)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -673,17 +673,17 @@ func (j *jsiiProxy_ApplicationPasswordA)SetStartDate(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a ApplicationPasswordA resource upon running "cdktf plan <stack-name>".
-func ApplicationPasswordA_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a ApplicationPasswordA resource upon running "cdktn plan <stack-name>".
+func ApplicationPasswordA_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateApplicationPasswordA_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azuread.applicationPassword.ApplicationPasswordA",
+		"@cdktn/provider-azuread.applicationPassword.ApplicationPasswordA",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -718,7 +718,7 @@ func ApplicationPasswordA_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azuread.applicationPassword.ApplicationPasswordA",
+		"@cdktn/provider-azuread.applicationPassword.ApplicationPasswordA",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -737,7 +737,7 @@ func ApplicationPasswordA_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azuread.applicationPassword.ApplicationPasswordA",
+		"@cdktn/provider-azuread.applicationPassword.ApplicationPasswordA",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -756,7 +756,7 @@ func ApplicationPasswordA_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azuread.applicationPassword.ApplicationPasswordA",
+		"@cdktn/provider-azuread.applicationPassword.ApplicationPasswordA",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -769,7 +769,7 @@ func ApplicationPasswordA_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azuread.applicationPassword.ApplicationPasswordA",
+		"@cdktn/provider-azuread.applicationPassword.ApplicationPasswordA",
 		"tfResourceType",
 		&returns,
 	)
@@ -814,11 +814,11 @@ func (a *jsiiProxy_ApplicationPasswordA) GetAnyMapAttribute(terraformAttribute *
 	return returns
 }
 
-func (a *jsiiProxy_ApplicationPasswordA) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApplicationPasswordA) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -955,7 +955,7 @@ func (a *jsiiProxy_ApplicationPasswordA) HasResourceMove() interface{} {
 	return returns
 }
 
-func (a *jsiiProxy_ApplicationPasswordA) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (a *jsiiProxy_ApplicationPasswordA) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := a.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -966,11 +966,11 @@ func (a *jsiiProxy_ApplicationPasswordA) ImportFrom(id *string, provider cdktf.T
 	)
 }
 
-func (a *jsiiProxy_ApplicationPasswordA) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApplicationPasswordA) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,

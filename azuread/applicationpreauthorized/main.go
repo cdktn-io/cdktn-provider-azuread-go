@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package applicationpreauthorized
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.applicationPreAuthorized.ApplicationPreAuthorized",
+		"@cdktn/provider-azuread.applicationPreAuthorized.ApplicationPreAuthorized",
 		reflect.TypeOf((*ApplicationPreAuthorized)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -71,20 +71,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApplicationPreAuthorized{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.applicationPreAuthorized.ApplicationPreAuthorizedConfig",
+		"@cdktn/provider-azuread.applicationPreAuthorized.ApplicationPreAuthorizedConfig",
 		reflect.TypeOf((*ApplicationPreAuthorizedConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.applicationPreAuthorized.ApplicationPreAuthorizedTimeouts",
+		"@cdktn/provider-azuread.applicationPreAuthorized.ApplicationPreAuthorizedTimeouts",
 		reflect.TypeOf((*ApplicationPreAuthorizedTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.applicationPreAuthorized.ApplicationPreAuthorizedTimeoutsOutputReference",
+		"@cdktn/provider-azuread.applicationPreAuthorized.ApplicationPreAuthorizedTimeoutsOutputReference",
 		reflect.TypeOf((*ApplicationPreAuthorizedTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -123,7 +123,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApplicationPreAuthorizedTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package applicationapiaccess
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.applicationApiAccess.ApplicationApiAccess",
+		"@cdktn/provider-azuread.applicationApiAccess.ApplicationApiAccess",
 		reflect.TypeOf((*ApplicationApiAccess)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -75,20 +75,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApplicationApiAccess{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.applicationApiAccess.ApplicationApiAccessConfig",
+		"@cdktn/provider-azuread.applicationApiAccess.ApplicationApiAccessConfig",
 		reflect.TypeOf((*ApplicationApiAccessConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.applicationApiAccess.ApplicationApiAccessTimeouts",
+		"@cdktn/provider-azuread.applicationApiAccess.ApplicationApiAccessTimeouts",
 		reflect.TypeOf((*ApplicationApiAccessTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.applicationApiAccess.ApplicationApiAccessTimeoutsOutputReference",
+		"@cdktn/provider-azuread.applicationApiAccess.ApplicationApiAccessTimeoutsOutputReference",
 		reflect.TypeOf((*ApplicationApiAccessTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -127,7 +127,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApplicationApiAccessTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package directoryroleeligibilityschedulerequest
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/directoryroleeligibilityschedulerequest/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/directoryroleeligibilityschedulerequest/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DirectoryRoleEligibilityScheduleRequestTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,15 +46,15 @@ type DirectoryRoleEligibilityScheduleRequestTimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type DirectoryRoleEligibilityScheduleRequestTimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
 	ResetRead()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type DirectoryRoleEligibilityScheduleRequestTimeoutsOutputReference interface {
 
 // The jsii proxy struct for DirectoryRoleEligibilityScheduleRequestTimeoutsOutputReference
 type jsiiProxy_DirectoryRoleEligibilityScheduleRequestTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DirectoryRoleEligibilityScheduleRequestTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -211,8 +211,8 @@ func (j *jsiiProxy_DirectoryRoleEligibilityScheduleRequestTimeoutsOutputReferenc
 	return returns
 }
 
-func (j *jsiiProxy_DirectoryRoleEligibilityScheduleRequestTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DirectoryRoleEligibilityScheduleRequestTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_DirectoryRoleEligibilityScheduleRequestTimeoutsOutputReferenc
 }
 
 
-func NewDirectoryRoleEligibilityScheduleRequestTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DirectoryRoleEligibilityScheduleRequestTimeoutsOutputReference {
+func NewDirectoryRoleEligibilityScheduleRequestTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DirectoryRoleEligibilityScheduleRequestTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDirectoryRoleEligibilityScheduleRequestTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -231,7 +231,7 @@ func NewDirectoryRoleEligibilityScheduleRequestTimeoutsOutputReference(terraform
 	j := jsiiProxy_DirectoryRoleEligibilityScheduleRequestTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.directoryRoleEligibilityScheduleRequest.DirectoryRoleEligibilityScheduleRequestTimeoutsOutputReference",
+		"@cdktn/provider-azuread.directoryRoleEligibilityScheduleRequest.DirectoryRoleEligibilityScheduleRequestTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -239,11 +239,11 @@ func NewDirectoryRoleEligibilityScheduleRequestTimeoutsOutputReference(terraform
 	return &j
 }
 
-func NewDirectoryRoleEligibilityScheduleRequestTimeoutsOutputReference_Override(d DirectoryRoleEligibilityScheduleRequestTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDirectoryRoleEligibilityScheduleRequestTimeoutsOutputReference_Override(d DirectoryRoleEligibilityScheduleRequestTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.directoryRoleEligibilityScheduleRequest.DirectoryRoleEligibilityScheduleRequestTimeoutsOutputReference",
+		"@cdktn/provider-azuread.directoryRoleEligibilityScheduleRequest.DirectoryRoleEligibilityScheduleRequestTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)
@@ -326,7 +326,7 @@ func (j *jsiiProxy_DirectoryRoleEligibilityScheduleRequestTimeoutsOutputReferenc
 	)
 }
 
-func (j *jsiiProxy_DirectoryRoleEligibilityScheduleRequestTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DirectoryRoleEligibilityScheduleRequestTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (d *jsiiProxy_DirectoryRoleEligibilityScheduleRequestTimeoutsOutputReferenc
 	return returns
 }
 
-func (d *jsiiProxy_DirectoryRoleEligibilityScheduleRequestTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DirectoryRoleEligibilityScheduleRequestTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -494,8 +494,8 @@ func (d *jsiiProxy_DirectoryRoleEligibilityScheduleRequestTimeoutsOutputReferenc
 	return returns
 }
 
-func (d *jsiiProxy_DirectoryRoleEligibilityScheduleRequestTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DirectoryRoleEligibilityScheduleRequestTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -507,11 +507,11 @@ func (d *jsiiProxy_DirectoryRoleEligibilityScheduleRequestTimeoutsOutputReferenc
 	return returns
 }
 
-func (d *jsiiProxy_DirectoryRoleEligibilityScheduleRequestTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DirectoryRoleEligibilityScheduleRequestTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -547,7 +547,7 @@ func (d *jsiiProxy_DirectoryRoleEligibilityScheduleRequestTimeoutsOutputReferenc
 	)
 }
 
-func (d *jsiiProxy_DirectoryRoleEligibilityScheduleRequestTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DirectoryRoleEligibilityScheduleRequestTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

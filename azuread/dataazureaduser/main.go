@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazureaduser
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadUser.DataAzureadUser",
+		"@cdktn/provider-azuread.dataAzureadUser.DataAzureadUser",
 		reflect.TypeOf((*DataAzureadUser)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountEnabled", GoGetter: "AccountEnabled"},
@@ -111,20 +111,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadUser{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformDataSource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.dataAzureadUser.DataAzureadUserConfig",
+		"@cdktn/provider-azuread.dataAzureadUser.DataAzureadUserConfig",
 		reflect.TypeOf((*DataAzureadUserConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.dataAzureadUser.DataAzureadUserTimeouts",
+		"@cdktn/provider-azuread.dataAzureadUser.DataAzureadUserTimeouts",
 		reflect.TypeOf((*DataAzureadUserTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadUser.DataAzureadUserTimeoutsOutputReference",
+		"@cdktn/provider-azuread.dataAzureadUser.DataAzureadUserTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzureadUserTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -154,7 +154,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadUserTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package grouprolemanagementpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/grouprolemanagementpolicy/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/grouprolemanagementpolicy/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GroupRoleManagementPolicyNotificationRulesEligibleActivationsAssigneeNotificationsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AdditionalRecipients() *[]*string
 	SetAdditionalRecipients(val *[]*string)
 	AdditionalRecipientsInput() *[]*string
@@ -46,15 +46,15 @@ type GroupRoleManagementPolicyNotificationRulesEligibleActivationsAssigneeNotifi
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,13 +70,13 @@ type GroupRoleManagementPolicyNotificationRulesEligibleActivationsAssigneeNotifi
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAdditionalRecipients()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -86,7 +86,7 @@ type GroupRoleManagementPolicyNotificationRulesEligibleActivationsAssigneeNotifi
 
 // The jsii proxy struct for GroupRoleManagementPolicyNotificationRulesEligibleActivationsAssigneeNotificationsOutputReference
 type jsiiProxy_GroupRoleManagementPolicyNotificationRulesEligibleActivationsAssigneeNotificationsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GroupRoleManagementPolicyNotificationRulesEligibleActivationsAssigneeNotificationsOutputReference) AdditionalRecipients() *[]*string {
@@ -209,8 +209,8 @@ func (j *jsiiProxy_GroupRoleManagementPolicyNotificationRulesEligibleActivations
 	return returns
 }
 
-func (j *jsiiProxy_GroupRoleManagementPolicyNotificationRulesEligibleActivationsAssigneeNotificationsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GroupRoleManagementPolicyNotificationRulesEligibleActivationsAssigneeNotificationsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -220,7 +220,7 @@ func (j *jsiiProxy_GroupRoleManagementPolicyNotificationRulesEligibleActivations
 }
 
 
-func NewGroupRoleManagementPolicyNotificationRulesEligibleActivationsAssigneeNotificationsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GroupRoleManagementPolicyNotificationRulesEligibleActivationsAssigneeNotificationsOutputReference {
+func NewGroupRoleManagementPolicyNotificationRulesEligibleActivationsAssigneeNotificationsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GroupRoleManagementPolicyNotificationRulesEligibleActivationsAssigneeNotificationsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGroupRoleManagementPolicyNotificationRulesEligibleActivationsAssigneeNotificationsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -229,7 +229,7 @@ func NewGroupRoleManagementPolicyNotificationRulesEligibleActivationsAssigneeNot
 	j := jsiiProxy_GroupRoleManagementPolicyNotificationRulesEligibleActivationsAssigneeNotificationsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRulesEligibleActivationsAssigneeNotificationsOutputReference",
+		"@cdktn/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRulesEligibleActivationsAssigneeNotificationsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -237,11 +237,11 @@ func NewGroupRoleManagementPolicyNotificationRulesEligibleActivationsAssigneeNot
 	return &j
 }
 
-func NewGroupRoleManagementPolicyNotificationRulesEligibleActivationsAssigneeNotificationsOutputReference_Override(g GroupRoleManagementPolicyNotificationRulesEligibleActivationsAssigneeNotificationsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGroupRoleManagementPolicyNotificationRulesEligibleActivationsAssigneeNotificationsOutputReference_Override(g GroupRoleManagementPolicyNotificationRulesEligibleActivationsAssigneeNotificationsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRulesEligibleActivationsAssigneeNotificationsOutputReference",
+		"@cdktn/provider-azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRulesEligibleActivationsAssigneeNotificationsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		g,
 	)
@@ -324,7 +324,7 @@ func (j *jsiiProxy_GroupRoleManagementPolicyNotificationRulesEligibleActivations
 	)
 }
 
-func (j *jsiiProxy_GroupRoleManagementPolicyNotificationRulesEligibleActivationsAssigneeNotificationsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GroupRoleManagementPolicyNotificationRulesEligibleActivationsAssigneeNotificationsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -364,11 +364,11 @@ func (g *jsiiProxy_GroupRoleManagementPolicyNotificationRulesEligibleActivations
 	return returns
 }
 
-func (g *jsiiProxy_GroupRoleManagementPolicyNotificationRulesEligibleActivationsAssigneeNotificationsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GroupRoleManagementPolicyNotificationRulesEligibleActivationsAssigneeNotificationsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -492,8 +492,8 @@ func (g *jsiiProxy_GroupRoleManagementPolicyNotificationRulesEligibleActivations
 	return returns
 }
 
-func (g *jsiiProxy_GroupRoleManagementPolicyNotificationRulesEligibleActivationsAssigneeNotificationsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GroupRoleManagementPolicyNotificationRulesEligibleActivationsAssigneeNotificationsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -505,11 +505,11 @@ func (g *jsiiProxy_GroupRoleManagementPolicyNotificationRulesEligibleActivations
 	return returns
 }
 
-func (g *jsiiProxy_GroupRoleManagementPolicyNotificationRulesEligibleActivationsAssigneeNotificationsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GroupRoleManagementPolicyNotificationRulesEligibleActivationsAssigneeNotificationsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -529,7 +529,7 @@ func (g *jsiiProxy_GroupRoleManagementPolicyNotificationRulesEligibleActivations
 	)
 }
 
-func (g *jsiiProxy_GroupRoleManagementPolicyNotificationRulesEligibleActivationsAssigneeNotificationsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GroupRoleManagementPolicyNotificationRulesEligibleActivationsAssigneeNotificationsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

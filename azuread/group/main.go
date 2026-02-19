@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package group
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.group.Group",
+		"@cdktn/provider-azuread.group.Group",
 		reflect.TypeOf((*Group)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -140,20 +140,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Group{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.group.GroupConfig",
+		"@cdktn/provider-azuread.group.GroupConfig",
 		reflect.TypeOf((*GroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.group.GroupDynamicMembership",
+		"@cdktn/provider-azuread.group.GroupDynamicMembership",
 		reflect.TypeOf((*GroupDynamicMembership)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.group.GroupDynamicMembershipOutputReference",
+		"@cdktn/provider-azuread.group.GroupDynamicMembershipOutputReference",
 		reflect.TypeOf((*GroupDynamicMembershipOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -184,16 +184,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GroupDynamicMembershipOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.group.GroupTimeouts",
+		"@cdktn/provider-azuread.group.GroupTimeouts",
 		reflect.TypeOf((*GroupTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.group.GroupTimeoutsOutputReference",
+		"@cdktn/provider-azuread.group.GroupTimeoutsOutputReference",
 		reflect.TypeOf((*GroupTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -232,7 +232,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GroupTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

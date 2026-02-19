@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build !no_runtime_type_checking
@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (a *jsiiProxy_ApplicationOptionalClaimsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (a *jsiiProxy_ApplicationOptionalClaimsOutputReference) validatePutAccessTo
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ApplicationOptionalClaimsAccessToken:
 		value := value.(*[]*ApplicationOptionalClaimsAccessToken)
@@ -117,7 +117,7 @@ func (a *jsiiProxy_ApplicationOptionalClaimsOutputReference) validatePutAccessTo
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ApplicationOptionalClaimsAccessToken; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ApplicationOptionalClaimsAccessToken; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (a *jsiiProxy_ApplicationOptionalClaimsOutputReference) validatePutIdTokenP
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ApplicationOptionalClaimsIdToken:
 		value := value.(*[]*ApplicationOptionalClaimsIdToken)
@@ -148,7 +148,7 @@ func (a *jsiiProxy_ApplicationOptionalClaimsOutputReference) validatePutIdTokenP
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ApplicationOptionalClaimsIdToken; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ApplicationOptionalClaimsIdToken; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -160,7 +160,7 @@ func (a *jsiiProxy_ApplicationOptionalClaimsOutputReference) validatePutSaml2Tok
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ApplicationOptionalClaimsSaml2Token:
 		value := value.(*[]*ApplicationOptionalClaimsSaml2Token)
@@ -179,14 +179,14 @@ func (a *jsiiProxy_ApplicationOptionalClaimsOutputReference) validatePutSaml2Tok
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ApplicationOptionalClaimsSaml2Token; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ApplicationOptionalClaimsSaml2Token; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (a *jsiiProxy_ApplicationOptionalClaimsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApplicationOptionalClaimsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -275,7 +275,7 @@ func (j *jsiiProxy_ApplicationOptionalClaimsOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_ApplicationOptionalClaimsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApplicationOptionalClaimsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -283,7 +283,7 @@ func (j *jsiiProxy_ApplicationOptionalClaimsOutputReference) validateSetTerrafor
 	return nil
 }
 
-func validateNewApplicationOptionalClaimsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApplicationOptionalClaimsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

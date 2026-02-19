@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package administrativeunitmember
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.administrativeUnitMember.AdministrativeUnitMember",
+		"@cdktn/provider-azuread.administrativeUnitMember.AdministrativeUnitMember",
 		reflect.TypeOf((*AdministrativeUnitMember)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -71,20 +71,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AdministrativeUnitMember{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.administrativeUnitMember.AdministrativeUnitMemberConfig",
+		"@cdktn/provider-azuread.administrativeUnitMember.AdministrativeUnitMemberConfig",
 		reflect.TypeOf((*AdministrativeUnitMemberConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.administrativeUnitMember.AdministrativeUnitMemberTimeouts",
+		"@cdktn/provider-azuread.administrativeUnitMember.AdministrativeUnitMemberTimeouts",
 		reflect.TypeOf((*AdministrativeUnitMemberTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.administrativeUnitMember.AdministrativeUnitMemberTimeoutsOutputReference",
+		"@cdktn/provider-azuread.administrativeUnitMember.AdministrativeUnitMemberTimeoutsOutputReference",
 		reflect.TypeOf((*AdministrativeUnitMemberTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -120,7 +120,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AdministrativeUnitMemberTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

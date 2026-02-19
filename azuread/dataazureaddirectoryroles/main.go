@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazureaddirectoryroles
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadDirectoryRoles.DataAzureadDirectoryRoles",
+		"@cdktn/provider-azuread.dataAzureadDirectoryRoles.DataAzureadDirectoryRoles",
 		reflect.TypeOf((*DataAzureadDirectoryRoles)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -60,20 +60,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadDirectoryRoles{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformDataSource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.dataAzureadDirectoryRoles.DataAzureadDirectoryRolesConfig",
+		"@cdktn/provider-azuread.dataAzureadDirectoryRoles.DataAzureadDirectoryRolesConfig",
 		reflect.TypeOf((*DataAzureadDirectoryRolesConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.dataAzureadDirectoryRoles.DataAzureadDirectoryRolesRoles",
+		"@cdktn/provider-azuread.dataAzureadDirectoryRoles.DataAzureadDirectoryRolesRoles",
 		reflect.TypeOf((*DataAzureadDirectoryRolesRoles)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadDirectoryRoles.DataAzureadDirectoryRolesRolesList",
+		"@cdktn/provider-azuread.dataAzureadDirectoryRoles.DataAzureadDirectoryRolesRolesList",
 		reflect.TypeOf((*DataAzureadDirectoryRolesRolesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -89,12 +89,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadDirectoryRolesRolesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadDirectoryRoles.DataAzureadDirectoryRolesRolesOutputReference",
+		"@cdktn/provider-azuread.dataAzureadDirectoryRoles.DataAzureadDirectoryRolesRolesOutputReference",
 		reflect.TypeOf((*DataAzureadDirectoryRolesRolesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -125,16 +125,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadDirectoryRolesRolesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.dataAzureadDirectoryRoles.DataAzureadDirectoryRolesTimeouts",
+		"@cdktn/provider-azuread.dataAzureadDirectoryRoles.DataAzureadDirectoryRolesTimeouts",
 		reflect.TypeOf((*DataAzureadDirectoryRolesTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.dataAzureadDirectoryRoles.DataAzureadDirectoryRolesTimeoutsOutputReference",
+		"@cdktn/provider-azuread.dataAzureadDirectoryRoles.DataAzureadDirectoryRolesTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzureadDirectoryRolesTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -164,7 +164,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadDirectoryRolesTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

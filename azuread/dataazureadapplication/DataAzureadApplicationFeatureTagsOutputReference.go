@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazureadapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/dataazureadapplication/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/dataazureadapplication/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAzureadApplicationFeatureTagsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -28,12 +28,12 @@ type DataAzureadApplicationFeatureTagsOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
-	CustomSingleSignOn() cdktf.IResolvable
-	Enterprise() cdktf.IResolvable
+	CustomSingleSignOn() cdktn.IResolvable
+	Enterprise() cdktn.IResolvable
 	// Experimental.
 	Fqn() *string
-	Gallery() cdktf.IResolvable
-	Hide() cdktf.IResolvable
+	Gallery() cdktn.IResolvable
+	Hide() cdktn.IResolvable
 	InternalValue() *DataAzureadApplicationFeatureTags
 	SetInternalValue(val *DataAzureadApplicationFeatureTags)
 	// Experimental.
@@ -41,15 +41,15 @@ type DataAzureadApplicationFeatureTagsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -65,12 +65,12 @@ type DataAzureadApplicationFeatureTagsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type DataAzureadApplicationFeatureTagsOutputReference interface {
 
 // The jsii proxy struct for DataAzureadApplicationFeatureTagsOutputReference
 type jsiiProxy_DataAzureadApplicationFeatureTagsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAzureadApplicationFeatureTagsOutputReference) ComplexObjectIndex() interface{} {
@@ -113,8 +113,8 @@ func (j *jsiiProxy_DataAzureadApplicationFeatureTagsOutputReference) CreationSta
 	return returns
 }
 
-func (j *jsiiProxy_DataAzureadApplicationFeatureTagsOutputReference) CustomSingleSignOn() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzureadApplicationFeatureTagsOutputReference) CustomSingleSignOn() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"customSingleSignOn",
@@ -123,8 +123,8 @@ func (j *jsiiProxy_DataAzureadApplicationFeatureTagsOutputReference) CustomSingl
 	return returns
 }
 
-func (j *jsiiProxy_DataAzureadApplicationFeatureTagsOutputReference) Enterprise() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzureadApplicationFeatureTagsOutputReference) Enterprise() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"enterprise",
@@ -143,8 +143,8 @@ func (j *jsiiProxy_DataAzureadApplicationFeatureTagsOutputReference) Fqn() *stri
 	return returns
 }
 
-func (j *jsiiProxy_DataAzureadApplicationFeatureTagsOutputReference) Gallery() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzureadApplicationFeatureTagsOutputReference) Gallery() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"gallery",
@@ -153,8 +153,8 @@ func (j *jsiiProxy_DataAzureadApplicationFeatureTagsOutputReference) Gallery() c
 	return returns
 }
 
-func (j *jsiiProxy_DataAzureadApplicationFeatureTagsOutputReference) Hide() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzureadApplicationFeatureTagsOutputReference) Hide() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"hide",
@@ -183,8 +183,8 @@ func (j *jsiiProxy_DataAzureadApplicationFeatureTagsOutputReference) TerraformAt
 	return returns
 }
 
-func (j *jsiiProxy_DataAzureadApplicationFeatureTagsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAzureadApplicationFeatureTagsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -194,7 +194,7 @@ func (j *jsiiProxy_DataAzureadApplicationFeatureTagsOutputReference) TerraformRe
 }
 
 
-func NewDataAzureadApplicationFeatureTagsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzureadApplicationFeatureTagsOutputReference {
+func NewDataAzureadApplicationFeatureTagsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzureadApplicationFeatureTagsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAzureadApplicationFeatureTagsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -203,7 +203,7 @@ func NewDataAzureadApplicationFeatureTagsOutputReference(terraformResource cdktf
 	j := jsiiProxy_DataAzureadApplicationFeatureTagsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.dataAzureadApplication.DataAzureadApplicationFeatureTagsOutputReference",
+		"@cdktn/provider-azuread.dataAzureadApplication.DataAzureadApplicationFeatureTagsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -211,11 +211,11 @@ func NewDataAzureadApplicationFeatureTagsOutputReference(terraformResource cdktf
 	return &j
 }
 
-func NewDataAzureadApplicationFeatureTagsOutputReference_Override(d DataAzureadApplicationFeatureTagsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAzureadApplicationFeatureTagsOutputReference_Override(d DataAzureadApplicationFeatureTagsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.dataAzureadApplication.DataAzureadApplicationFeatureTagsOutputReference",
+		"@cdktn/provider-azuread.dataAzureadApplication.DataAzureadApplicationFeatureTagsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)
@@ -265,7 +265,7 @@ func (j *jsiiProxy_DataAzureadApplicationFeatureTagsOutputReference)SetTerraform
 	)
 }
 
-func (j *jsiiProxy_DataAzureadApplicationFeatureTagsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAzureadApplicationFeatureTagsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -305,11 +305,11 @@ func (d *jsiiProxy_DataAzureadApplicationFeatureTagsOutputReference) GetAnyMapAt
 	return returns
 }
 
-func (d *jsiiProxy_DataAzureadApplicationFeatureTagsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzureadApplicationFeatureTagsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -433,8 +433,8 @@ func (d *jsiiProxy_DataAzureadApplicationFeatureTagsOutputReference) GetStringMa
 	return returns
 }
 
-func (d *jsiiProxy_DataAzureadApplicationFeatureTagsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAzureadApplicationFeatureTagsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -446,11 +446,11 @@ func (d *jsiiProxy_DataAzureadApplicationFeatureTagsOutputReference) Interpolati
 	return returns
 }
 
-func (d *jsiiProxy_DataAzureadApplicationFeatureTagsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzureadApplicationFeatureTagsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -462,7 +462,7 @@ func (d *jsiiProxy_DataAzureadApplicationFeatureTagsOutputReference) Interpolati
 	return returns
 }
 
-func (d *jsiiProxy_DataAzureadApplicationFeatureTagsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAzureadApplicationFeatureTagsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

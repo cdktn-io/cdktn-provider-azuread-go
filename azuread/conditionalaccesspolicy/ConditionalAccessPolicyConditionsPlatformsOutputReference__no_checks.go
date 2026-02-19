@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -47,7 +47,7 @@ func (c *jsiiProxy_ConditionalAccessPolicyConditionsPlatformsOutputReference) va
 	return nil
 }
 
-func (c *jsiiProxy_ConditionalAccessPolicyConditionsPlatformsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ConditionalAccessPolicyConditionsPlatformsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ConditionalAccessPolicyConditionsPlatformsOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_ConditionalAccessPolicyConditionsPlatformsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ConditionalAccessPolicyConditionsPlatformsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewConditionalAccessPolicyConditionsPlatformsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewConditionalAccessPolicyConditionsPlatformsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

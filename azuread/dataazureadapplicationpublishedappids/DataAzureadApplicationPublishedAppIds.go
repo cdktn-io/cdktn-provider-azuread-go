@@ -1,22 +1,22 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazureadapplicationpublishedappids
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/dataazureadapplicationpublishedappids/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/dataazureadapplicationpublishedappids/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azuread/3.7.0/docs/data-sources/application_published_app_ids azuread_application_published_app_ids}.
 type DataAzureadApplicationPublishedAppIds interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -28,9 +28,9 @@ type DataAzureadApplicationPublishedAppIds interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -39,20 +39,20 @@ type DataAzureadApplicationPublishedAppIds interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
-	Result() cdktf.StringMap
+	Result() cdktn.StringMap
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -64,7 +64,7 @@ type DataAzureadApplicationPublishedAppIds interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -80,7 +80,7 @@ type DataAzureadApplicationPublishedAppIds interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -106,11 +106,11 @@ type DataAzureadApplicationPublishedAppIds interface {
 
 // The jsii proxy struct for DataAzureadApplicationPublishedAppIds
 type jsiiProxy_DataAzureadApplicationPublishedAppIds struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
-func (j *jsiiProxy_DataAzureadApplicationPublishedAppIds) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAzureadApplicationPublishedAppIds) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -149,8 +149,8 @@ func (j *jsiiProxy_DataAzureadApplicationPublishedAppIds) DependsOn() *[]*string
 	return returns
 }
 
-func (j *jsiiProxy_DataAzureadApplicationPublishedAppIds) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAzureadApplicationPublishedAppIds) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -199,8 +199,8 @@ func (j *jsiiProxy_DataAzureadApplicationPublishedAppIds) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzureadApplicationPublishedAppIds) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAzureadApplicationPublishedAppIds) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -219,8 +219,8 @@ func (j *jsiiProxy_DataAzureadApplicationPublishedAppIds) Node() constructs.Node
 	return returns
 }
 
-func (j *jsiiProxy_DataAzureadApplicationPublishedAppIds) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAzureadApplicationPublishedAppIds) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -239,8 +239,8 @@ func (j *jsiiProxy_DataAzureadApplicationPublishedAppIds) RawOverrides() interfa
 	return returns
 }
 
-func (j *jsiiProxy_DataAzureadApplicationPublishedAppIds) Result() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataAzureadApplicationPublishedAppIds) Result() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"result",
@@ -249,8 +249,8 @@ func (j *jsiiProxy_DataAzureadApplicationPublishedAppIds) Result() cdktf.StringM
 	return returns
 }
 
-func (j *jsiiProxy_DataAzureadApplicationPublishedAppIds) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAzureadApplicationPublishedAppIds) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -310,7 +310,7 @@ func NewDataAzureadApplicationPublishedAppIds(scope constructs.Construct, id *st
 	j := jsiiProxy_DataAzureadApplicationPublishedAppIds{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.dataAzureadApplicationPublishedAppIds.DataAzureadApplicationPublishedAppIds",
+		"@cdktn/provider-azuread.dataAzureadApplicationPublishedAppIds.DataAzureadApplicationPublishedAppIds",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -323,7 +323,7 @@ func NewDataAzureadApplicationPublishedAppIds_Override(d DataAzureadApplicationP
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.dataAzureadApplicationPublishedAppIds.DataAzureadApplicationPublishedAppIds",
+		"@cdktn/provider-azuread.dataAzureadApplicationPublishedAppIds.DataAzureadApplicationPublishedAppIds",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -348,7 +348,7 @@ func (j *jsiiProxy_DataAzureadApplicationPublishedAppIds)SetDependsOn(val *[]*st
 	)
 }
 
-func (j *jsiiProxy_DataAzureadApplicationPublishedAppIds)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAzureadApplicationPublishedAppIds)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -367,7 +367,7 @@ func (j *jsiiProxy_DataAzureadApplicationPublishedAppIds)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzureadApplicationPublishedAppIds)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAzureadApplicationPublishedAppIds)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -378,7 +378,7 @@ func (j *jsiiProxy_DataAzureadApplicationPublishedAppIds)SetLifecycle(val *cdktf
 	)
 }
 
-func (j *jsiiProxy_DataAzureadApplicationPublishedAppIds)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAzureadApplicationPublishedAppIds)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -386,17 +386,17 @@ func (j *jsiiProxy_DataAzureadApplicationPublishedAppIds)SetProvider(val cdktf.T
 	)
 }
 
-// Generates CDKTF code for importing a DataAzureadApplicationPublishedAppIds resource upon running "cdktf plan <stack-name>".
-func DataAzureadApplicationPublishedAppIds_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAzureadApplicationPublishedAppIds resource upon running "cdktn plan <stack-name>".
+func DataAzureadApplicationPublishedAppIds_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAzureadApplicationPublishedAppIds_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azuread.dataAzureadApplicationPublishedAppIds.DataAzureadApplicationPublishedAppIds",
+		"@cdktn/provider-azuread.dataAzureadApplicationPublishedAppIds.DataAzureadApplicationPublishedAppIds",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -431,7 +431,7 @@ func DataAzureadApplicationPublishedAppIds_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azuread.dataAzureadApplicationPublishedAppIds.DataAzureadApplicationPublishedAppIds",
+		"@cdktn/provider-azuread.dataAzureadApplicationPublishedAppIds.DataAzureadApplicationPublishedAppIds",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -450,7 +450,7 @@ func DataAzureadApplicationPublishedAppIds_IsTerraformDataSource(x interface{}) 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azuread.dataAzureadApplicationPublishedAppIds.DataAzureadApplicationPublishedAppIds",
+		"@cdktn/provider-azuread.dataAzureadApplicationPublishedAppIds.DataAzureadApplicationPublishedAppIds",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -469,7 +469,7 @@ func DataAzureadApplicationPublishedAppIds_IsTerraformElement(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azuread.dataAzureadApplicationPublishedAppIds.DataAzureadApplicationPublishedAppIds",
+		"@cdktn/provider-azuread.dataAzureadApplicationPublishedAppIds.DataAzureadApplicationPublishedAppIds",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -482,7 +482,7 @@ func DataAzureadApplicationPublishedAppIds_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azuread.dataAzureadApplicationPublishedAppIds.DataAzureadApplicationPublishedAppIds",
+		"@cdktn/provider-azuread.dataAzureadApplicationPublishedAppIds.DataAzureadApplicationPublishedAppIds",
 		"tfResourceType",
 		&returns,
 	)
@@ -516,11 +516,11 @@ func (d *jsiiProxy_DataAzureadApplicationPublishedAppIds) GetAnyMapAttribute(ter
 	return returns
 }
 
-func (d *jsiiProxy_DataAzureadApplicationPublishedAppIds) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzureadApplicationPublishedAppIds) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -644,11 +644,11 @@ func (d *jsiiProxy_DataAzureadApplicationPublishedAppIds) GetStringMapAttribute(
 	return returns
 }
 
-func (d *jsiiProxy_DataAzureadApplicationPublishedAppIds) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzureadApplicationPublishedAppIds) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

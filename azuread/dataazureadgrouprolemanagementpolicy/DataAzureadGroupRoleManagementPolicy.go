@@ -1,22 +1,22 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazureadgrouprolemanagementpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/dataazureadgrouprolemanagementpolicy/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/dataazureadgrouprolemanagementpolicy/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azuread/3.7.0/docs/data-sources/group_role_management_policy azuread_group_role_management_policy}.
 type DataAzureadGroupRoleManagementPolicy interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -30,9 +30,9 @@ type DataAzureadGroupRoleManagementPolicy interface {
 	Description() *string
 	DisplayName() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -44,22 +44,22 @@ type DataAzureadGroupRoleManagementPolicy interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	RoleId() *string
 	SetRoleId(val *string)
 	RoleIdInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -71,7 +71,7 @@ type DataAzureadGroupRoleManagementPolicy interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -87,7 +87,7 @@ type DataAzureadGroupRoleManagementPolicy interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -113,11 +113,11 @@ type DataAzureadGroupRoleManagementPolicy interface {
 
 // The jsii proxy struct for DataAzureadGroupRoleManagementPolicy
 type jsiiProxy_DataAzureadGroupRoleManagementPolicy struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
-func (j *jsiiProxy_DataAzureadGroupRoleManagementPolicy) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAzureadGroupRoleManagementPolicy) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -176,8 +176,8 @@ func (j *jsiiProxy_DataAzureadGroupRoleManagementPolicy) DisplayName() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzureadGroupRoleManagementPolicy) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAzureadGroupRoleManagementPolicy) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -246,8 +246,8 @@ func (j *jsiiProxy_DataAzureadGroupRoleManagementPolicy) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzureadGroupRoleManagementPolicy) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAzureadGroupRoleManagementPolicy) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -266,8 +266,8 @@ func (j *jsiiProxy_DataAzureadGroupRoleManagementPolicy) Node() constructs.Node 
 	return returns
 }
 
-func (j *jsiiProxy_DataAzureadGroupRoleManagementPolicy) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAzureadGroupRoleManagementPolicy) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -306,8 +306,8 @@ func (j *jsiiProxy_DataAzureadGroupRoleManagementPolicy) RoleIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzureadGroupRoleManagementPolicy) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAzureadGroupRoleManagementPolicy) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -367,7 +367,7 @@ func NewDataAzureadGroupRoleManagementPolicy(scope constructs.Construct, id *str
 	j := jsiiProxy_DataAzureadGroupRoleManagementPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.dataAzureadGroupRoleManagementPolicy.DataAzureadGroupRoleManagementPolicy",
+		"@cdktn/provider-azuread.dataAzureadGroupRoleManagementPolicy.DataAzureadGroupRoleManagementPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -380,7 +380,7 @@ func NewDataAzureadGroupRoleManagementPolicy_Override(d DataAzureadGroupRoleMana
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.dataAzureadGroupRoleManagementPolicy.DataAzureadGroupRoleManagementPolicy",
+		"@cdktn/provider-azuread.dataAzureadGroupRoleManagementPolicy.DataAzureadGroupRoleManagementPolicy",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -405,7 +405,7 @@ func (j *jsiiProxy_DataAzureadGroupRoleManagementPolicy)SetDependsOn(val *[]*str
 	)
 }
 
-func (j *jsiiProxy_DataAzureadGroupRoleManagementPolicy)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAzureadGroupRoleManagementPolicy)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -435,7 +435,7 @@ func (j *jsiiProxy_DataAzureadGroupRoleManagementPolicy)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzureadGroupRoleManagementPolicy)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAzureadGroupRoleManagementPolicy)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -446,7 +446,7 @@ func (j *jsiiProxy_DataAzureadGroupRoleManagementPolicy)SetLifecycle(val *cdktf.
 	)
 }
 
-func (j *jsiiProxy_DataAzureadGroupRoleManagementPolicy)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAzureadGroupRoleManagementPolicy)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -465,17 +465,17 @@ func (j *jsiiProxy_DataAzureadGroupRoleManagementPolicy)SetRoleId(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a DataAzureadGroupRoleManagementPolicy resource upon running "cdktf plan <stack-name>".
-func DataAzureadGroupRoleManagementPolicy_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAzureadGroupRoleManagementPolicy resource upon running "cdktn plan <stack-name>".
+func DataAzureadGroupRoleManagementPolicy_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAzureadGroupRoleManagementPolicy_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azuread.dataAzureadGroupRoleManagementPolicy.DataAzureadGroupRoleManagementPolicy",
+		"@cdktn/provider-azuread.dataAzureadGroupRoleManagementPolicy.DataAzureadGroupRoleManagementPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -510,7 +510,7 @@ func DataAzureadGroupRoleManagementPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azuread.dataAzureadGroupRoleManagementPolicy.DataAzureadGroupRoleManagementPolicy",
+		"@cdktn/provider-azuread.dataAzureadGroupRoleManagementPolicy.DataAzureadGroupRoleManagementPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -529,7 +529,7 @@ func DataAzureadGroupRoleManagementPolicy_IsTerraformDataSource(x interface{}) *
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azuread.dataAzureadGroupRoleManagementPolicy.DataAzureadGroupRoleManagementPolicy",
+		"@cdktn/provider-azuread.dataAzureadGroupRoleManagementPolicy.DataAzureadGroupRoleManagementPolicy",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -548,7 +548,7 @@ func DataAzureadGroupRoleManagementPolicy_IsTerraformElement(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azuread.dataAzureadGroupRoleManagementPolicy.DataAzureadGroupRoleManagementPolicy",
+		"@cdktn/provider-azuread.dataAzureadGroupRoleManagementPolicy.DataAzureadGroupRoleManagementPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -561,7 +561,7 @@ func DataAzureadGroupRoleManagementPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azuread.dataAzureadGroupRoleManagementPolicy.DataAzureadGroupRoleManagementPolicy",
+		"@cdktn/provider-azuread.dataAzureadGroupRoleManagementPolicy.DataAzureadGroupRoleManagementPolicy",
 		"tfResourceType",
 		&returns,
 	)
@@ -595,11 +595,11 @@ func (d *jsiiProxy_DataAzureadGroupRoleManagementPolicy) GetAnyMapAttribute(terr
 	return returns
 }
 
-func (d *jsiiProxy_DataAzureadGroupRoleManagementPolicy) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzureadGroupRoleManagementPolicy) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -723,11 +723,11 @@ func (d *jsiiProxy_DataAzureadGroupRoleManagementPolicy) GetStringMapAttribute(t
 	return returns
 }
 
-func (d *jsiiProxy_DataAzureadGroupRoleManagementPolicy) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzureadGroupRoleManagementPolicy) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

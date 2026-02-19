@@ -1,19 +1,19 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazureadapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/dataazureadapplication/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/dataazureadapplication/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAzureadApplicationWebImplicitGrantOutputReference interface {
-	cdktf.ComplexObject
-	AccessTokenIssuanceEnabled() cdktf.IResolvable
+	cdktn.ComplexObject
+	AccessTokenIssuanceEnabled() cdktn.IResolvable
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -31,7 +31,7 @@ type DataAzureadApplicationWebImplicitGrantOutputReference interface {
 	CreationStack() *[]*string
 	// Experimental.
 	Fqn() *string
-	IdTokenIssuanceEnabled() cdktf.IResolvable
+	IdTokenIssuanceEnabled() cdktn.IResolvable
 	InternalValue() *DataAzureadApplicationWebImplicitGrant
 	SetInternalValue(val *DataAzureadApplicationWebImplicitGrant)
 	// Experimental.
@@ -39,15 +39,15 @@ type DataAzureadApplicationWebImplicitGrantOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -63,12 +63,12 @@ type DataAzureadApplicationWebImplicitGrantOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -78,11 +78,11 @@ type DataAzureadApplicationWebImplicitGrantOutputReference interface {
 
 // The jsii proxy struct for DataAzureadApplicationWebImplicitGrantOutputReference
 type jsiiProxy_DataAzureadApplicationWebImplicitGrantOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
-func (j *jsiiProxy_DataAzureadApplicationWebImplicitGrantOutputReference) AccessTokenIssuanceEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzureadApplicationWebImplicitGrantOutputReference) AccessTokenIssuanceEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"accessTokenIssuanceEnabled",
@@ -131,8 +131,8 @@ func (j *jsiiProxy_DataAzureadApplicationWebImplicitGrantOutputReference) Fqn() 
 	return returns
 }
 
-func (j *jsiiProxy_DataAzureadApplicationWebImplicitGrantOutputReference) IdTokenIssuanceEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzureadApplicationWebImplicitGrantOutputReference) IdTokenIssuanceEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"idTokenIssuanceEnabled",
@@ -161,8 +161,8 @@ func (j *jsiiProxy_DataAzureadApplicationWebImplicitGrantOutputReference) Terraf
 	return returns
 }
 
-func (j *jsiiProxy_DataAzureadApplicationWebImplicitGrantOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAzureadApplicationWebImplicitGrantOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -172,7 +172,7 @@ func (j *jsiiProxy_DataAzureadApplicationWebImplicitGrantOutputReference) Terraf
 }
 
 
-func NewDataAzureadApplicationWebImplicitGrantOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzureadApplicationWebImplicitGrantOutputReference {
+func NewDataAzureadApplicationWebImplicitGrantOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzureadApplicationWebImplicitGrantOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAzureadApplicationWebImplicitGrantOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -181,7 +181,7 @@ func NewDataAzureadApplicationWebImplicitGrantOutputReference(terraformResource 
 	j := jsiiProxy_DataAzureadApplicationWebImplicitGrantOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.dataAzureadApplication.DataAzureadApplicationWebImplicitGrantOutputReference",
+		"@cdktn/provider-azuread.dataAzureadApplication.DataAzureadApplicationWebImplicitGrantOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -189,11 +189,11 @@ func NewDataAzureadApplicationWebImplicitGrantOutputReference(terraformResource 
 	return &j
 }
 
-func NewDataAzureadApplicationWebImplicitGrantOutputReference_Override(d DataAzureadApplicationWebImplicitGrantOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAzureadApplicationWebImplicitGrantOutputReference_Override(d DataAzureadApplicationWebImplicitGrantOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.dataAzureadApplication.DataAzureadApplicationWebImplicitGrantOutputReference",
+		"@cdktn/provider-azuread.dataAzureadApplication.DataAzureadApplicationWebImplicitGrantOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)
@@ -243,7 +243,7 @@ func (j *jsiiProxy_DataAzureadApplicationWebImplicitGrantOutputReference)SetTerr
 	)
 }
 
-func (j *jsiiProxy_DataAzureadApplicationWebImplicitGrantOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAzureadApplicationWebImplicitGrantOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -283,11 +283,11 @@ func (d *jsiiProxy_DataAzureadApplicationWebImplicitGrantOutputReference) GetAny
 	return returns
 }
 
-func (d *jsiiProxy_DataAzureadApplicationWebImplicitGrantOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzureadApplicationWebImplicitGrantOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -411,8 +411,8 @@ func (d *jsiiProxy_DataAzureadApplicationWebImplicitGrantOutputReference) GetStr
 	return returns
 }
 
-func (d *jsiiProxy_DataAzureadApplicationWebImplicitGrantOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAzureadApplicationWebImplicitGrantOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -424,11 +424,11 @@ func (d *jsiiProxy_DataAzureadApplicationWebImplicitGrantOutputReference) Interp
 	return returns
 }
 
-func (d *jsiiProxy_DataAzureadApplicationWebImplicitGrantOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzureadApplicationWebImplicitGrantOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -440,7 +440,7 @@ func (d *jsiiProxy_DataAzureadApplicationWebImplicitGrantOutputReference) Interp
 	return returns
 }
 
-func (d *jsiiProxy_DataAzureadApplicationWebImplicitGrantOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAzureadApplicationWebImplicitGrantOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

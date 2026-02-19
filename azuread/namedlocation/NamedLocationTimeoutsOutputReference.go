@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package namedlocation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/namedlocation/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/namedlocation/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type NamedLocationTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,9 +46,9 @@ type NamedLocationTimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Update() *string
 	SetUpdate(val *string)
 	UpdateInput() *string
@@ -57,7 +57,7 @@ type NamedLocationTimeoutsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,16 +73,16 @@ type NamedLocationTimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
 	ResetRead()
 	ResetUpdate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -92,7 +92,7 @@ type NamedLocationTimeoutsOutputReference interface {
 
 // The jsii proxy struct for NamedLocationTimeoutsOutputReference
 type jsiiProxy_NamedLocationTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_NamedLocationTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -215,8 +215,8 @@ func (j *jsiiProxy_NamedLocationTimeoutsOutputReference) TerraformAttribute() *s
 	return returns
 }
 
-func (j *jsiiProxy_NamedLocationTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_NamedLocationTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -246,7 +246,7 @@ func (j *jsiiProxy_NamedLocationTimeoutsOutputReference) UpdateInput() *string {
 }
 
 
-func NewNamedLocationTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) NamedLocationTimeoutsOutputReference {
+func NewNamedLocationTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) NamedLocationTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewNamedLocationTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -255,7 +255,7 @@ func NewNamedLocationTimeoutsOutputReference(terraformResource cdktf.IInterpolat
 	j := jsiiProxy_NamedLocationTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.namedLocation.NamedLocationTimeoutsOutputReference",
+		"@cdktn/provider-azuread.namedLocation.NamedLocationTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -263,11 +263,11 @@ func NewNamedLocationTimeoutsOutputReference(terraformResource cdktf.IInterpolat
 	return &j
 }
 
-func NewNamedLocationTimeoutsOutputReference_Override(n NamedLocationTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewNamedLocationTimeoutsOutputReference_Override(n NamedLocationTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.namedLocation.NamedLocationTimeoutsOutputReference",
+		"@cdktn/provider-azuread.namedLocation.NamedLocationTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		n,
 	)
@@ -350,7 +350,7 @@ func (j *jsiiProxy_NamedLocationTimeoutsOutputReference)SetTerraformAttribute(va
 	)
 }
 
-func (j *jsiiProxy_NamedLocationTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_NamedLocationTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -401,11 +401,11 @@ func (n *jsiiProxy_NamedLocationTimeoutsOutputReference) GetAnyMapAttribute(terr
 	return returns
 }
 
-func (n *jsiiProxy_NamedLocationTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NamedLocationTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -529,8 +529,8 @@ func (n *jsiiProxy_NamedLocationTimeoutsOutputReference) GetStringMapAttribute(t
 	return returns
 }
 
-func (n *jsiiProxy_NamedLocationTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (n *jsiiProxy_NamedLocationTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -542,11 +542,11 @@ func (n *jsiiProxy_NamedLocationTimeoutsOutputReference) InterpolationAsList() c
 	return returns
 }
 
-func (n *jsiiProxy_NamedLocationTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NamedLocationTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -590,7 +590,7 @@ func (n *jsiiProxy_NamedLocationTimeoutsOutputReference) ResetUpdate() {
 	)
 }
 
-func (n *jsiiProxy_NamedLocationTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (n *jsiiProxy_NamedLocationTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := n.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package claimsmappingpolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.claimsMappingPolicy.ClaimsMappingPolicy",
+		"@cdktn/provider-azuread.claimsMappingPolicy.ClaimsMappingPolicy",
 		reflect.TypeOf((*ClaimsMappingPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -69,20 +69,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClaimsMappingPolicy{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.claimsMappingPolicy.ClaimsMappingPolicyConfig",
+		"@cdktn/provider-azuread.claimsMappingPolicy.ClaimsMappingPolicyConfig",
 		reflect.TypeOf((*ClaimsMappingPolicyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.claimsMappingPolicy.ClaimsMappingPolicyTimeouts",
+		"@cdktn/provider-azuread.claimsMappingPolicy.ClaimsMappingPolicyTimeouts",
 		reflect.TypeOf((*ClaimsMappingPolicyTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.claimsMappingPolicy.ClaimsMappingPolicyTimeoutsOutputReference",
+		"@cdktn/provider-azuread.claimsMappingPolicy.ClaimsMappingPolicyTimeoutsOutputReference",
 		reflect.TypeOf((*ClaimsMappingPolicyTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -121,7 +121,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClaimsMappingPolicyTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

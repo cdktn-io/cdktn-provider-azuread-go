@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package invitation
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.invitation.Invitation",
+		"@cdktn/provider-azuread.invitation.Invitation",
 		reflect.TypeOf((*Invitation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,20 +81,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Invitation{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.invitation.InvitationConfig",
+		"@cdktn/provider-azuread.invitation.InvitationConfig",
 		reflect.TypeOf((*InvitationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.invitation.InvitationMessage",
+		"@cdktn/provider-azuread.invitation.InvitationMessage",
 		reflect.TypeOf((*InvitationMessage)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.invitation.InvitationMessageOutputReference",
+		"@cdktn/provider-azuread.invitation.InvitationMessageOutputReference",
 		reflect.TypeOf((*InvitationMessageOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalRecipients", GoGetter: "AdditionalRecipients"},
@@ -130,16 +130,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_InvitationMessageOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.invitation.InvitationTimeouts",
+		"@cdktn/provider-azuread.invitation.InvitationTimeouts",
 		reflect.TypeOf((*InvitationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.invitation.InvitationTimeoutsOutputReference",
+		"@cdktn/provider-azuread.invitation.InvitationTimeoutsOutputReference",
 		reflect.TypeOf((*InvitationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -175,7 +175,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_InvitationTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

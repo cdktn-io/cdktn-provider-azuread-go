@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package applicationcertificate
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.applicationCertificate.ApplicationCertificate",
+		"@cdktn/provider-azuread.applicationCertificate.ApplicationCertificate",
 		reflect.TypeOf((*ApplicationCertificate)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -87,20 +87,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApplicationCertificate{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.applicationCertificate.ApplicationCertificateConfig",
+		"@cdktn/provider-azuread.applicationCertificate.ApplicationCertificateConfig",
 		reflect.TypeOf((*ApplicationCertificateConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azuread.applicationCertificate.ApplicationCertificateTimeouts",
+		"@cdktn/provider-azuread.applicationCertificate.ApplicationCertificateTimeouts",
 		reflect.TypeOf((*ApplicationCertificateTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azuread.applicationCertificate.ApplicationCertificateTimeoutsOutputReference",
+		"@cdktn/provider-azuread.applicationCertificate.ApplicationCertificateTimeoutsOutputReference",
 		reflect.TypeOf((*ApplicationCertificateTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -139,7 +139,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ApplicationCertificateTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

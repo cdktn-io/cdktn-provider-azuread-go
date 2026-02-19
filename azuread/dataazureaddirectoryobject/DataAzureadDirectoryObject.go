@@ -1,22 +1,22 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazureaddirectoryobject
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/dataazureaddirectoryobject/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/dataazureaddirectoryobject/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azuread/3.7.0/docs/data-sources/directory_object azuread_directory_object}.
 type DataAzureadDirectoryObject interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -28,9 +28,9 @@ type DataAzureadDirectoryObject interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -39,22 +39,22 @@ type DataAzureadDirectoryObject interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	ObjectId() *string
 	SetObjectId(val *string)
 	ObjectIdInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -67,7 +67,7 @@ type DataAzureadDirectoryObject interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -83,7 +83,7 @@ type DataAzureadDirectoryObject interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -109,11 +109,11 @@ type DataAzureadDirectoryObject interface {
 
 // The jsii proxy struct for DataAzureadDirectoryObject
 type jsiiProxy_DataAzureadDirectoryObject struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
-func (j *jsiiProxy_DataAzureadDirectoryObject) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAzureadDirectoryObject) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -152,8 +152,8 @@ func (j *jsiiProxy_DataAzureadDirectoryObject) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzureadDirectoryObject) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAzureadDirectoryObject) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -202,8 +202,8 @@ func (j *jsiiProxy_DataAzureadDirectoryObject) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzureadDirectoryObject) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAzureadDirectoryObject) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -242,8 +242,8 @@ func (j *jsiiProxy_DataAzureadDirectoryObject) ObjectIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzureadDirectoryObject) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAzureadDirectoryObject) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -262,8 +262,8 @@ func (j *jsiiProxy_DataAzureadDirectoryObject) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzureadDirectoryObject) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAzureadDirectoryObject) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -333,7 +333,7 @@ func NewDataAzureadDirectoryObject(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_DataAzureadDirectoryObject{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.dataAzureadDirectoryObject.DataAzureadDirectoryObject",
+		"@cdktn/provider-azuread.dataAzureadDirectoryObject.DataAzureadDirectoryObject",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -346,7 +346,7 @@ func NewDataAzureadDirectoryObject_Override(d DataAzureadDirectoryObject, scope 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.dataAzureadDirectoryObject.DataAzureadDirectoryObject",
+		"@cdktn/provider-azuread.dataAzureadDirectoryObject.DataAzureadDirectoryObject",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -371,7 +371,7 @@ func (j *jsiiProxy_DataAzureadDirectoryObject)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzureadDirectoryObject)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAzureadDirectoryObject)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -390,7 +390,7 @@ func (j *jsiiProxy_DataAzureadDirectoryObject)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzureadDirectoryObject)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAzureadDirectoryObject)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -412,7 +412,7 @@ func (j *jsiiProxy_DataAzureadDirectoryObject)SetObjectId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzureadDirectoryObject)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAzureadDirectoryObject)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -420,17 +420,17 @@ func (j *jsiiProxy_DataAzureadDirectoryObject)SetProvider(val cdktf.TerraformPro
 	)
 }
 
-// Generates CDKTF code for importing a DataAzureadDirectoryObject resource upon running "cdktf plan <stack-name>".
-func DataAzureadDirectoryObject_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAzureadDirectoryObject resource upon running "cdktn plan <stack-name>".
+func DataAzureadDirectoryObject_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAzureadDirectoryObject_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azuread.dataAzureadDirectoryObject.DataAzureadDirectoryObject",
+		"@cdktn/provider-azuread.dataAzureadDirectoryObject.DataAzureadDirectoryObject",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -465,7 +465,7 @@ func DataAzureadDirectoryObject_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azuread.dataAzureadDirectoryObject.DataAzureadDirectoryObject",
+		"@cdktn/provider-azuread.dataAzureadDirectoryObject.DataAzureadDirectoryObject",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -484,7 +484,7 @@ func DataAzureadDirectoryObject_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azuread.dataAzureadDirectoryObject.DataAzureadDirectoryObject",
+		"@cdktn/provider-azuread.dataAzureadDirectoryObject.DataAzureadDirectoryObject",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -503,7 +503,7 @@ func DataAzureadDirectoryObject_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azuread.dataAzureadDirectoryObject.DataAzureadDirectoryObject",
+		"@cdktn/provider-azuread.dataAzureadDirectoryObject.DataAzureadDirectoryObject",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -516,7 +516,7 @@ func DataAzureadDirectoryObject_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azuread.dataAzureadDirectoryObject.DataAzureadDirectoryObject",
+		"@cdktn/provider-azuread.dataAzureadDirectoryObject.DataAzureadDirectoryObject",
 		"tfResourceType",
 		&returns,
 	)
@@ -550,11 +550,11 @@ func (d *jsiiProxy_DataAzureadDirectoryObject) GetAnyMapAttribute(terraformAttri
 	return returns
 }
 
-func (d *jsiiProxy_DataAzureadDirectoryObject) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzureadDirectoryObject) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -678,11 +678,11 @@ func (d *jsiiProxy_DataAzureadDirectoryObject) GetStringMapAttribute(terraformAt
 	return returns
 }
 
-func (d *jsiiProxy_DataAzureadDirectoryObject) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzureadDirectoryObject) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

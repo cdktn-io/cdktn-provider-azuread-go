@@ -1,25 +1,25 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazureaddomains
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azuread-go/azuread/v14/dataazureaddomains/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/dataazureaddomains/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azuread/3.7.0/docs/data-sources/domains azuread_domains}.
 type DataAzureadDomains interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	AdminManaged() interface{}
 	SetAdminManaged(val interface{})
 	AdminManagedInput() interface{}
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -32,9 +32,9 @@ type DataAzureadDomains interface {
 	SetDependsOn(val *[]*string)
 	Domains() DataAzureadDomainsDomainsList
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -46,9 +46,9 @@ type DataAzureadDomains interface {
 	SetIncludeUnverified(val interface{})
 	IncludeUnverifiedInput() interface{}
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	OnlyDefault() interface{}
@@ -61,16 +61,16 @@ type DataAzureadDomains interface {
 	SetOnlyRoot(val interface{})
 	OnlyRootInput() interface{}
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	SupportsServices() *[]*string
 	SetSupportsServices(val *[]*string)
 	SupportsServicesInput() *[]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -82,7 +82,7 @@ type DataAzureadDomains interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -98,7 +98,7 @@ type DataAzureadDomains interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -130,7 +130,7 @@ type DataAzureadDomains interface {
 
 // The jsii proxy struct for DataAzureadDomains
 type jsiiProxy_DataAzureadDomains struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataAzureadDomains) AdminManaged() interface{} {
@@ -153,8 +153,8 @@ func (j *jsiiProxy_DataAzureadDomains) AdminManagedInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzureadDomains) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAzureadDomains) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -203,8 +203,8 @@ func (j *jsiiProxy_DataAzureadDomains) Domains() DataAzureadDomainsDomainsList {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzureadDomains) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAzureadDomains) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -273,8 +273,8 @@ func (j *jsiiProxy_DataAzureadDomains) IncludeUnverifiedInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzureadDomains) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAzureadDomains) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -353,8 +353,8 @@ func (j *jsiiProxy_DataAzureadDomains) OnlyRootInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzureadDomains) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAzureadDomains) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -393,8 +393,8 @@ func (j *jsiiProxy_DataAzureadDomains) SupportsServicesInput() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzureadDomains) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAzureadDomains) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -454,7 +454,7 @@ func NewDataAzureadDomains(scope constructs.Construct, id *string, config *DataA
 	j := jsiiProxy_DataAzureadDomains{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.dataAzureadDomains.DataAzureadDomains",
+		"@cdktn/provider-azuread.dataAzureadDomains.DataAzureadDomains",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -467,7 +467,7 @@ func NewDataAzureadDomains_Override(d DataAzureadDomains, scope constructs.Const
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azuread.dataAzureadDomains.DataAzureadDomains",
+		"@cdktn/provider-azuread.dataAzureadDomains.DataAzureadDomains",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -503,7 +503,7 @@ func (j *jsiiProxy_DataAzureadDomains)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzureadDomains)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAzureadDomains)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -533,7 +533,7 @@ func (j *jsiiProxy_DataAzureadDomains)SetIncludeUnverified(val interface{}) {
 	)
 }
 
-func (j *jsiiProxy_DataAzureadDomains)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAzureadDomains)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -577,7 +577,7 @@ func (j *jsiiProxy_DataAzureadDomains)SetOnlyRoot(val interface{}) {
 	)
 }
 
-func (j *jsiiProxy_DataAzureadDomains)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAzureadDomains)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -596,17 +596,17 @@ func (j *jsiiProxy_DataAzureadDomains)SetSupportsServices(val *[]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a DataAzureadDomains resource upon running "cdktf plan <stack-name>".
-func DataAzureadDomains_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAzureadDomains resource upon running "cdktn plan <stack-name>".
+func DataAzureadDomains_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAzureadDomains_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azuread.dataAzureadDomains.DataAzureadDomains",
+		"@cdktn/provider-azuread.dataAzureadDomains.DataAzureadDomains",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -641,7 +641,7 @@ func DataAzureadDomains_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azuread.dataAzureadDomains.DataAzureadDomains",
+		"@cdktn/provider-azuread.dataAzureadDomains.DataAzureadDomains",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -660,7 +660,7 @@ func DataAzureadDomains_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azuread.dataAzureadDomains.DataAzureadDomains",
+		"@cdktn/provider-azuread.dataAzureadDomains.DataAzureadDomains",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -679,7 +679,7 @@ func DataAzureadDomains_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azuread.dataAzureadDomains.DataAzureadDomains",
+		"@cdktn/provider-azuread.dataAzureadDomains.DataAzureadDomains",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -692,7 +692,7 @@ func DataAzureadDomains_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azuread.dataAzureadDomains.DataAzureadDomains",
+		"@cdktn/provider-azuread.dataAzureadDomains.DataAzureadDomains",
 		"tfResourceType",
 		&returns,
 	)
@@ -726,11 +726,11 @@ func (d *jsiiProxy_DataAzureadDomains) GetAnyMapAttribute(terraformAttribute *st
 	return returns
 }
 
-func (d *jsiiProxy_DataAzureadDomains) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzureadDomains) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -854,11 +854,11 @@ func (d *jsiiProxy_DataAzureadDomains) GetStringMapAttribute(terraformAttribute 
 	return returns
 }
 
-func (d *jsiiProxy_DataAzureadDomains) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzureadDomains) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

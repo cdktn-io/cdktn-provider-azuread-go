@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azuread/3.7.0/docs/resources/application_flexible_federated_identity_credential azuread_application_flexible_federated_identity_credential}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azuread/3.8.0/docs/resources/application_flexible_federated_identity_credential azuread_application_flexible_federated_identity_credential}.
 type ApplicationFlexibleFederatedIdentityCredential interface {
 	cdktn.TerraformResource
 	ApplicationId() *string
@@ -484,7 +484,7 @@ func (j *jsiiProxy_ApplicationFlexibleFederatedIdentityCredential) TimeoutsInput
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.7.0/docs/resources/application_flexible_federated_identity_credential azuread_application_flexible_federated_identity_credential} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.8.0/docs/resources/application_flexible_federated_identity_credential azuread_application_flexible_federated_identity_credential} Resource.
 func NewApplicationFlexibleFederatedIdentityCredential(scope constructs.Construct, id *string, config *ApplicationFlexibleFederatedIdentityCredentialConfig) ApplicationFlexibleFederatedIdentityCredential {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewApplicationFlexibleFederatedIdentityCredential(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.7.0/docs/resources/application_flexible_federated_identity_credential azuread_application_flexible_federated_identity_credential} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.8.0/docs/resources/application_flexible_federated_identity_credential azuread_application_flexible_federated_identity_credential} Resource.
 func NewApplicationFlexibleFederatedIdentityCredential_Override(a ApplicationFlexibleFederatedIdentityCredential, scope constructs.Construct, id *string, config *ApplicationFlexibleFederatedIdentityCredentialConfig) {
 	_init_.Initialize()
 

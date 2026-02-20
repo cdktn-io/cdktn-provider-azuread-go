@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azuread/3.7.0/docs/data-sources/group azuread_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azuread/3.8.0/docs/data-sources/group azuread_group}.
 type DataAzureadGroup interface {
 	cdktn.TerraformDataSource
 	AssignableToRole() cdktn.IResolvable
@@ -697,7 +697,7 @@ func (j *jsiiProxy_DataAzureadGroup) WritebackEnabled() cdktn.IResolvable {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.7.0/docs/data-sources/group azuread_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.8.0/docs/data-sources/group azuread_group} Data Source.
 func NewDataAzureadGroup(scope constructs.Construct, id *string, config *DataAzureadGroupConfig) DataAzureadGroup {
 	_init_.Initialize()
 
@@ -715,7 +715,7 @@ func NewDataAzureadGroup(scope constructs.Construct, id *string, config *DataAzu
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.7.0/docs/data-sources/group azuread_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.8.0/docs/data-sources/group azuread_group} Data Source.
 func NewDataAzureadGroup_Override(d DataAzureadGroup, scope constructs.Construct, id *string, config *DataAzureadGroupConfig) {
 	_init_.Initialize()
 

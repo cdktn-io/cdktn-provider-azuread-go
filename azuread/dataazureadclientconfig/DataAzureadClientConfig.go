@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azuread/3.7.0/docs/data-sources/client_config azuread_client_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azuread/3.8.0/docs/data-sources/client_config azuread_client_config}.
 type DataAzureadClientConfig interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -322,7 +322,7 @@ func (j *jsiiProxy_DataAzureadClientConfig) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.7.0/docs/data-sources/client_config azuread_client_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.8.0/docs/data-sources/client_config azuread_client_config} Data Source.
 func NewDataAzureadClientConfig(scope constructs.Construct, id *string, config *DataAzureadClientConfigConfig) DataAzureadClientConfig {
 	_init_.Initialize()
 
@@ -340,7 +340,7 @@ func NewDataAzureadClientConfig(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.7.0/docs/data-sources/client_config azuread_client_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.8.0/docs/data-sources/client_config azuread_client_config} Data Source.
 func NewDataAzureadClientConfig_Override(d DataAzureadClientConfig, scope constructs.Construct, id *string, config *DataAzureadClientConfigConfig) {
 	_init_.Initialize()
 

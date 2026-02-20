@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azuread/3.7.0/docs/data-sources/service_principal azuread_service_principal}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azuread/3.8.0/docs/data-sources/service_principal azuread_service_principal}.
 type DataAzureadServicePrincipal interface {
 	cdktn.TerraformDataSource
 	AccountEnabled() cdktn.IResolvable
@@ -625,7 +625,7 @@ func (j *jsiiProxy_DataAzureadServicePrincipal) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.7.0/docs/data-sources/service_principal azuread_service_principal} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.8.0/docs/data-sources/service_principal azuread_service_principal} Data Source.
 func NewDataAzureadServicePrincipal(scope constructs.Construct, id *string, config *DataAzureadServicePrincipalConfig) DataAzureadServicePrincipal {
 	_init_.Initialize()
 
@@ -643,7 +643,7 @@ func NewDataAzureadServicePrincipal(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.7.0/docs/data-sources/service_principal azuread_service_principal} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.8.0/docs/data-sources/service_principal azuread_service_principal} Data Source.
 func NewDataAzureadServicePrincipal_Override(d DataAzureadServicePrincipal, scope constructs.Construct, id *string, config *DataAzureadServicePrincipalConfig) {
 	_init_.Initialize()
 

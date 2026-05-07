@@ -5,9 +5,9 @@ package applicationfromtemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v16/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/applicationfromtemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v16/applicationfromtemplate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 

@@ -135,6 +135,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typesInput", GoGetter: "TypesInput"},
 			_jsii_.MemberProperty{JsiiProperty: "visibility", GoGetter: "Visibility"},
 			_jsii_.MemberProperty{JsiiProperty: "visibilityInput", GoGetter: "VisibilityInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "writebackEnabled", GoGetter: "WritebackEnabled"},
 			_jsii_.MemberProperty{JsiiProperty: "writebackEnabledInput", GoGetter: "WritebackEnabledInput"},
 		},

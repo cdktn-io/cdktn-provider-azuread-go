@@ -102,6 +102,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "useMsiInput", GoGetter: "UseMsiInput"},
 			_jsii_.MemberProperty{JsiiProperty: "useOidc", GoGetter: "UseOidc"},
 			_jsii_.MemberProperty{JsiiProperty: "useOidcInput", GoGetter: "UseOidcInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_AzureadProvider{}

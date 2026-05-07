@@ -76,6 +76,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "userPrincipalNames", GoGetter: "UserPrincipalNames"},
 			_jsii_.MemberProperty{JsiiProperty: "userPrincipalNamesInput", GoGetter: "UserPrincipalNamesInput"},
 			_jsii_.MemberProperty{JsiiProperty: "users", GoGetter: "Users"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzureadUsers{}

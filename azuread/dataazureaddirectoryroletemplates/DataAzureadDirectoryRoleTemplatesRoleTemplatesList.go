@@ -5,9 +5,9 @@ package dataazureaddirectoryroletemplates
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v16/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v15/dataazureaddirectoryroletemplates/internal"
+	"github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v16/dataazureaddirectoryroletemplates/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -20,14 +20,17 @@ type DataAzureadDirectoryRoleTemplatesRoleTemplatesList interface {
 	CreationStack() *[]*string
 	// Experimental.
 	Fqn() *string
-	// The attribute on the parent resource this class is referencing.
+	// Experimental.
 	TerraformAttribute() *string
+	// Experimental.
 	SetTerraformAttribute(val *string)
-	// The parent resource.
+	// Experimental.
 	TerraformResource() cdktn.IInterpolatingParent
+	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
-	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+	// Experimental.
 	WrapsSet() *bool
+	// Experimental.
 	SetWrapsSet(val *bool)
 	// Creating an iterator for this complex list.
 	//

@@ -123,6 +123,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "type", GoGetter: "Type"},
 			_jsii_.MemberProperty{JsiiProperty: "useExisting", GoGetter: "UseExisting"},
 			_jsii_.MemberProperty{JsiiProperty: "useExistingInput", GoGetter: "UseExistingInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_ServicePrincipal{}

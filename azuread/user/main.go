@@ -181,6 +181,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "userPrincipalName", GoGetter: "UserPrincipalName"},
 			_jsii_.MemberProperty{JsiiProperty: "userPrincipalNameInput", GoGetter: "UserPrincipalNameInput"},
 			_jsii_.MemberProperty{JsiiProperty: "userType", GoGetter: "UserType"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_User{}

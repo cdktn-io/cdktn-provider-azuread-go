@@ -31,6 +31,8 @@ type ConditionalAccessPolicyConditionsApplicationsOutputReference interface {
 	ExcludedApplications() *[]*string
 	SetExcludedApplications(val *[]*string)
 	ExcludedApplicationsInput() *[]*string
+	Filter() ConditionalAccessPolicyConditionsApplicationsFilterOutputReference
+	FilterInput() *ConditionalAccessPolicyConditionsApplicationsFilter
 	// Experimental.
 	Fqn() *string
 	IncludedApplications() *[]*string
@@ -73,7 +75,9 @@ type ConditionalAccessPolicyConditionsApplicationsOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutFilter(value *ConditionalAccessPolicyConditionsApplicationsFilter)
 	ResetExcludedApplications()
+	ResetFilter()
 	ResetIncludedApplications()
 	ResetIncludedUserActions()
 	// Produce the Token's value at resolution time.
@@ -136,6 +140,26 @@ func (j *jsiiProxy_ConditionalAccessPolicyConditionsApplicationsOutputReference)
 	_jsii_.Get(
 		j,
 		"excludedApplicationsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ConditionalAccessPolicyConditionsApplicationsOutputReference) Filter() ConditionalAccessPolicyConditionsApplicationsFilterOutputReference {
+	var returns ConditionalAccessPolicyConditionsApplicationsFilterOutputReference
+	_jsii_.Get(
+		j,
+		"filter",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ConditionalAccessPolicyConditionsApplicationsOutputReference) FilterInput() *ConditionalAccessPolicyConditionsApplicationsFilter {
+	var returns *ConditionalAccessPolicyConditionsApplicationsFilter
+	_jsii_.Get(
+		j,
+		"filterInput",
 		&returns,
 	)
 	return returns
@@ -523,10 +547,29 @@ func (c *jsiiProxy_ConditionalAccessPolicyConditionsApplicationsOutputReference)
 	return returns
 }
 
+func (c *jsiiProxy_ConditionalAccessPolicyConditionsApplicationsOutputReference) PutFilter(value *ConditionalAccessPolicyConditionsApplicationsFilter) {
+	if err := c.validatePutFilterParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putFilter",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_ConditionalAccessPolicyConditionsApplicationsOutputReference) ResetExcludedApplications() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetExcludedApplications",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ConditionalAccessPolicyConditionsApplicationsOutputReference) ResetFilter() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetFilter",
 		nil, // no parameters
 	)
 }

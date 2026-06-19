@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azuread/3.8.0/docs/resources/access_package_assignment_policy azuread_access_package_assignment_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/access_package_assignment_policy azuread_access_package_assignment_policy}.
 type AccessPackageAssignmentPolicy interface {
 	cdktn.TerraformResource
 	AccessPackageId() *string
@@ -580,7 +580,7 @@ func (j *jsiiProxy_AccessPackageAssignmentPolicy) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.8.0/docs/resources/access_package_assignment_policy azuread_access_package_assignment_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/access_package_assignment_policy azuread_access_package_assignment_policy} Resource.
 func NewAccessPackageAssignmentPolicy(scope constructs.Construct, id *string, config *AccessPackageAssignmentPolicyConfig) AccessPackageAssignmentPolicy {
 	_init_.Initialize()
 
@@ -598,7 +598,7 @@ func NewAccessPackageAssignmentPolicy(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.8.0/docs/resources/access_package_assignment_policy azuread_access_package_assignment_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/access_package_assignment_policy azuread_access_package_assignment_policy} Resource.
 func NewAccessPackageAssignmentPolicy_Override(a AccessPackageAssignmentPolicy, scope constructs.Construct, id *string, config *AccessPackageAssignmentPolicyConfig) {
 	_init_.Initialize()
 

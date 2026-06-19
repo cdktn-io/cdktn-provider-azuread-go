@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azuread/3.8.0/docs/resources/application_registration azuread_application_registration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_registration azuread_application_registration}.
 type ApplicationRegistration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -746,7 +746,7 @@ func (j *jsiiProxy_ApplicationRegistration) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.8.0/docs/resources/application_registration azuread_application_registration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_registration azuread_application_registration} Resource.
 func NewApplicationRegistration(scope constructs.Construct, id *string, config *ApplicationRegistrationConfig) ApplicationRegistration {
 	_init_.Initialize()
 
@@ -764,7 +764,7 @@ func NewApplicationRegistration(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.8.0/docs/resources/application_registration azuread_application_registration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_registration azuread_application_registration} Resource.
 func NewApplicationRegistration_Override(a ApplicationRegistration, scope constructs.Construct, id *string, config *ApplicationRegistrationConfig) {
 	_init_.Initialize()
 

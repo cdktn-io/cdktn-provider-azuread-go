@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azuread/3.8.0/docs/resources/application_pre_authorized azuread_application_pre_authorized}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_pre_authorized azuread_application_pre_authorized}.
 type ApplicationPreAuthorized interface {
 	cdktn.TerraformResource
 	ApplicationId() *string
@@ -412,7 +412,7 @@ func (j *jsiiProxy_ApplicationPreAuthorized) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.8.0/docs/resources/application_pre_authorized azuread_application_pre_authorized} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_pre_authorized azuread_application_pre_authorized} Resource.
 func NewApplicationPreAuthorized(scope constructs.Construct, id *string, config *ApplicationPreAuthorizedConfig) ApplicationPreAuthorized {
 	_init_.Initialize()
 
@@ -430,7 +430,7 @@ func NewApplicationPreAuthorized(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.8.0/docs/resources/application_pre_authorized azuread_application_pre_authorized} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_pre_authorized azuread_application_pre_authorized} Resource.
 func NewApplicationPreAuthorized_Override(a ApplicationPreAuthorized, scope constructs.Construct, id *string, config *ApplicationPreAuthorizedConfig) {
 	_init_.Initialize()
 

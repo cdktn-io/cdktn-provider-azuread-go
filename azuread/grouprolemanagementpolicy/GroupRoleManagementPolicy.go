@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azuread/3.8.0/docs/resources/group_role_management_policy azuread_group_role_management_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group_role_management_policy azuread_group_role_management_policy}.
 type GroupRoleManagementPolicy interface {
 	cdktn.TerraformResource
 	ActivationRules() GroupRoleManagementPolicyActivationRulesOutputReference
@@ -507,7 +507,7 @@ func (j *jsiiProxy_GroupRoleManagementPolicy) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.8.0/docs/resources/group_role_management_policy azuread_group_role_management_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group_role_management_policy azuread_group_role_management_policy} Resource.
 func NewGroupRoleManagementPolicy(scope constructs.Construct, id *string, config *GroupRoleManagementPolicyConfig) GroupRoleManagementPolicy {
 	_init_.Initialize()
 
@@ -525,7 +525,7 @@ func NewGroupRoleManagementPolicy(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.8.0/docs/resources/group_role_management_policy azuread_group_role_management_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group_role_management_policy azuread_group_role_management_policy} Resource.
 func NewGroupRoleManagementPolicy_Override(g GroupRoleManagementPolicy, scope constructs.Construct, id *string, config *GroupRoleManagementPolicyConfig) {
 	_init_.Initialize()
 

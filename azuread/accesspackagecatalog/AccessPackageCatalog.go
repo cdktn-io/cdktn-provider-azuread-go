@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azuread/3.8.0/docs/resources/access_package_catalog azuread_access_package_catalog}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/access_package_catalog azuread_access_package_catalog}.
 type AccessPackageCatalog interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -437,7 +437,7 @@ func (j *jsiiProxy_AccessPackageCatalog) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.8.0/docs/resources/access_package_catalog azuread_access_package_catalog} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/access_package_catalog azuread_access_package_catalog} Resource.
 func NewAccessPackageCatalog(scope constructs.Construct, id *string, config *AccessPackageCatalogConfig) AccessPackageCatalog {
 	_init_.Initialize()
 
@@ -455,7 +455,7 @@ func NewAccessPackageCatalog(scope constructs.Construct, id *string, config *Acc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.8.0/docs/resources/access_package_catalog azuread_access_package_catalog} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/access_package_catalog azuread_access_package_catalog} Resource.
 func NewAccessPackageCatalog_Override(a AccessPackageCatalog, scope constructs.Construct, id *string, config *AccessPackageCatalogConfig) {
 	_init_.Initialize()
 

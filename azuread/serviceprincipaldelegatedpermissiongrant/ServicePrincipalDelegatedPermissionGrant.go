@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azuread/3.8.0/docs/resources/service_principal_delegated_permission_grant azuread_service_principal_delegated_permission_grant}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal_delegated_permission_grant azuread_service_principal_delegated_permission_grant}.
 type ServicePrincipalDelegatedPermissionGrant interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -436,7 +436,7 @@ func (j *jsiiProxy_ServicePrincipalDelegatedPermissionGrant) UserObjectIdInput()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.8.0/docs/resources/service_principal_delegated_permission_grant azuread_service_principal_delegated_permission_grant} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal_delegated_permission_grant azuread_service_principal_delegated_permission_grant} Resource.
 func NewServicePrincipalDelegatedPermissionGrant(scope constructs.Construct, id *string, config *ServicePrincipalDelegatedPermissionGrantConfig) ServicePrincipalDelegatedPermissionGrant {
 	_init_.Initialize()
 
@@ -454,7 +454,7 @@ func NewServicePrincipalDelegatedPermissionGrant(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.8.0/docs/resources/service_principal_delegated_permission_grant azuread_service_principal_delegated_permission_grant} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal_delegated_permission_grant azuread_service_principal_delegated_permission_grant} Resource.
 func NewServicePrincipalDelegatedPermissionGrant_Override(s ServicePrincipalDelegatedPermissionGrant, scope constructs.Construct, id *string, config *ServicePrincipalDelegatedPermissionGrantConfig) {
 	_init_.Initialize()
 

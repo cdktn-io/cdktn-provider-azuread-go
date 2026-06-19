@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azuread/3.8.0/docs/data-sources/directory_object azuread_directory_object}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/data-sources/directory_object azuread_directory_object}.
 type DataAzureadDirectoryObject interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -332,7 +332,7 @@ func (j *jsiiProxy_DataAzureadDirectoryObject) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.8.0/docs/data-sources/directory_object azuread_directory_object} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/data-sources/directory_object azuread_directory_object} Data Source.
 func NewDataAzureadDirectoryObject(scope constructs.Construct, id *string, config *DataAzureadDirectoryObjectConfig) DataAzureadDirectoryObject {
 	_init_.Initialize()
 
@@ -350,7 +350,7 @@ func NewDataAzureadDirectoryObject(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.8.0/docs/data-sources/directory_object azuread_directory_object} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/data-sources/directory_object azuread_directory_object} Data Source.
 func NewDataAzureadDirectoryObject_Override(d DataAzureadDirectoryObject, scope constructs.Construct, id *string, config *DataAzureadDirectoryObjectConfig) {
 	_init_.Initialize()
 

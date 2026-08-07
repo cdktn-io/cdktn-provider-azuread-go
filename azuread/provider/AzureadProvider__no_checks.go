@@ -15,6 +15,10 @@ func (a *jsiiProxy_AzureadProvider) validateOverrideLogicalIdParameters(newLogic
 	return nil
 }
 
+func (a *jsiiProxy_AzureadProvider) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateAzureadProvider_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

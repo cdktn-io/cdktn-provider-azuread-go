@@ -59,6 +59,10 @@ func (g *jsiiProxy_GroupRoleManagementPolicy) validateInterpolationForAttributeP
 	return nil
 }
 
+func (g *jsiiProxy_GroupRoleManagementPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GroupRoleManagementPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (g *jsiiProxy_GroupRoleManagementPolicy) validatePutNotificationRulesParame
 }
 
 func (g *jsiiProxy_GroupRoleManagementPolicy) validatePutTimeoutsParameters(value *GroupRoleManagementPolicyTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GroupRoleManagementPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

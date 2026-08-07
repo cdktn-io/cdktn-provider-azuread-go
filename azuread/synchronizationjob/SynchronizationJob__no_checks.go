@@ -59,6 +59,10 @@ func (s *jsiiProxy_SynchronizationJob) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (s *jsiiProxy_SynchronizationJob) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SynchronizationJob) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SynchronizationJob) validateOverrideLogicalIdParameters(newLo
 }
 
 func (s *jsiiProxy_SynchronizationJob) validatePutTimeoutsParameters(value *SynchronizationJobTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SynchronizationJob) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

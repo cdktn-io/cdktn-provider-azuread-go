@@ -59,6 +59,10 @@ func (a *jsiiProxy_AccessPackageAssignmentPolicy) validateInterpolationForAttrib
 	return nil
 }
 
+func (a *jsiiProxy_AccessPackageAssignmentPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AccessPackageAssignmentPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (a *jsiiProxy_AccessPackageAssignmentPolicy) validatePutRequestorSettingsPa
 }
 
 func (a *jsiiProxy_AccessPackageAssignmentPolicy) validatePutTimeoutsParameters(value *AccessPackageAssignmentPolicyTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_AccessPackageAssignmentPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

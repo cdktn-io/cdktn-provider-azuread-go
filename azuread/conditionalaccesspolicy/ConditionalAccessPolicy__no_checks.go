@@ -59,6 +59,10 @@ func (c *jsiiProxy_ConditionalAccessPolicy) validateInterpolationForAttributePar
 	return nil
 }
 
+func (c *jsiiProxy_ConditionalAccessPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ConditionalAccessPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (c *jsiiProxy_ConditionalAccessPolicy) validatePutSessionControlsParameters
 }
 
 func (c *jsiiProxy_ConditionalAccessPolicy) validatePutTimeoutsParameters(value *ConditionalAccessPolicyTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConditionalAccessPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

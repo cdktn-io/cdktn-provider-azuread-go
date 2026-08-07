@@ -59,6 +59,10 @@ func (a *jsiiProxy_ApplicationFlexibleFederatedIdentityCredential) validateInter
 	return nil
 }
 
+func (a *jsiiProxy_ApplicationFlexibleFederatedIdentityCredential) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_ApplicationFlexibleFederatedIdentityCredential) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (a *jsiiProxy_ApplicationFlexibleFederatedIdentityCredential) validateOverr
 }
 
 func (a *jsiiProxy_ApplicationFlexibleFederatedIdentityCredential) validatePutTimeoutsParameters(value *ApplicationFlexibleFederatedIdentityCredentialTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_ApplicationFlexibleFederatedIdentityCredential) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (a *jsiiProxy_AccessPackageCatalogRoleAssignment) validateInterpolationForA
 	return nil
 }
 
+func (a *jsiiProxy_AccessPackageCatalogRoleAssignment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AccessPackageCatalogRoleAssignment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (a *jsiiProxy_AccessPackageCatalogRoleAssignment) validateOverrideLogicalId
 }
 
 func (a *jsiiProxy_AccessPackageCatalogRoleAssignment) validatePutTimeoutsParameters(value *AccessPackageCatalogRoleAssignmentTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_AccessPackageCatalogRoleAssignment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

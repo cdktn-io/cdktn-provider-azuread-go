@@ -59,6 +59,10 @@ func (a *jsiiProxy_ApplicationFallbackPublicClient) validateInterpolationForAttr
 	return nil
 }
 
+func (a *jsiiProxy_ApplicationFallbackPublicClient) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_ApplicationFallbackPublicClient) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (a *jsiiProxy_ApplicationFallbackPublicClient) validateOverrideLogicalIdPar
 }
 
 func (a *jsiiProxy_ApplicationFallbackPublicClient) validatePutTimeoutsParameters(value *ApplicationFallbackPublicClientTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_ApplicationFallbackPublicClient) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (s *jsiiProxy_ServicePrincipal) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (s *jsiiProxy_ServicePrincipal) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_ServicePrincipal) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (s *jsiiProxy_ServicePrincipal) validatePutSamlSingleSignOnParameters(value
 }
 
 func (s *jsiiProxy_ServicePrincipal) validatePutTimeoutsParameters(value *ServicePrincipalTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_ServicePrincipal) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

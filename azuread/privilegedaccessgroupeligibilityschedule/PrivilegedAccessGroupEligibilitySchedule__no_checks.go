@@ -59,6 +59,10 @@ func (p *jsiiProxy_PrivilegedAccessGroupEligibilitySchedule) validateInterpolati
 	return nil
 }
 
+func (p *jsiiProxy_PrivilegedAccessGroupEligibilitySchedule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_PrivilegedAccessGroupEligibilitySchedule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (p *jsiiProxy_PrivilegedAccessGroupEligibilitySchedule) validateOverrideLog
 }
 
 func (p *jsiiProxy_PrivilegedAccessGroupEligibilitySchedule) validatePutTimeoutsParameters(value *PrivilegedAccessGroupEligibilityScheduleTimeouts) error {
+	return nil
+}
+
+func (p *jsiiProxy_PrivilegedAccessGroupEligibilitySchedule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

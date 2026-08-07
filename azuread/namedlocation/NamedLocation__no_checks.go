@@ -59,6 +59,10 @@ func (n *jsiiProxy_NamedLocation) validateInterpolationForAttributeParameters(te
 	return nil
 }
 
+func (n *jsiiProxy_NamedLocation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NamedLocation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (n *jsiiProxy_NamedLocation) validatePutIpParameters(value *NamedLocationIp
 }
 
 func (n *jsiiProxy_NamedLocation) validatePutTimeoutsParameters(value *NamedLocationTimeouts) error {
+	return nil
+}
+
+func (n *jsiiProxy_NamedLocation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

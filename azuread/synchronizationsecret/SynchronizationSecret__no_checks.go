@@ -59,6 +59,10 @@ func (s *jsiiProxy_SynchronizationSecret) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (s *jsiiProxy_SynchronizationSecret) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SynchronizationSecret) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (s *jsiiProxy_SynchronizationSecret) validatePutCredentialParameters(value 
 }
 
 func (s *jsiiProxy_SynchronizationSecret) validatePutTimeoutsParameters(value *SynchronizationSecretTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SynchronizationSecret) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

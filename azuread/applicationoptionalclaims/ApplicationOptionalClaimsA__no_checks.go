@@ -59,6 +59,10 @@ func (a *jsiiProxy_ApplicationOptionalClaimsA) validateInterpolationForAttribute
 	return nil
 }
 
+func (a *jsiiProxy_ApplicationOptionalClaimsA) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_ApplicationOptionalClaimsA) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (a *jsiiProxy_ApplicationOptionalClaimsA) validatePutSaml2TokenParameters(v
 }
 
 func (a *jsiiProxy_ApplicationOptionalClaimsA) validatePutTimeoutsParameters(value *ApplicationOptionalClaimsTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_ApplicationOptionalClaimsA) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

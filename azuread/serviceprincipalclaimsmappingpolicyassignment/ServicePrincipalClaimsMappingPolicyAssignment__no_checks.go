@@ -59,6 +59,10 @@ func (s *jsiiProxy_ServicePrincipalClaimsMappingPolicyAssignment) validateInterp
 	return nil
 }
 
+func (s *jsiiProxy_ServicePrincipalClaimsMappingPolicyAssignment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_ServicePrincipalClaimsMappingPolicyAssignment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_ServicePrincipalClaimsMappingPolicyAssignment) validateOverri
 }
 
 func (s *jsiiProxy_ServicePrincipalClaimsMappingPolicyAssignment) validatePutTimeoutsParameters(value *ServicePrincipalClaimsMappingPolicyAssignmentTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_ServicePrincipalClaimsMappingPolicyAssignment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

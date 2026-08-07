@@ -59,6 +59,10 @@ func (g *jsiiProxy_GroupWithoutMembers) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (g *jsiiProxy_GroupWithoutMembers) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GroupWithoutMembers) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GroupWithoutMembers) validatePutDynamicMembershipParameters(v
 }
 
 func (g *jsiiProxy_GroupWithoutMembers) validatePutTimeoutsParameters(value *GroupWithoutMembersTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GroupWithoutMembers) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

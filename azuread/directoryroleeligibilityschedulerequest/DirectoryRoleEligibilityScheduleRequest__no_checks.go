@@ -59,6 +59,10 @@ func (d *jsiiProxy_DirectoryRoleEligibilityScheduleRequest) validateInterpolatio
 	return nil
 }
 
+func (d *jsiiProxy_DirectoryRoleEligibilityScheduleRequest) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DirectoryRoleEligibilityScheduleRequest) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DirectoryRoleEligibilityScheduleRequest) validateOverrideLogi
 }
 
 func (d *jsiiProxy_DirectoryRoleEligibilityScheduleRequest) validatePutTimeoutsParameters(value *DirectoryRoleEligibilityScheduleRequestTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DirectoryRoleEligibilityScheduleRequest) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

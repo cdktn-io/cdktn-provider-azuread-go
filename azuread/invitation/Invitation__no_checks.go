@@ -59,6 +59,10 @@ func (i *jsiiProxy_Invitation) validateInterpolationForAttributeParameters(terra
 	return nil
 }
 
+func (i *jsiiProxy_Invitation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_Invitation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (i *jsiiProxy_Invitation) validatePutMessageParameters(value *InvitationMes
 }
 
 func (i *jsiiProxy_Invitation) validatePutTimeoutsParameters(value *InvitationTimeouts) error {
+	return nil
+}
+
+func (i *jsiiProxy_Invitation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

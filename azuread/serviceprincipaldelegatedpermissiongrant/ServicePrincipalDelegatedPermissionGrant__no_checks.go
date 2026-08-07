@@ -59,6 +59,10 @@ func (s *jsiiProxy_ServicePrincipalDelegatedPermissionGrant) validateInterpolati
 	return nil
 }
 
+func (s *jsiiProxy_ServicePrincipalDelegatedPermissionGrant) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_ServicePrincipalDelegatedPermissionGrant) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_ServicePrincipalDelegatedPermissionGrant) validateOverrideLog
 }
 
 func (s *jsiiProxy_ServicePrincipalDelegatedPermissionGrant) validatePutTimeoutsParameters(value *ServicePrincipalDelegatedPermissionGrantTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_ServicePrincipalDelegatedPermissionGrant) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

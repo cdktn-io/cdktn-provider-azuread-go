@@ -59,6 +59,10 @@ func (u *jsiiProxy_UserFlowAttribute) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (u *jsiiProxy_UserFlowAttribute) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (u *jsiiProxy_UserFlowAttribute) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (u *jsiiProxy_UserFlowAttribute) validateOverrideLogicalIdParameters(newLog
 }
 
 func (u *jsiiProxy_UserFlowAttribute) validatePutTimeoutsParameters(value *UserFlowAttributeTimeouts) error {
+	return nil
+}
+
+func (u *jsiiProxy_UserFlowAttribute) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

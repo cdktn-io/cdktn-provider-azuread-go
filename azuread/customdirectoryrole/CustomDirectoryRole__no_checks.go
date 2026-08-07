@@ -59,6 +59,10 @@ func (c *jsiiProxy_CustomDirectoryRole) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (c *jsiiProxy_CustomDirectoryRole) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CustomDirectoryRole) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (c *jsiiProxy_CustomDirectoryRole) validatePutPermissionsParameters(value i
 }
 
 func (c *jsiiProxy_CustomDirectoryRole) validatePutTimeoutsParameters(value *CustomDirectoryRoleTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_CustomDirectoryRole) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

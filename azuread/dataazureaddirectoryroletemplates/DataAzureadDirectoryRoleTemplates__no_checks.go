@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAzureadDirectoryRoleTemplates) validatePutTimeoutsParamet
 	return nil
 }
 
+func (d *jsiiProxy_DataAzureadDirectoryRoleTemplates) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAzureadDirectoryRoleTemplates_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

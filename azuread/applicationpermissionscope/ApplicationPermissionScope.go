@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_permission_scope azuread_application_permission_scope}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_permission_scope azuread_application_permission_scope}.
 type ApplicationPermissionScope interface {
 	cdktn.TerraformResource
 	AdminConsentDescription() *string
@@ -579,7 +579,7 @@ func (j *jsiiProxy_ApplicationPermissionScope) ValueInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_permission_scope azuread_application_permission_scope} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_permission_scope azuread_application_permission_scope} Resource.
 func NewApplicationPermissionScope(scope constructs.Construct, id *string, config *ApplicationPermissionScopeConfig) ApplicationPermissionScope {
 	_init_.Initialize()
 
@@ -597,7 +597,7 @@ func NewApplicationPermissionScope(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_permission_scope azuread_application_permission_scope} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_permission_scope azuread_application_permission_scope} Resource.
 func NewApplicationPermissionScope_Override(a ApplicationPermissionScope, scope constructs.Construct, id *string, config *ApplicationPermissionScopeConfig) {
 	_init_.Initialize()
 

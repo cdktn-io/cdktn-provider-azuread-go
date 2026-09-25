@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_from_template azuread_application_from_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_from_template azuread_application_from_template}.
 type ApplicationFromTemplate interface {
 	cdktn.TerraformResource
 	ApplicationId() *string
@@ -482,7 +482,7 @@ func (j *jsiiProxy_ApplicationFromTemplate) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_from_template azuread_application_from_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_from_template azuread_application_from_template} Resource.
 func NewApplicationFromTemplate(scope constructs.Construct, id *string, config *ApplicationFromTemplateConfig) ApplicationFromTemplate {
 	_init_.Initialize()
 
@@ -500,7 +500,7 @@ func NewApplicationFromTemplate(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_from_template azuread_application_from_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_from_template azuread_application_from_template} Resource.
 func NewApplicationFromTemplate_Override(a ApplicationFromTemplate, scope constructs.Construct, id *string, config *ApplicationFromTemplateConfig) {
 	_init_.Initialize()
 

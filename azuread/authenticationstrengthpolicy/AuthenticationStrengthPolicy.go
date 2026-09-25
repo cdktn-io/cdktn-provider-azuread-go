@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/authentication_strength_policy azuread_authentication_strength_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/authentication_strength_policy azuread_authentication_strength_policy}.
 type AuthenticationStrengthPolicy interface {
 	cdktn.TerraformResource
 	AllowedCombinations() *[]*string
@@ -57,6 +57,7 @@ type AuthenticationStrengthPolicy interface {
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
+	ObjectId() *string
 	// Experimental.
 	Provider() cdktn.TerraformProvider
 	// Experimental.
@@ -381,6 +382,16 @@ func (j *jsiiProxy_AuthenticationStrengthPolicy) Node() constructs.Node {
 	return returns
 }
 
+func (j *jsiiProxy_AuthenticationStrengthPolicy) ObjectId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"objectId",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_AuthenticationStrengthPolicy) Provider() cdktn.TerraformProvider {
 	var returns cdktn.TerraformProvider
 	_jsii_.Get(
@@ -462,7 +473,7 @@ func (j *jsiiProxy_AuthenticationStrengthPolicy) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/authentication_strength_policy azuread_authentication_strength_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/authentication_strength_policy azuread_authentication_strength_policy} Resource.
 func NewAuthenticationStrengthPolicy(scope constructs.Construct, id *string, config *AuthenticationStrengthPolicyConfig) AuthenticationStrengthPolicy {
 	_init_.Initialize()
 
@@ -480,7 +491,7 @@ func NewAuthenticationStrengthPolicy(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/authentication_strength_policy azuread_authentication_strength_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/authentication_strength_policy azuread_authentication_strength_policy} Resource.
 func NewAuthenticationStrengthPolicy_Override(a AuthenticationStrengthPolicy, scope constructs.Construct, id *string, config *AuthenticationStrengthPolicyConfig) {
 	_init_.Initialize()
 

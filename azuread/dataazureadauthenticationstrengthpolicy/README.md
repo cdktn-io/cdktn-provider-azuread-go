@@ -1,0 +1,3 @@
+# `data_azuread_authentication_strength_policy`
+
+Refer to the Terraform Registry for docs: [`data_azuread_authentication_strength_policy`](https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/data-sources/authentication_strength_policy).

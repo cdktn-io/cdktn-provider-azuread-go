@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/data-sources/groups azuread_groups}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/data-sources/groups azuread_groups}.
 type DataAzureadGroups interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -41,6 +41,7 @@ type DataAzureadGroups interface {
 	Fqn() *string
 	// Experimental.
 	FriendlyUniqueId() *string
+	Groups() DataAzureadGroupsGroupsList
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
@@ -268,6 +269,16 @@ func (j *jsiiProxy_DataAzureadGroups) FriendlyUniqueId() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DataAzureadGroups) Groups() DataAzureadGroupsGroupsList {
+	var returns DataAzureadGroupsGroupsList
+	_jsii_.Get(
+		j,
+		"groups",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAzureadGroups) Id() *string {
 	var returns *string
 	_jsii_.Get(
@@ -479,7 +490,7 @@ func (j *jsiiProxy_DataAzureadGroups) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/data-sources/groups azuread_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/data-sources/groups azuread_groups} Data Source.
 func NewDataAzureadGroups(scope constructs.Construct, id *string, config *DataAzureadGroupsConfig) DataAzureadGroups {
 	_init_.Initialize()
 
@@ -497,7 +508,7 @@ func NewDataAzureadGroups(scope constructs.Construct, id *string, config *DataAz
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/data-sources/groups azuread_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/data-sources/groups azuread_groups} Data Source.
 func NewDataAzureadGroups_Override(d DataAzureadGroups, scope constructs.Construct, id *string, config *DataAzureadGroupsConfig) {
 	_init_.Initialize()
 

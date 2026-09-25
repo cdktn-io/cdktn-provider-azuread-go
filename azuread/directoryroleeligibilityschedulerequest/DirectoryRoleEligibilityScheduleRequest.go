@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/directory_role_eligibility_schedule_request azuread_directory_role_eligibility_schedule_request}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/directory_role_eligibility_schedule_request azuread_directory_role_eligibility_schedule_request}.
 type DirectoryRoleEligibilityScheduleRequest interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -484,7 +484,7 @@ func (j *jsiiProxy_DirectoryRoleEligibilityScheduleRequest) TimeoutsInput() inte
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/directory_role_eligibility_schedule_request azuread_directory_role_eligibility_schedule_request} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/directory_role_eligibility_schedule_request azuread_directory_role_eligibility_schedule_request} Resource.
 func NewDirectoryRoleEligibilityScheduleRequest(scope constructs.Construct, id *string, config *DirectoryRoleEligibilityScheduleRequestConfig) DirectoryRoleEligibilityScheduleRequest {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewDirectoryRoleEligibilityScheduleRequest(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/directory_role_eligibility_schedule_request azuread_directory_role_eligibility_schedule_request} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/directory_role_eligibility_schedule_request azuread_directory_role_eligibility_schedule_request} Resource.
 func NewDirectoryRoleEligibilityScheduleRequest_Override(d DirectoryRoleEligibilityScheduleRequest, scope constructs.Construct, id *string, config *DirectoryRoleEligibilityScheduleRequestConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/data-sources/domains azuread_domains}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/data-sources/domains azuread_domains}.
 type DataAzureadDomains interface {
 	cdktn.TerraformDataSource
 	AdminManaged() interface{}
@@ -466,7 +466,7 @@ func (j *jsiiProxy_DataAzureadDomains) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/data-sources/domains azuread_domains} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/data-sources/domains azuread_domains} Data Source.
 func NewDataAzureadDomains(scope constructs.Construct, id *string, config *DataAzureadDomainsConfig) DataAzureadDomains {
 	_init_.Initialize()
 
@@ -484,7 +484,7 @@ func NewDataAzureadDomains(scope constructs.Construct, id *string, config *DataA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/data-sources/domains azuread_domains} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/data-sources/domains azuread_domains} Data Source.
 func NewDataAzureadDomains_Override(d DataAzureadDomains, scope constructs.Construct, id *string, config *DataAzureadDomainsConfig) {
 	_init_.Initialize()
 

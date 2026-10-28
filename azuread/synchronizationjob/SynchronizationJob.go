@@ -5,10 +5,10 @@ package synchronizationjob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v17/synchronizationjob/internal"
+	"github.com/cdktn-io/cdktn-provider-azuread-go/azuread/v18/synchronizationjob/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
